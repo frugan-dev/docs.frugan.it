@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'EWake docs'
+project = u'Documentazione di supporto EWake'
 copyright = u'2016, EWake'
 author = u'EWake'
 

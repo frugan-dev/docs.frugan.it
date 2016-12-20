@@ -1,4 +1,4 @@
-Documentazione EWake
+Documentazione di supporto EWake
 ======================================
 
 lorem ipsum
@@ -12,7 +12,7 @@ lorem ipsum
    :maxdepth: 2
    :caption: Email
 
-   email/install
+   email/conf
    email/faq
    email/support
 
