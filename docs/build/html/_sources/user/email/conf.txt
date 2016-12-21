@@ -12,6 +12,8 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 +----------------------+------------------------------------+
 | Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
 +----------------------+------------------------------------+
+| Autenticazione       | password normale                   |
++----------------------+------------------------------------+
 
 
 +-----------------------------------------------------------+
@@ -23,6 +25,8 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 +----------------------+------------------------------------+
 | Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
 +----------------------+------------------------------------+
+| Autenticazione       | password normale                   |
++----------------------+------------------------------------+
 
 
 +-----------------------------------------------------------+
@@ -33,6 +37,8 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 | Porte                | 465 *(consigliata)* o 587          |
 +----------------------+------------------------------------+
 | Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
++----------------------+------------------------------------+
+| Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
 
 
