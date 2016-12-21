@@ -1,7 +1,7 @@
 Configurazione
 ==============
 
-I parametri per la configurazione
+Questi sono i parametri per la configurazione delle caselle email `EWake <https://ewake.it>`_:
 
 +-----------------------------------------------------------+
 | Posta in arrivo - IMAP                                    |
@@ -36,7 +36,7 @@ I parametri per la configurazione
 +----------------------+------------------------------------+
 
 
-Sono elencate di seguito le istruzioni per la configurazione delle caselle email `EWake <https://ewake.it>`_ sui principali dispositivi:
+Di seguito sono elencate anche delle istruzioni dettagliate per la configurazione sui principali dispositivi:
 
 .. toctree:: 
 
