@@ -1,5 +1,5 @@
 Telefono cellulare Nokia/Symbian
-======
+================================
 
 #. Seleziona **Messaging** > **Options** > **Settings** > **Email** > **Mailboxes**.
 #. Se questo è il primo account e-mail sul dispositivo, seleziona **Yes** per creare una nuova casella di posta. Se hai già configurato un account, seleziona **Options**, quindi **New mailbox**.

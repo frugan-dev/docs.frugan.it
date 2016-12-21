@@ -1,5 +1,5 @@
 Telefono cellulare generico
-======
+===========================
 
 .. note:: Se il tuo dispositivo è un iPhone o uno smartphone che esegue un sistema operativo Windows Phone o Symbian, fai riferimento alla sezione specifica per il tuo sistema operativo.
 

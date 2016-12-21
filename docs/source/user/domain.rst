@@ -1,0 +1,6 @@
+Domini
+======
+
+.. toctree:: 
+
+   domain/registration

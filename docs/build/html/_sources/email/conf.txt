@@ -8,3 +8,4 @@ Sono elencate di seguito le istruzioni per la configurazione delle caselle email
    conf/mobile
    conf/mobile_nokia_symbian
    conf/android
+   conf/iphone_ipad_ios6
