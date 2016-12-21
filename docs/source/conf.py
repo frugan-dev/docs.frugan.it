@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# EWake docs documentation build configuration file, created by
+# EWake documentation build configuration file, created by
 # sphinx-quickstart on Tue Dec 20 16:58:31 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -223,7 +223,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'EWakedocs.tex', u'Documentazione di supporto EWake',
+    (master_doc, 'EWakedocs.tex', u'Documentazione di supporto',
      u'EWake', 'manual'),
 ]
 
@@ -253,7 +253,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ewakedocs', u'Documentazione di supporto EWake',
+    (master_doc, 'ewakedocs', u'Documentazione di supporto',
      [author], 1)
 ]
 
@@ -267,8 +267,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EWakedocs', u'Documentazione di supporto EWake',
-     author, 'EWakedocs', 'Documentazione di supporto EWake.',
+    (master_doc, 'EWakedocs', u'Documentazione di supporto',
+     author, 'EWakedocs', 'Documentazione di supporto.',
      'Miscellaneous'),
 ]
 
