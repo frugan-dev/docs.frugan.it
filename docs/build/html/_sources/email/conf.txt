@@ -6,4 +6,5 @@ Sono elencate di seguito le istruzioni per la configurazione delle caselle email
 .. toctree:: 
 
    conf/mobile
+   conf/mobile_nokia_symbian
    conf/android

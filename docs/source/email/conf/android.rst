@@ -1,4 +1,4 @@
-Android E-mail
+Smartphone Android
 ======
 
 Apri l’applicazione dell’e-mail sul tuo telefono e seleziona l’opzione per configurare un nuovo account. Inserisci l’indirizzo e-mail e la password selezionati per l’account nel Pannello di controllo. Quindi fai clic sull’opzione **Manual setup** (Configurazione manuale).
