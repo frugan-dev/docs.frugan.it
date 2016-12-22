@@ -34,4 +34,3 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
    :caption: Documentazione Sviluppatore
 
    developer/faq
-
