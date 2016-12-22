@@ -10,7 +10,7 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
 .. _user-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Documentazione Utente
 
    user/email
@@ -21,7 +21,7 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
 .. _reseller-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Documentazione Rivenditore
 
    reseller/faq
@@ -30,7 +30,7 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
 .. _developer-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Documentazione Sviluppatore
 
    developer/faq
