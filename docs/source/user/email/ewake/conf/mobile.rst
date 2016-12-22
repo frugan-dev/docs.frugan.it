@@ -1,6 +1,7 @@
 Telefono cellulare generico
 ===========================
 
+.. attention, caution, danger, error, hint, important, note, tip, warning, admonition, title
 .. note:: Se il tuo dispositivo è un iPhone o uno smartphone che esegue un sistema operativo Windows Phone o Symbian, fai riferimento alla sezione specifica per il tuo sistema operativo.
 
 #. Nel menu del tuo telefono cellulare, accedi alle impostazioni per i tuoi account e-mail.
@@ -16,5 +17,6 @@ Telefono cellulare generico
 	#. Use Authentication: **Si**
 	#. Use SSL/TLS/STARTTLS: **Si**
 
+.. attention, caution, danger, error, hint, important, note, tip, warning, admonition, title
 .. important:: Nel configurare un e-mail su un telefonino è necessario immettere manualmente tutti i dettagli dell’account, poiché le impostazioni automatiche del telefonino stesso possono non funzionare.
 		

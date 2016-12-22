@@ -23,7 +23,7 @@ Sono inoltre disponibili altre webmail secondarie ai seguenti indirizzi:
 	- `http://domain.tld/webmail` (Cypht) https://cypht.org PHP multiple accounts opensource
 	- `http://domain.tld/webmail` (Horde) https://www.horde.org suite
 	
-
+.. attention, caution, danger, error, hint, important, note, tip, warning, admonition, title
 .. important:: La disponibilità delle webmail secondarie può variare nel tempo per questioni tecniche;
 	inoltre alcuni servizi aggiuntivi, come ad es. la modifica della propria password o l'utilizzo delle rubriche condivise tramite LDAP, 
    	non sono disponibili sulle webmail secondarie.
