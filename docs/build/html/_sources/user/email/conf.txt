@@ -57,3 +57,5 @@ Di seguito sono elencate anche delle istruzioni dettagliate per la configurazion
    conf/outlook_2003
    conf/outlook_2007
    conf/outlook_2007_ldap_addressbook
+   conf/outlook_2010
+   conf/outlook_2011_mac
