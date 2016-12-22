@@ -55,3 +55,5 @@ Di seguito sono elencate anche delle istruzioni dettagliate per la configurazion
    conf/mail_osx
    conf/opera_mail
    conf/outlook_2003
+   conf/outlook_2007
+   conf/outlook_2007_ldap_addressbook
