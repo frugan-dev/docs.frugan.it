@@ -1,4 +1,7 @@
-F.A.Q.
-======
+Frequently Asked Questions
+==========================
 
-lorem ipsum
+Come posso utilizzare i servizi `EWake <https://ewake.it>`_ come sviluppatore?
+------------------------------------------------------------------------------
+
+`EWake <https://ewake.it>`_ sta lavorando per automatizzare questo processo, nel frattempo puoi avere maggiori informazioni ai `seguenti recapiti <https://ewake.it>`_.

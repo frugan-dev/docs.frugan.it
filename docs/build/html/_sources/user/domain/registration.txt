@@ -1,4 +1,0 @@
-Registrazione
-==================
-
-lorem ipsum

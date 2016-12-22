@@ -24,6 +24,7 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
    :maxdepth: 3
    :caption: Documentazione Rivenditore
 
+   reseller/index
    reseller/faq
 
 
@@ -33,4 +34,5 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
    :maxdepth: 3
    :caption: Documentazione Sviluppatore
 
+   developer/index
    developer/faq

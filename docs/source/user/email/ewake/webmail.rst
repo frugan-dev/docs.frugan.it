@@ -7,7 +7,7 @@ La webmail principale per accedere alle caselle email `EWake <https://ewake.it>`
 
 dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
 
-Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `nome@domain.tld`, dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_) nel campo **Nome utente** e la password nel campo **Password**.
+Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `mail@example.com`, dove `example.com` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_) nel campo **Nome utente** e la password nel campo **Password**.
 
 .. image:: /assets/img/email/ewake/webmail/roundcube.png
 
