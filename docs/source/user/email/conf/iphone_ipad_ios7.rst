@@ -21,11 +21,11 @@ Seleziona **Aggiungi account Mail**.
 
 .. image:: /assets/img/email/iphone_ipad_ios7/tocca_aggiungi_mail_account_su_iphone_ios7.png
 	
-|  Inserisci il tuo **Nome**.
-|  Inserisci la tua **E-mail**. Per esempio: `hello@example.com`, dove `example.com` è il tuo dominio presso `EWake <https://ewake.it>`_.
-|  **Password** è la password.
-|  Inserisci una **Descrizione**. Per esempio: `hello@example.com`.
-|  Tocca **Avanti**.
+| Inserisci il tuo **Nome**.
+| Inserisci la tua **E-mail**. Per esempio: `hello@example.com`, dove `example.com` è il tuo dominio presso `EWake <https://ewake.it>`_.
+| **Password** è la password.
+| Inserisci una **Descrizione**. Per esempio: `hello@example.com`.
+| Tocca **Avanti**.
 		
 .. image:: /assets/img/email/iphone_ipad_ios7/inserisci_email_e_password_su_iphone_ios7.png
 	

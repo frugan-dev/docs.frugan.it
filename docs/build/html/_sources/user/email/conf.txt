@@ -51,3 +51,6 @@ Di seguito sono elencate anche delle istruzioni dettagliate per la configurazion
    conf/android
    conf/iphone_ipad_ios6
    conf/iphone_ipad_ios7
+   conf/mail_osx
+   conf/opera_mail
+   conf/outlook_2003
