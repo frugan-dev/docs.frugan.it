@@ -52,8 +52,8 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 	tip (Suggerimento)
 	warning (Avvertimento)
 	admonition (non visibile)
-	title
-.. title:: A prescindere dal dominio utilizzato, l'accesso ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+	title (diventa il titolo della pagina)
+.. admonition:: A prescindere dal dominio utilizzato, l'accesso ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
 
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
