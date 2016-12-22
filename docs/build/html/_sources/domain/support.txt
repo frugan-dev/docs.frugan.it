@@ -1,4 +1,0 @@
-Supporto
-==================
-
-lorem ipsum
