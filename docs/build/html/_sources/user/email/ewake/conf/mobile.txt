@@ -7,9 +7,9 @@ Telefono cellulare generico
 #. Nel menu del tuo telefono cellulare, accedi alle impostazioni per i tuoi account e-mail.
 #. Negli appositi campi, indica l’**indirizzo e-mail** e la **password** che hai creato nel Pannello di controllo.
 #. Per il protocollo e-mail, seleziona **IMAP** (IMAP4).
-#. Usa le seguenti informazioni per configurare il client della posta elettronica del tuo telefono cellulare, dove `example.com` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_:
-	#. Nome utente/Nome account: `mail@example.com`
-	#. Indirizzo e-mail: `mail@example.com`
+#. Usa le seguenti informazioni per configurare il client della posta elettronica del tuo telefono cellulare, dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_:
+	#. Nome utente/Nome account: `mail@domain.tld`
+	#. Indirizzo e-mail: `mail@domain.tld`
 	#. Per il server della posta in entrata (IMAP), indica **imap.ewake.it**.
 	#. Porta IMAP: **993**.
 	#. Per il server della posta in uscita (SMTP), indica **smtp.ewake.it**.
