@@ -45,6 +45,7 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 Di seguito sono elencate anche delle istruzioni dettagliate per la configurazione sui principali dispositivi:
 
 .. toctree:: 
+   :maxdepth: 1
 
    conf/mobile
    conf/mobile_nokia_symbian
