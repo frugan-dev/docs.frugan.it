@@ -1,7 +1,7 @@
 Documentazione di supporto
 ==========================
 
-La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa nelle seguenti categorie:
+La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa nelle seguenti macro-categorie:
 
 * :ref:`user-docs`
 * :ref:`reseller-docs`

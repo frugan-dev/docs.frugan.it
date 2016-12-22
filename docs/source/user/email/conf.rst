@@ -1,5 +1,5 @@
-Configurazione
-==============
+Configurazione Client
+=====================
 
 Questi sono i parametri per la configurazione delle caselle email `EWake <https://ewake.it>`_:
 
