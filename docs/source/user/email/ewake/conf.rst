@@ -41,8 +41,8 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
 
-.. attention (Attenzione), caution (Attenzione), danger, error, hint (Consiglio), important, note, tip, warning, admonition, title
-.. danger:: A prescindere dal dominio utilizzato, l'accesso ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+.. attention (Attenzione), caution (Attenzione), danger (Pericolo), error, hint (Consiglio), important, note, tip, warning, admonition, title
+.. error:: A prescindere dal dominio utilizzato, l'accesso ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
 
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
