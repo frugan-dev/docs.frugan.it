@@ -65,3 +65,5 @@ Di seguito sono elencate anche delle istruzioni dettagliate per la configurazion
    conf/thunderbird_ldap_addressbook
    conf/windows_live_mail
    conf/windows_live_mail_2011
+   conf/windows_mail
+   conf/windows_phone

@@ -11,3 +11,4 @@ In questa sezione è riportata tutta la documentazione relativa alle caselle ema
    email/gsuite
    email/microsoft
    email/zoho
+   email/pec

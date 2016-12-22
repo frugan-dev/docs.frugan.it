@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Windows Mail &mdash; Supporto EWake 0.1.0 documentazione</title>
+    
+    <link rel="stylesheet" href="../../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/style.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../',
+        VERSION:     '0.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../../_static/translations.js"></script>
+    <link rel="top" title="Supporto EWake 0.1.0 documentazione" href="../../../../index.html" />
+    <link rel="up" title="Configurazione dei client di posta" href="../conf.html" />
+    <link rel="next" title="Utilizzo delle rubriche via LDAP" href="../ldap.html" />
+    <link rel="prev" title="Windows Live Mail 2011" href="windows_live_mail_2011.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigazione</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="Indice generale"
+             accesskey="I">indice</a></li>
+        <li class="right" >
+          <a href="../ldap.html" title="Utilizzo delle rubriche via LDAP"
+             accesskey="N">successivo</a> |</li>
+        <li class="right" >
+          <a href="windows_live_mail_2011.html" title="Windows Live Mail 2011"
+             accesskey="P">precedente</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">Supporto EWake 0.1.0 documentazione</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="../../../email.html" >Email</a> &raquo;</li>
+          <li class="nav-item nav-item-2"><a href="../../ewake.html" >EWake</a> &raquo;</li>
+          <li class="nav-item nav-item-3"><a href="../conf.html" accesskey="U">Configurazione dei client di posta</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="windows-mail">
+<h1>Windows Mail<a class="headerlink" href="#windows-mail" title="Link a questa intestazione">¶</a></h1>
+<p>Accedi a <strong>Windows Mail</strong> e seleziona <strong>Tools</strong> (Strumenti). Fai clic su <strong>Accounts</strong> (Account).</p>
+<img alt="../../../../_images/configurazione_account_windows_mail.png" src="../../../../_images/configurazione_account_windows_mail.png" />
+<p>Fai clic su <strong>Add</strong> (Aggiungi).</p>
+<img alt="../../../../_images/aggiunta_account_in_windows_mail.png" src="../../../../_images/aggiunta_account_in_windows_mail.png" />
+<p>Scegli l’opzione <strong>E-Mail Account</strong> (Account e-mail) e fai clic su <strong>Next</strong> (Avanti).</p>
+<img alt="../../../../_images/tipo_account_windows_mail.png" src="../../../../_images/tipo_account_windows_mail.png" />
+<p>Inserisci <strong>Display name</strong> (Nome da visualizzare) e fai clic su <strong>Next</strong> (Avanti).</p>
+<img alt="../../../../_images/nome_visualizzato_windows_mail.png" src="../../../../_images/nome_visualizzato_windows_mail.png" />
+<p>Inserisci l’<strong>indirizzo e-mail</strong> e fai clic su <strong>Next</strong> (Avanti).</p>
+<img alt="../../../../_images/indirizzo_email_windows_mail.png" src="../../../../_images/indirizzo_email_windows_mail.png" />
+<div class="line-block">
+<div class="line">Seleziona <strong>IMAP</strong> e inserisci <strong>imap.ewake.itm</strong> in <strong>Incoming mail (IMAP) server</strong> (Server della posta in entrata IMAP).</div>
+<div class="line">Come server della posta in uscita(SMTP), inserisci <strong>smtp.ewake.it</strong> e spunta la casella <strong>Outgoing server requires authentication</strong> (Il server in uscita richiede l’autenticazione).</div>
+</div>
+<img alt="../../../../_images/server_smtp_imap_windows_mail.png" src="../../../../_images/server_smtp_imap_windows_mail.png" />
+<p>Inserisci l’<strong>indirizzo e-mail</strong> e la <strong>password</strong>.</p>
+<img alt="../../../../_images/accesso_windows_mail.png" src="../../../../_images/accesso_windows_mail.png" />
+<p>Hai completato la configurazione. Fai clic su <strong>Finish</strong> (Fine).</p>
+<img alt="../../../../_images/fine_configurazione_windows_mail.png" src="../../../../_images/fine_configurazione_windows_mail.png" />
+<div class="section" id="configurazione-del-server-smtp">
+<h2>Configurazione del server SMTP<a class="headerlink" href="#configurazione-del-server-smtp" title="Link a questa intestazione">¶</a></h2>
+<p>Seleziona l’account appena creato e fai clic sul pulsante <strong>Properties</strong> (Proprietà).</p>
+<img alt="../../../../_images/configurazione_smtp_windows_mail.png" src="../../../../_images/configurazione_smtp_windows_mail.png" />
+<div class="line-block">
+<div class="line">Seleziona la scheda <strong>Advanced</strong>. In <strong>Outgoing mail (SMTP)</strong> (Posta in uscita), indica <strong>465</strong> e seleziona <strong>This server requires a secure connection (SSL)</strong>.</div>
+<div class="line">Come <strong>Incoming mail (IMAP)</strong> (Posta in entrata), inserisci <strong>993</strong> seleziona <strong>This server requires a secure connection (SSL)</strong>.</div>
+</div>
+<img alt="../../../../_images/server_uscita_windows_mail_porta_2525.png" src="../../../../_images/server_uscita_windows_mail_porta_2525.png" />
+<p>Fai clic su <strong>OK</strong>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../../index.html">Tabella dei contenuti</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Windows Mail</a><ul>
+<li><a class="reference internal" href="#configurazione-del-server-smtp">Configurazione del server SMTP</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Argomento precedente</h4>
+  <p class="topless"><a href="windows_live_mail_2011.html"
+                        title="capitolo precedente">Windows Live Mail 2011</a></p>
+  <h4>Argomento successivo</h4>
+  <p class="topless"><a href="../ldap.html"
+                        title="capitolo successivo">Utilizzo delle rubriche via LDAP</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Questa pagina</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../../../_sources/user/email/ewake/conf/windows_mail.txt"
+            rel="nofollow">Mostra sorgente</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Ricerca veloce</h3>
+    <form class="search" action="../../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Vai" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Inserisci un termine di ricerca un modulo, classe o nome di funzione
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigazione</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="Indice generale"
+             >indice</a></li>
+        <li class="right" >
+          <a href="../ldap.html" title="Utilizzo delle rubriche via LDAP"
+             >successivo</a> |</li>
+        <li class="right" >
+          <a href="windows_live_mail_2011.html" title="Windows Live Mail 2011"
+             >precedente</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">Supporto EWake 0.1.0 documentazione</a> &raquo;</li>
+          <li class="nav-item nav-item-1"><a href="../../../email.html" >Email</a> &raquo;</li>
+          <li class="nav-item nav-item-2"><a href="../../ewake.html" >EWake</a> &raquo;</li>
+          <li class="nav-item nav-item-3"><a href="../conf.html" >Configurazione dei client di posta</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, EWake.
+      Creato con <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+    </div>
+  </body>
+</html>
