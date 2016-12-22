@@ -18,9 +18,9 @@ Seleziona **Add Mail Account**.
 .. image:: /assets/img/email/iphone_ipad_ios6/seleziona_add_mail_account_su_iphone.png
 	
 | Immetti il tuo **Name** (nome).
-| Immetti il tuo **Email** (indirizzo e-mail), ad esempio name@example.com, dove example.com corrisponde al dominio ospitato da `EWake <https://ewake.it>`_.
+| Immetti il tuo **Email** (indirizzo e-mail), ad esempio `name@example.com`, dove `example.com` corrisponde al dominio ospitato da `EWake <https://ewake.it>`_.
 | **Password** è la password.
-| Immetti una **Description** (descrizione), ad esempio name@example.com.
+| Immetti una **Description** (descrizione), ad esempio `name@example.com`.
 | Tocca **Next**.
 
 .. image:: /assets/img/email/iphone_ipad_ios6/immetti_nome_indirizzo_e_password_su_iphone.png
@@ -30,13 +30,13 @@ Seleziona la scheda **IMAP**.
 .. image:: /assets/img/email/iphone_ipad_ios6/seleziona_scheda_imap_su_iphone.png
 	
 | Per **Incoming Mail Server**, immetti **imap.ewake.it** come **Host Name**.
-| Immetti il tuo indirizzo e-mail completo nel campo **User Name**, ad esempio name@example.com.
+| Immetti il tuo indirizzo e-mail completo nel campo **User Name**, ad esempio `name@example.com`.
 | Immetti la **Password**.
 
 .. image:: /assets/img/email/iphone_ipad_ios6/immetti_dettagli_server_posta_entrata_su_iphone.png
 	
 | Per **Outgoing Mail Server**, immetti **smtp.ewake.it** come **Host Name**.
-| Immetti il tuo indirizzo e-mail completo nel campo **User Name**, ad esempio name@example.com.
+| Immetti il tuo indirizzo e-mail completo nel campo **User Name**, ad esempio `name@example.com`.
 | Immetti la **Password**, quindi tocca **Next**.
 | Ricorda che, anche se il campo è **Optional** (opzionale), devi comunque compilarlo.
 
@@ -63,7 +63,7 @@ Tocca **smtp.ewake.it** nella sezione **Primary Server**.
 .. image:: /assets/img/email/iphone_ipad_ios6/tocca_info_nel_campo_primary_server.png
 	
 | Come **Host Name** immetti **smtp.ewake.it**.
-| Immetti il tuo indirizzo e-mail completo come **User Name**, ad esempio name@example.com.
+| Immetti il tuo indirizzo e-mail completo come **User Name**, ad esempio `name@example.com`.
 | Immetti la tua **Password**.
 | Il campo **Use SSL** dovrebbe essere impostato su **ON**.
 | Il campo **Authentification** dovrebbe essere impostato su **Password**.

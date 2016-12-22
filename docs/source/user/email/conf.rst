@@ -50,3 +50,4 @@ Di seguito sono elencate anche delle istruzioni dettagliate per la configurazion
    conf/mobile_nokia_symbian
    conf/android
    conf/iphone_ipad_ios6
+   conf/iphone_ipad_ios7
