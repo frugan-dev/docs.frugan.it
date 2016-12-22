@@ -60,3 +60,8 @@ Di seguito sono elencate anche delle istruzioni dettagliate per la configurazion
    conf/outlook_2010
    conf/outlook_2011_mac
    conf/outlook_2013
+   conf/outlook_express
+   conf/thunderbird
+   conf/thunderbird_ldap_addressbook
+   conf/windows_live_mail
+   conf/windows_live_mail_2011
