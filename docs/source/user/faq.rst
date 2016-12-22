@@ -4,7 +4,7 @@ Frequently Asked Questions
 Quando si rinnovano i servizi di hosting e email?
 -------------------------------------------------
 
-I servizi di hosting e email `EWake <https://ewake.it>`_ hanno durata annuale e vengono inviate in automatico **3 email di notifica** con tutte le informazioni utili al rinnovo a partire da **30** giorni precedenti alla scadenza dei servizi.
+I servizi di hosting e email `EWake <https://ewake.it>`_ hanno durata annuale e vengono inviate in automatico **3 email di notifica** con tutte le informazioni utili al rinnovo a partire da **30 giorni** precedenti alla scadenza dei servizi.
 
 Nel caso in cui tu non abbia ricevuto queste notifiche vedi :ref:`ref1`.
 
