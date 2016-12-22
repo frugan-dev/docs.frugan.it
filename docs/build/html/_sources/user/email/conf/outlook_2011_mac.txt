@@ -8,7 +8,7 @@ Passaggio 1: verifica di avere l’ultima versione
 | Verifica di avere l’ultima versione di **Outlook for Mac 2011**.
 | Dopo aver aperto Outlook, fai clic su  **Help** nel menu principale e quindi su **Check for Updates**.
 | L’applicazione ti informa se ci sono aggiornamenti disponibili. Segui le istruzioni per passare alla pagina di installazione aggiornamenti.
-| Per ulteriore assistenza riguardo all’aggiornamento del software Microsoft, consulta il supporto in linea di Microsoft a questo indirizzo: <http://support.microsoft.com>
+| Per ulteriore assistenza riguardo all’aggiornamento del software Microsoft, consulta il supporto in linea di Microsoft a questo indirizzo: http://support.microsoft.com.
 
 .. image:: /assets/img/email/outlook_2011_mac/check_for_updates.png
 	
