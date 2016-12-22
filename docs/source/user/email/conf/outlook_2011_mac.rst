@@ -8,7 +8,7 @@ Passaggio 1: verifica di avere l’ultima versione
 | Verifica di avere l’ultima versione di **Outlook for Mac 2011**.
 | Dopo aver aperto Outlook, fai clic su  **Help** nel menu principale e quindi su **Check for Updates**.
 | L’applicazione ti informa se ci sono aggiornamenti disponibili. Segui le istruzioni per passare alla pagina di installazione aggiornamenti.
-| Per ulteriore assistenza riguardo all’aggiornamento del software Microsoft, consulta il supporto in linea di Microsoft a questo indirizzo: http://support.microsoft.com.
+| Per ulteriore assistenza riguardo all’aggiornamento del software Microsoft, consulta il supporto in linea di Microsoft a questo indirizzo: http://support.microsoft.com .
 
 .. image:: /assets/img/email/outlook_2011_mac/check_for_updates.png
 	
@@ -19,7 +19,7 @@ Fai clic su **Tools** nel menu principale e quindi su **Accounts**.
 
 .. image:: /assets/img/email/outlook_2011_mac/add_account.png
 	
-Fai clic sul pulsante **più (+)**situato nell’angolo sinistro e quindi su **E-mail...** nel menu a discesa che compare.
+Fai clic sul pulsante **più (+)** situato nell’angolo sinistro e quindi su **E-mail...** nel menu a discesa che compare.
 
 .. image:: /assets/img/email/outlook_2011_mac/click_on_plus_button.png
 	
@@ -32,7 +32,7 @@ Immetti l’indirizzo di posta elettronica (che desideri impostare) nel campo **
 	
 Nella finestra espansa, immetti le seguenti informazioni relative al tuo account:
 
-- **E-mail address:** immetti l’indirizzo da aggiungere - in questo esempio `name@example.com`
+- **E-mail address:** immetti l’indirizzo da aggiungere - in questo esempio `name@example.com`, dove `example.com` è il dominio ospitato presso `EWake <https://ewake.it>`_
 - **Password:** è quella che usi per accedere al Webmail relativo a questo account.
 - **User name:** `name@example.com`
 - **Type:** IMAP
