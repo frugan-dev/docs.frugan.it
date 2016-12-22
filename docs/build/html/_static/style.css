@@ -1,0 +1,4 @@
+/* http://stackoverflow.com/a/9738992 */
+.rst-content .line-block {
+	margin-left: 0;
+}
