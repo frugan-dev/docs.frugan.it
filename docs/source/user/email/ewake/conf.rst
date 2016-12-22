@@ -1,7 +1,7 @@
 Configurazione dei client di posta
 ==================================
 
-Questi sono i parametri per la configurazione delle caselle email `EWake <https://ewake.it>`_:
+I parametri necessari per l'autenticazione ai server di posta `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, etc.) sono uguali per tutte le caselle ospitate presso `EWake <https://ewake.it>`_:
 
 +-----------------------------------------------------------+
 | Posta in arrivo - IMAP                                    |
@@ -15,7 +15,6 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
 
-
 +-----------------------------------------------------------+
 | Posta in arrivo - POP3                                    |
 +======================+====================================+
@@ -27,7 +26,6 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 +----------------------+------------------------------------+
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
-
 
 +-----------------------------------------------------------+
 | Posta in uscita - SMTP                                    |
