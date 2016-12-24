@@ -10,9 +10,9 @@ Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`
 +----------------------+---------------------------------------------------------------+
 | Porte                | 389                                                           |
 +----------------------+---------------------------------------------------------------+
-| Base DN              | ou=public,ou=addressbook,dc=`username`,dc=it,dc=base          |
+| Base DN              | ou=public,ou=addressbook,dc=*username*,dc=it,dc=base          |
 +----------------------+---------------------------------------------------------------+
-| DN associato         | cn=Public,ou=users,ou=addressbook,dc=`username`,dc=it,dc=base |
+| DN associato         | cn=Public,ou=users,ou=addressbook,dc=*username*,dc=it,dc=base |
 +----------------------+---------------------------------------------------------------+
 | Connessione protetta | no                                                            |
 +----------------------+---------------------------------------------------------------+
@@ -26,9 +26,9 @@ Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`
 +----------------------+-----------------------------------------------------------------------------+
 | Porte                | 389                                                                         |
 +----------------------+-----------------------------------------------------------------------------+
-| Base DN              | ou=`hello@domain.tld`,ou=private,ou=addressbook,dc=`username`,dc=it,dc=base |
+| Base DN              | ou=*hello@domain.tld*,ou=private,ou=addressbook,dc=*username*,dc=it,dc=base |
 +----------------------+-----------------------------------------------------------------------------+
-| DN associato         | cn=`hello@domain.tld`,ou=users,ou=addressbook,dc=`username`,dc=it,dc=base   |
+| DN associato         | cn=*hello@domain.tld*,ou=users,ou=addressbook,dc=*username*,dc=it,dc=base   |
 +----------------------+-----------------------------------------------------------------------------+
 | Connessione protetta | no                                                                          |
 +----------------------+-----------------------------------------------------------------------------+
