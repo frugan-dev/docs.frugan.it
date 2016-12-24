@@ -7,6 +7,12 @@ Che cos’è la Posta Elettronica Certificata PEC?
 La **PEC**, acronimo di Posta Elettronica Certificata, è un sistema di trasporto di documenti informatici che presenta forti similitudini con il servizio di posta elettronica tradizionale, con in più la possibilità di ottenere la garanzia del ricevimento (o meno) del messaggio da parte del destinatario. 
 
 
+Da chi può essere acquistata una casella PEC?
+---------------------------------------------
+
+La **PEC** può essere acquistata solo da uno dei gestori attualmente autorizzati dal `Agenzia per l'Italia digitale <http://www.agid.gov.it>`_ (ex DigitPA).
+
+
 A che cosa serve la posta certificata PEC?
 ------------------------------------------
 
@@ -33,7 +39,7 @@ La CEC-PAC (Comunicazione Elettronica Certificata tra la Pubblica Amministrazion
 Che differenza c'è tra la posta certificata PEC e CEC-PAC?
 ----------------------------------------------------------
 
-La **PEC** può essere acquistata da uno dei Gestori attualmente autorizzati dal *Agenzia per l'Italia digitale* (ex DigitPA), tra i quali TWT, per uso personale o aziendale e permette di comunicare non solo con la Pubblica Amministrazione, ma anche tra aziende, professionisti e cittadini.
+La **PEC** per uso personale o aziendale e permette di comunicare non solo con la Pubblica Amministrazione, ma anche tra aziende, professionisti e cittadini.
 
 La CEC-PAC  è un canale di comunicazione chiuso ed esclusivo tra Pubblica Amministrazione e cittadino. Non sono, infatti, previste comunicazioni al di fuori di tale canale, per esempio tra cittadino e cittadino o nelle relazioni tra realtà aziendali, nei rapporti con banche, clienti e fornitori.
 
@@ -110,7 +116,7 @@ La casella **certificata PEC** è indicata soprattutto **per effettuare comunica
 In che modo si ha la certezza della consegna di un messaggio di posta certificata PEC?
 --------------------------------------------------------------------------------------
 
-Nel momento in cui l’utente invia il messaggio, riceve dal proprio **Gestore di PEC** (che deve essere iscritto nell’elenco di *Agenzia per l'Italia digitale*, ex DigitPA) una ricevuta di accettazione con relativa attestazione temporale. Tale ricevuta costituisce prova legale dell’avvenuta spedizione del messaggio. Allo stesso modo, quando il messaggio perviene nella casella del destinatario, il suo gestore di PEC invia al mittente la ricevuta di avvenuta (o mancata) consegna, con l’indicazione di data e orario, a prescindere dalla visualizzazione del messaggio da parte del destinatario. 
+Nel momento in cui l’utente invia il messaggio, riceve dal proprio **Gestore di PEC** (che deve essere iscritto nell’elenco di `Agenzia per l'Italia digitale <http://www.agid.gov.it>`_, ex DigitPA) una ricevuta di accettazione con relativa attestazione temporale. Tale ricevuta costituisce prova legale dell’avvenuta spedizione del messaggio. Allo stesso modo, quando il messaggio perviene nella casella del destinatario, il suo gestore di PEC invia al mittente la ricevuta di avvenuta (o mancata) consegna, con l’indicazione di data e orario, a prescindere dalla visualizzazione del messaggio da parte del destinatario. 
 
 
 La PEC certifica la lettura del messaggio da parte del destinatario?
