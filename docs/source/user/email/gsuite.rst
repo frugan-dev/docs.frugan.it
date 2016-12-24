@@ -106,14 +106,14 @@ Per maggiori informazioni vedi https://www.google.com/settings/security/lesssecu
 Condivisione account POP3
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se un account POP3 viene condiviso fra più utenti, si può utilizzare `recent:mail@domain.tld` per autenticarsi ai server di Google, simulando alcune funzionalità del protocollo IMAP.
+Se un account POP3 viene condiviso fra più utenti, si può utilizzare l'impostazione `recent:mail@domain.tld` per autenticarsi ai server di Google tramite il proprio client di posta, simulando alcune funzionalità del protocollo IMAP.
 
 
 Filtro posta inviata
 ~~~~~~~~~~~~~~~~~~~~
  
 G Suite ha un unico contenitore in cui finiscono tutti i messaggi, compresa la posta inviata che viene salvata in automatico.
-Per evitare che il proprio client email (Outlook, Thunderbird, Mail, etc.) scarichi la posta inviata “credendola” posta ricevuta è possibile creare un filtro apposito andando in **Strumenti** → **Filtri**, mettendo la proprio email nel campo **Mittente** e selezionando **Posta inviata** nel campo **Sposta il messaggio in**.
+Per evitare che il proprio client email (Outlook, Thunderbird, Mail, etc.) scarichi la posta inviata “credendola” posta ricevuta è possibile creare un filtro apposito andando in **Strumenti** → **Filtri**, inserendo la proprio email nel campo **Mittente** e selezionando **Posta inviata** nel campo **Sposta il messaggio in**.
 
 
 Maggiori informazioni
