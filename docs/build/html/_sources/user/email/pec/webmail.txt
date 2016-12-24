@@ -5,7 +5,7 @@ La webmail per accedere alle caselle PEC `EWake <https://ewake.it>`_ è raggiung
 
 - `http://pec.domain.tld` (Roundcube)
 
-dove `pec.domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
+dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
 
 .. image:: /assets/img/email/pec/webmail/twt.png
 

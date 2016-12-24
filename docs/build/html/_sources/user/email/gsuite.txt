@@ -6,3 +6,5 @@ G Suite
 
    gsuite/webmail
    gsuite/conf
+   gsuite/faq
+   gsuite/more

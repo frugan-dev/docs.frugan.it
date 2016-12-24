@@ -1,8 +1,10 @@
-Webmail
-==============
+Accesso alla webmail
+====================
 
-La webmail principale per accedere alle caselle email `EWake <https://ewake.it>`_ è raggiungibile al seguente indirizzo:
+La webmail per accedere alle caselle email `G Suite di Google <https://gsuite.google.com>`_ è raggiungibile al seguente indirizzo:
 
-- `http://webmail.domain.tld`
+- `http://mail.domain.tld` (GMail)
 
-Gli utenti che utilizzano
+dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
+
+Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hello@domain.tld`) e successivamente la password.
