@@ -6,3 +6,4 @@ PEC
 
    pec/webmail
    pec/conf
+   pec/more

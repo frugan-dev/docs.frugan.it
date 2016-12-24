@@ -1,7 +1,7 @@
 Configurazione dei client di posta
 ==================================
 
-I parametri necessari per l'autenticazione ai server di posta `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, etc.) sono uguali per tutte le caselle ospitate presso `EWake <https://ewake.it>`_:
+I parametri necessari per l'autenticazione ai server di posta `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso `EWake <https://ewake.it>`_:
 
 +-----------------------------------------------------------+
 | Posta in arrivo - IMAP                                    |

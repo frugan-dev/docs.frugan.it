@@ -1,7 +1,7 @@
 Configurazione dei client di posta
 ==================================
 
-I parametri necessari per l'autenticazione ai server di posta certificata `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, etc.) sono uguali per tutte le caselle PEC ospitate presso `EWake <https://ewake.it>`_:
+I parametri necessari per l'autenticazione ai server di posta certificata `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle PEC ospitate presso `EWake <https://ewake.it>`_:
 
 +-----------------------------------------+
 | Posta in arrivo - IMAP                  |
@@ -53,7 +53,10 @@ I parametri necessari per l'autenticazione ai server di posta certificata `EWake
 	title (diventa il titolo della pagina)
 .. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta certificata `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.twtcert.it`.
 
-Maggiori informazioni
----------------------
 
-All'indirizzo https://public.ewake.it è possibile scaricare in versione PDF il manuale operativo sull'utilizzo della casella PEC.
+Certificato Agenzia per l'Italia digitale (ex DigitPA)
+------------------------------------------------------
+
+Tutti i gestori di PEC firmano i messaggi, le ricevute e gli avvisi con un certificato digitale rilasciato da `Agenzia per l'Italia digitale <http://www.agid.gov.it>`_ (ex DigitPA).
+
+Per fare in modo che il vostro client di posta (Outlook, Thunderbird, Eudora, Apple Mail, ecc.) riconosca la validità di questo certificato è necessario installarlo o importarlo scaricandolo dal seguente link https://public.ewake.it.
