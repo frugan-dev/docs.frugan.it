@@ -84,6 +84,35 @@ I parametri necessari per l'autenticazione ai server di posta `G Suite di Google
 .. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `G Suite di Google <https://gsuite.google.com>`_ avviene sempre tramite hostname del tipo `*.gmail.com` o `*.googlemail.com`.
 
 
+Password per le app
+-------------------
+
+Le password per le app consentono agli utenti che utilizzano la verifica in due passaggi di accedere ai loro account GSuite attraverso il proprio client email (Outlook, Thunderbird, Mail, etc.). 
+
+Per maggiori informazioni vedi https://security.google.com/settings/security/apppasswords. 
+
+
+App meno sicure
+---------------
+
+Alcuni dispositivi e app utilizzano una tecnologia di accesso meno sicura, che rende più vulnerabile il tuo account. Puoi disattivare l'accesso per queste app (soluzione consigliata) oppure attivare l'accesso se desideri utilizzarli nonostante i rischi. 
+
+Per maggiori informazioni vedi https://www.google.com/settings/security/lesssecureapps.
+
+
+Condivisione account POP3
+-------------------------
+
+Se un account POP3 viene condiviso fra più utenti, si può utilizzare `recent:mail@domain.tld` per autenticarsi ai server di Google, simulando alcune funzionalità del protocollo IMAP.
+
+
+Filtro posta inviata
+--------------------
+ 
+G Suite ha un unico contenitore in cui finiscono tutti i messaggi, compresa la posta inviata che viene salvata in automatico.
+Per evitare che il proprio client email (Outlook, Thunderbird, Mail, etc.) scarichi la posta inviata “credendola” posta ricevuta è possibile creare un filtro apposito andando in **Strumenti** → **Filtri**, mettendo la proprio email nel campo **Mittente** e selezionando **Posta inviata** nel campo **Sposta il messaggio in**.
+
+
 Maggiori informazioni
 ---------------------
 
