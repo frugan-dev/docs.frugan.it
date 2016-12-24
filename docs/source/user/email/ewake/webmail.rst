@@ -23,7 +23,7 @@ Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hell
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. important:: Si consiglia fortemente l'utilizzo, tramite l'app `Google Authenticator <https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=it>`_, del sistema di `autenticazione a due fattori <https://it.wikipedia.org/wiki/Autenticazione_a_due_fattori>`_ (Two-Factor authentication) attivabile nelle impostazioni della webmail principale.
+.. tip:: Si consiglia fortemente l'utilizzo, tramite l'app `Google Authenticator <https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=it>`_, del sistema di `autenticazione a due fattori <https://it.wikipedia.org/wiki/Autenticazione_a_due_fattori>`_ (Two-Factor authentication) attivabile nelle impostazioni della webmail principale.
 
 
 Sono inoltre disponibili altre webmail secondarie ai seguenti indirizzi:
