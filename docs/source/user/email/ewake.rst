@@ -2,7 +2,7 @@ EWake
 =====
 
 .. toctree:: 
-   :maxdepth: 3
+   :maxdepth: 2
 
    ewake/webmail
    ewake/conf
