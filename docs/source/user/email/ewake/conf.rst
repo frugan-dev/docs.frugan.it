@@ -62,7 +62,7 @@ Istruzioni per la configurazione sui principali dispositivi
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
 .. toctree:: 
-   :maxdepth: 1
+   :maxdepth: 2
 
    conf/mobile
    conf/mobile_nokia_symbian
