@@ -51,7 +51,7 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. note:: A prescindere dal dominio utilizzato, l'accesso ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
 
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
@@ -67,13 +67,11 @@ Di seguito sono elencate anche le istruzioni dettagliate per la configurazione s
    conf/opera_mail
    conf/outlook_2003
    conf/outlook_2007
-   conf/outlook_2007_ldap_addressbook
    conf/outlook_2010
    conf/outlook_2011_mac
    conf/outlook_2013
    conf/outlook_express
    conf/thunderbird
-   conf/thunderbird_ldap_addressbook
    conf/windows_live_mail
    conf/windows_live_mail_2011
    conf/windows_mail

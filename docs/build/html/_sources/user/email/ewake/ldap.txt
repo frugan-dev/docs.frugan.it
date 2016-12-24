@@ -1,5 +1,5 @@
-Utilizzo delle rubriche tramite LDAP
-====================================
+Utilizzo delle rubriche LDAP
+============================
 
 Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`_ possono configurare sui loro dispositivi la connessione ai server LDAP per la condivisione delle loro rubriche tramite i seguenti parametri:
 
@@ -8,7 +8,7 @@ Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`
 +======================+===============================================================+
 | Server               | ldap.ewake.it                                                 |
 +----------------------+---------------------------------------------------------------+
-| Porte                | 389                                                           |
+| Porta                | 389                                                           |
 +----------------------+---------------------------------------------------------------+
 | Base DN              | `ou=public,ou=addressbook,dc=username,dc=it,dc=base`          |
 +----------------------+---------------------------------------------------------------+
@@ -24,7 +24,7 @@ Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`
 +======================+=============================================================================+
 | Server               | ldap.ewake.it                                                               |
 +----------------------+-----------------------------------------------------------------------------+
-| Porte                | 389                                                                         |
+| Porta                | 389                                                                         |
 +----------------------+-----------------------------------------------------------------------------+
 | Base DN              | `ou=hello@domain.tld,ou=private,ou=addressbook,dc=username,dc=it,dc=base`   |
 +----------------------+-----------------------------------------------------------------------------+
@@ -34,3 +34,13 @@ Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`
 +----------------------+-----------------------------------------------------------------------------+
 | Autenticazione       | password normale                                                            |
 +----------------------+-----------------------------------------------------------------------------+
+
+Dove `username` è il nome utente associato al servizio LDAP e `hello@domain.tld` corrisponde all'email ospitata presso `EWake <https://ewake.it>`_.
+
+Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
+
+.. toctree:: 
+   :maxdepth: 1
+
+   ldap/outlook_2007_addressbook
+   ldap/thunderbird_addressbook
