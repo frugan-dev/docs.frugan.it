@@ -11,6 +11,21 @@ dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.i
 
 Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hello@domain.tld`) nel campo **Nome utente** e la password nel campo **Password**.
 
+.. 
+	attention (Attenzione)
+	caution (Attenzione)
+	danger (Pericolo)
+	error (Errore)
+	hint (Consiglio)
+	important (Importante)
+	note (Nota)
+	tip (Suggerimento)
+	warning (Avvertimento)
+	admonition (non visibile)
+	title (diventa il titolo della pagina)
+.. important:: Si consiglia fortemente l'utilizzo, tramite l'app `Google Authenticator <https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=it>`_, del sistema di `autenticazione a due fattori <https://it.wikipedia.org/wiki/Autenticazione_a_due_fattori>`_ (Two-Factor authentication) attivabile nelle impostazioni della webmail principale.
+
+
 Sono inoltre disponibili altre webmail secondarie ai seguenti indirizzi:
 
 - `http://domain.tld/webmail2` (AfterLogic WebMail Lite)
