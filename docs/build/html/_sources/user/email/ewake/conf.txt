@@ -56,6 +56,9 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 
 .. _user-email-ewake-conf-ref1:
 
+Istruzioni sui principali dispositivi
+-------------------------------------
+
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
 .. toctree:: 

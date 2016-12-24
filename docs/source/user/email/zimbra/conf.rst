@@ -54,6 +54,9 @@ I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da 
 .. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta Zimbra gestiti da `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
 
 
+Istruzioni sui principali dispositivi
+-------------------------------------
+
 Le istruzioni dettagliate per la configurazione sui principali dispositivi sono uguali a quelle delle email ordinarie `EWake <https://ewake.it>`_ disponibili qui :ref:`user-email-ewake-conf-ref1`.
 
 
