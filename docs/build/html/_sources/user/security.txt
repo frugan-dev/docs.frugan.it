@@ -11,7 +11,7 @@ Ogni giorno tutti i web server pubblici vengono ripetutamente bombardati di rich
 - non utilizzare la stessa password su più applicazioni
 - utilizzare password alfanumeriche complesse, cioè contenenti lettere maiuscole e minuscole, numeri e soprattutto caratteri speciali
 - controllare la posta elettronica tramite client specifici (Outlook, Thunderbird, etc.) perché non richiedono la password ad ogni login con avviene con le webmail, favorendo così l'utilizzo di password complesse impostate solo in fase di configurazione del client
-- dove possibile utilizzare sempre l'autenticazione a 2-fattori (Two-factor Authentication)
+- dove possibile utilizzare sempre l'`autenticazione a due fattori <https://it.wikipedia.org/wiki/Autenticazione_a_due_fattori>`_ (Two-Factor authentication)
 - fornirsi eventualmente di software specifici per la memorizzazione delle password
 
 

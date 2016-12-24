@@ -1,3 +1,5 @@
+.. _user-email-ewake-conf-ref1:
+
 Configurazione dei client di posta
 ==================================
 
@@ -53,11 +55,6 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 	title (diventa il titolo della pagina)
 .. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
 
-
-.. _user-email-ewake-conf-ref1:
-
-Istruzioni per la configurazione sui principali dispositivi
-===========================================================
 
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
