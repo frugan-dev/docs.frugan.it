@@ -57,7 +57,7 @@ I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da 
 Istruzioni sui principali dispositivi
 -------------------------------------
 
-Le istruzioni dettagliate per la configurazione sui principali dispositivi sono uguali a quelle delle email ordinarie `EWake <https://ewake.it>`_ disponibili qui :ref:`user-email-ewake-conf-ref1`.
+Le istruzioni dettagliate per la configurazione sui principali dispositivi sono disponibili qui :ref:`user-email-ewake-conf-ref1`.
 
 
 Maggiori informazioni
