@@ -146,6 +146,4 @@ Di seguito sono elencate anche le istruzioni dettagliate per la configurazione s
 .. toctree:: 
    :maxdepth: 2
 
-   ewake/webmail
-   ewake/conf
    ewake/ldap
