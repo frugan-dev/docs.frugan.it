@@ -1,42 +1,59 @@
-Configurazione dei client di posta certificata
-==============================================
+Configurazione dei client di posta
+==================================
 
-Questi sono i parametri per la configurazione delle caselle email `EWake <https://ewake.it>`_:
+I parametri necessari per l'autenticazione ai server di posta certificata `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, etc.) sono uguali per tutte le caselle PEC ospitate presso `EWake <https://ewake.it>`_:
 
-+-----------------------------------------------------------+
-| Posta in arrivo - IMAP                                    |
-+======================+====================================+
-| Server               | imap.ewake.it                      |
-+----------------------+------------------------------------+
-| Porte                | 993 *(consigliata)* o 143          |
-+----------------------+------------------------------------+
-| Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
-+----------------------+------------------------------------+
-| Autenticazione       | password normale                   |
-+----------------------+------------------------------------+
++-----------------------------------------+
+| Posta in arrivo - IMAP                  |
++======================+==================+
+| Server               | mail.twtcert.it  |
++----------------------+------------------+
+| Porta                | 993              |
++----------------------+------------------+
+| Connessione protetta | SSL/TLS          |
++----------------------+------------------+
+| Autenticazione       | password normale |
++----------------------+------------------+
 
++-----------------------------------------+
+| Posta in arrivo - POP3                  |
++======================+==================+
+| Server               | mail.twtcert.it  |
++----------------------+------------------+
+| Porta                | 995              |
++----------------------+------------------+
+| Connessione protetta | SSL/TLS          |
++----------------------+------------------+
+| Autenticazione       | password normale |
++----------------------+------------------+
 
-+-----------------------------------------------------------+
-| Posta in arrivo - POP3                                    |
-+======================+====================================+
-| Server               | pop.ewake.it                       |
-+----------------------+------------------------------------+
-| Porte                | 995 *(consigliata)* o 110          |
-+----------------------+------------------------------------+
-| Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
-+----------------------+------------------------------------+
-| Autenticazione       | password normale                   |
-+----------------------+------------------------------------+
++-----------------------------------------+
+| Posta in uscita - SMTP                  |
++======================+==================+
+| Server               | smtp.twtcert.it  |
++----------------------+------------------+
+| Porte                | 465              |
++----------------------+------------------+
+| Connessione protetta | SSL/TLS          |
++----------------------+------------------+
+| Autenticazione       | password normale |
++----------------------+------------------+
 
+.. 
+	attention (Attenzione)
+	caution (Attenzione)
+	danger (Pericolo)
+	error (Errore)
+	hint (Consiglio)
+	important (Importante)
+	note (Nota)
+	tip (Suggerimento)
+	warning (Avvertimento)
+	admonition (non visibile)
+	title (diventa il titolo della pagina)
+.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta certificata `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.twtcert.it`.
 
-+-----------------------------------------------------------+
-| Posta in uscita - SMTP                                    |
-+======================+====================================+
-| Server               | smtp.ewake.it                      |
-+----------------------+------------------------------------+
-| Porte                | 465 *(consigliata)* o 587          |
-+----------------------+------------------------------------+
-| Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
-+----------------------+------------------------------------+
-| Autenticazione       | password normale                   |
-+----------------------+------------------------------------+
+Maggiori informazioni
+---------------------
+
+All'indirizzo https://public.ewake.it è possibile scaricare in versione PDF il manuale operativo sull'utilizzo della casella PEC.

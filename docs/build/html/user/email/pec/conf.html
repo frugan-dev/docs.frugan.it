@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Configurazione dei client di posta certificata &mdash; Supporto EWake 0.1.0 documentazione</title>
+    <title>Configurazione dei client di posta &mdash; Supporto EWake 0.1.0 documentazione</title>
     
     <link rel="stylesheet" href="../../../_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
@@ -54,13 +54,13 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="configurazione-dei-client-di-posta-certificata">
-<h1>Configurazione dei client di posta certificata<a class="headerlink" href="#configurazione-dei-client-di-posta-certificata" title="Link a questa intestazione">¶</a></h1>
-<p>Questi sono i parametri per la configurazione delle caselle email <a class="reference external" href="https://ewake.it">EWake</a>:</p>
+  <div class="section" id="configurazione-dei-client-di-posta">
+<h1>Configurazione dei client di posta<a class="headerlink" href="#configurazione-dei-client-di-posta" title="Link a questa intestazione">¶</a></h1>
+<p>I parametri necessari per l&#8217;autenticazione ai server di posta certificata <a class="reference external" href="https://ewake.it">EWake</a> tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, etc.) sono uguali per tutte le caselle PEC ospitate presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="38%" />
-<col width="62%" />
+<col width="55%" />
+<col width="45%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head" colspan="2">Posta in arrivo - IMAP</th>
@@ -68,13 +68,13 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>Server</td>
-<td>imap.ewake.it</td>
+<td>mail.twtcert.it</td>
 </tr>
-<tr class="row-odd"><td>Porte</td>
-<td>993 <em>(consigliata)</em> o 143</td>
+<tr class="row-odd"><td>Porta</td>
+<td>993</td>
 </tr>
 <tr class="row-even"><td>Connessione protetta</td>
-<td>SSL/TLS <em>(consigliata)</em> o STARTTLS</td>
+<td>SSL/TLS</td>
 </tr>
 <tr class="row-odd"><td>Autenticazione</td>
 <td>password normale</td>
@@ -83,8 +83,8 @@
 </table>
 <table border="1" class="docutils">
 <colgroup>
-<col width="38%" />
-<col width="62%" />
+<col width="55%" />
+<col width="45%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head" colspan="2">Posta in arrivo - POP3</th>
@@ -92,13 +92,13 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>Server</td>
-<td>pop.ewake.it</td>
+<td>mail.twtcert.it</td>
 </tr>
-<tr class="row-odd"><td>Porte</td>
-<td>995 <em>(consigliata)</em> o 110</td>
+<tr class="row-odd"><td>Porta</td>
+<td>995</td>
 </tr>
 <tr class="row-even"><td>Connessione protetta</td>
-<td>SSL/TLS <em>(consigliata)</em> o STARTTLS</td>
+<td>SSL/TLS</td>
 </tr>
 <tr class="row-odd"><td>Autenticazione</td>
 <td>password normale</td>
@@ -107,8 +107,8 @@
 </table>
 <table border="1" class="docutils">
 <colgroup>
-<col width="38%" />
-<col width="62%" />
+<col width="55%" />
+<col width="45%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head" colspan="2">Posta in uscita - SMTP</th>
@@ -116,19 +116,27 @@
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>Server</td>
-<td>smtp.ewake.it</td>
+<td>smtp.twtcert.it</td>
 </tr>
 <tr class="row-odd"><td>Porte</td>
-<td>465 <em>(consigliata)</em> o 587</td>
+<td>465</td>
 </tr>
 <tr class="row-even"><td>Connessione protetta</td>
-<td>SSL/TLS <em>(consigliata)</em> o STARTTLS</td>
+<td>SSL/TLS</td>
 </tr>
 <tr class="row-odd"><td>Autenticazione</td>
 <td>password normale</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">A prescindere dal dominio utilizzato, l&#8217;autenticazione ai server di posta certificata <a class="reference external" href="https://ewake.it">EWake</a> avviene sempre tramite hostname del tipo <code class="xref py py-obj docutils literal"><span class="pre">*.twtcert.it</span></code>.</p>
+</div>
+<div class="section" id="maggiori-informazioni">
+<h2>Maggiori informazioni<a class="headerlink" href="#maggiori-informazioni" title="Link a questa intestazione">¶</a></h2>
+<p>All&#8217;indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a> è possibile scaricare in versione PDF il manuale operativo sull&#8217;utilizzo della casella PEC.</p>
+</div>
 </div>
 
 
@@ -137,6 +145,14 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Tabella dei contenuti</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Configurazione dei client di posta</a><ul>
+<li><a class="reference internal" href="#maggiori-informazioni">Maggiori informazioni</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Argomento precedente</h4>
   <p class="topless"><a href="webmail.html"
                         title="capitolo precedente">Accesso alla webmail</a></p>
