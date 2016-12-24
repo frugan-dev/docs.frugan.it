@@ -12,6 +12,20 @@ dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.i
 
 Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hello@domain.tld`) e successivamente la password.
 
+.. 
+	attention (Attenzione)
+	caution (Attenzione)
+	danger (Pericolo)
+	error (Errore)
+	hint (Consiglio)
+	important (Importante)
+	note (Nota)
+	tip (Suggerimento)
+	warning (Avvertimento)
+	admonition (non visibile)
+	title (diventa il titolo della pagina)
+.. important:: Si consiglia fortemente l'utilizzo del sistema di `autenticazione a due fattori <https://support.google.com/accounts/answer/185839?hl=it>`_ (Two-Factor authentication) tramite l'app `Google Authenticator <https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=it>`_.
+
 
 Configurazione dei client di posta
 ----------------------------------
