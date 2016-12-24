@@ -1,7 +1,7 @@
-Configurazione Gsuite
-=====================
+Configurazione dei client di posta
+==================================
 
-Questi sono i parametri per la configurazione delle caselle email `EWake <https://ewake.it>`_:
+I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle Zimbra ospitate presso `EWake <https://ewake.it>`_:
 
 +-----------------------------------------------------------+
 | Posta in arrivo - IMAP                                    |
@@ -15,7 +15,6 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
 
-
 +-----------------------------------------------------------+
 | Posta in arrivo - POP3                                    |
 +======================+====================================+
@@ -28,7 +27,6 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
 
-
 +-----------------------------------------------------------+
 | Posta in uscita - SMTP                                    |
 +======================+====================================+
@@ -40,3 +38,27 @@ Questi sono i parametri per la configurazione delle caselle email `EWake <https:
 +----------------------+------------------------------------+
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
+
+.. 
+	attention (Attenzione)
+	caution (Attenzione)
+	danger (Pericolo)
+	error (Errore)
+	hint (Consiglio)
+	important (Importante)
+	note (Nota)
+	tip (Suggerimento)
+	warning (Avvertimento)
+	admonition (non visibile)
+	title (diventa il titolo della pagina)
+.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta Zimbra gestiti da `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+
+
+Le istruzioni dettagliate per la configurazione sui principali dispositivi sono uguali a quelle delle email ordinarie `EWake <https://ewake.it>`_ disponibili qui :ref:`user-email-ewake-conf-ref1`.
+
+
+Maggiori informazioni
+---------------------
+
+- https://wiki.zimbra.com/wiki/Accessing_Zimbra_Collaboration_Server_with_Thunderbird
+- https://wiki.zimbra.com/wiki/Download_the_Zimbra_Connector_for_Outlook_(ZCO)

@@ -53,6 +53,9 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 	title (diventa il titolo della pagina)
 .. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
 
+
+.. _user-email-ewake-conf-ref1:
+
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
 .. toctree:: 

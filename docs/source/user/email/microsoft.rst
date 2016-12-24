@@ -100,6 +100,7 @@ Di seguito i parametri per l'autenticazione ai server di posta `Microsoft <https
 +----------------------+-----------------------+
 
 .. trovare un link di help migliore
+
 Per maggiori informazioni vedi https://support.office.com/it-it/article/Impostazioni-POP-e-IMAP-per-Outlook-in-Office-365-per-le-aziende-7fc677eb-2491-4cbc-8153-8e7113525f6c.
 
 

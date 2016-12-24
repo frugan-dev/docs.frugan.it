@@ -6,3 +6,4 @@ EWake Zimbra
 
    zimbra/webmail
    zimbra/conf
+   zimbra/more
