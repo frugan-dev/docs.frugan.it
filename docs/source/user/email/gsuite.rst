@@ -106,7 +106,7 @@ Per maggiori informazioni vedi https://www.google.com/settings/security/lesssecu
 Condivisione account POP3
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se un account POP3 viene condiviso fra più utenti, si possono simulare alcune funzionalità del protocollo IMAP utilizzando l'impostazione `recent:mail@domain.tld` per autenticarsi ai server di Google tramite il proprio client di posta.
+Se un account POP3 viene condiviso fra più utenti, si possono simulare alcune funzionalità del protocollo IMAP utilizzando l'impostazione `recent:hello@domain.tld` per autenticarsi ai server di Google tramite il proprio client di posta.
 
 
 Filtro posta inviata
