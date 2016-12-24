@@ -1,5 +1,5 @@
-Zimbra
-======
+EWake Zimbra
+============
 
 .. toctree:: 
    :maxdepth: 2

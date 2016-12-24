@@ -1,12 +1,12 @@
-Zoho
-====
+Zoho Mail
+=========
 
 Accesso alla webmail
 --------------------
 
-La webmail per accedere alle caselle email `Zoho <https://www.zoho.com>`_ è raggiungibile al seguente indirizzo:
+La webmail per accedere alle caselle email `Zoho Mail <https://www.zoho.com>`_ è raggiungibile al seguente indirizzo:
 
-- `http://mail.domain.tld` (Zoho mail)
+- `http://mail.domain.tld`
 
 dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
 
