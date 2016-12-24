@@ -7,3 +7,4 @@ EWake
    ewake/webmail
    ewake/conf
    ewake/ldap
+   ewake/tips

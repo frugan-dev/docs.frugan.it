@@ -16,6 +16,7 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
    user/email
    user/domain
    user/server
+   user/security
    user/faq
 
 
