@@ -13,3 +13,9 @@ Ogni giorno tutti i web server pubblici vengono ripetutamente bombardati di rich
 - controllare la posta elettronica tramite client specifici (Outlook, Thunderbird, etc.) perché non richiedono la password ad ogni login con avviene con le webmail, favorendo così l'utilizzo di password complesse impostate solo in fase di configurazione del client
 - dove possibile utilizzare sempre l'autenticazione a 2-fattori (Two-factor Authentication)
 - fornirsi eventualmente di software specifici per la memorizzazione delle password
+
+
+Furto credenziali di accesso o violazione account
+-------------------------------------------------
+
+In caso di smarrimento o furto del proprio PC o dispositivo contenente le credenziali di accesso, o nel caso si riscontrino violazioni delle proprie caselle email o applicazioni, vedi :ref:`user-faq-ref1`.
