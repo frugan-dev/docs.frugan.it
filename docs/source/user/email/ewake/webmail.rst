@@ -50,6 +50,6 @@ Sono inoltre disponibili altre webmail secondarie ai seguenti indirizzi:
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. important:: La disponibilità delle webmail secondarie può variare nel tempo per questioni tecniche;
+.. note:: La disponibilità delle webmail secondarie può variare nel tempo per questioni tecniche;
 	inoltre alcuni servizi aggiuntivi, come ad es. la modifica della propria password o l'utilizzo delle rubriche condivise tramite LDAP, 
    	non sono disponibili sulle webmail secondarie.
