@@ -58,8 +58,8 @@ Sono inoltre disponibili altre webmail secondarie ai seguenti indirizzi:
    	non sono disponibili sulle webmail secondarie.
    	
 
-Configurazione dei client di posta
-----------------------------------
+Parametri di configurazione dei client di posta
+-----------------------------------------------
 
 I parametri necessari per l'autenticazione ai server di posta `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso `EWake <https://ewake.it>`_:
 
@@ -117,7 +117,7 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 .. _user-email-ewake-conf-ref1:
 
 Istruzioni per la configurazione sui principali dispositivi
------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
 
@@ -143,9 +143,55 @@ Di seguito sono elencate anche le istruzioni dettagliate per la configurazione s
    ewake/conf/windows_mail
    ewake/conf/windows_phone
 
-.. toctree:: 
-   :maxdepth: 2
 
-   ewake/webmail
-   ewake/conf
-   ewake/ldap
+Utilizzo delle rubriche LDAP
+----------------------------
+
+Gli utenti che utilizzano il servizio LDAP fornito da `EWake <https://ewake.it>`_ possono configurare sui loro dispositivi la connessione ai server LDAP per la condivisione delle loro rubriche tramite i seguenti parametri:
+
++--------------------------------------------------------------------------------------+
+| Rubrica pubblica                                                                     |
++======================+===============================================================+
+| Server               | ldap.ewake.it                                                 |
++----------------------+---------------------------------------------------------------+
+| Porta                | 389                                                           |
++----------------------+---------------------------------------------------------------+
+| Base DN              | `ou=public,ou=addressbook,dc=username,dc=it,dc=base`          |
++----------------------+---------------------------------------------------------------+
+| DN associato         | `cn=Public,ou=users,ou=addressbook,dc=username,dc=it,dc=base` |
++----------------------+---------------------------------------------------------------+
+| Connessione protetta | no                                                            |
++----------------------+---------------------------------------------------------------+
+| Autenticazione       | password normale                                              |
++----------------------+---------------------------------------------------------------+
+
++----------------------------------------------------------------------------------------------------+
+| Rubrica privata                                                                                    |
++======================+=============================================================================+
+| Server               | ldap.ewake.it                                                               |
++----------------------+-----------------------------------------------------------------------------+
+| Porta                | 389                                                                         |
++----------------------+-----------------------------------------------------------------------------+
+| Base DN              | `ou=hello@domain.tld,ou=private,ou=addressbook,dc=username,dc=it,dc=base`   |
++----------------------+-----------------------------------------------------------------------------+
+| DN associato         | `cn=hello@domain.tld,ou=users,ou=addressbook,dc=username,dc=it,dc=base`     |
++----------------------+-----------------------------------------------------------------------------+
+| Connessione protetta | no                                                                          |
++----------------------+-----------------------------------------------------------------------------+
+| Autenticazione       | password normale                                                            |
++----------------------+-----------------------------------------------------------------------------+
+
+Dove `username` è il nome utente associato al servizio LDAP e `hello@domain.tld` corrisponde all'email ospitata presso `EWake <https://ewake.it>`_.
+
+
+Istruzioni per la configurazione sui principali dispositivi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
+
+.. toctree:: 
+   :maxdepth: 1
+
+   ewake/ldap/outlook_2007_addressbook
+   ewake/ldap/thunderbird_addressbook
+

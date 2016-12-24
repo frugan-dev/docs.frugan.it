@@ -81,8 +81,8 @@ inoltre alcuni servizi aggiuntivi, come ad es. la modifica della propria passwor
 non sono disponibili sulle webmail secondarie.</p>
 </div>
 </div>
-<div class="section" id="configurazione-dei-client-di-posta">
-<h2>Configurazione dei client di posta<a class="headerlink" href="#configurazione-dei-client-di-posta" title="Link a questa intestazione">¶</a></h2>
+<div class="section" id="parametri-di-configurazione-dei-client-di-posta">
+<h2>Parametri di configurazione dei client di posta<a class="headerlink" href="#parametri-di-configurazione-dei-client-di-posta" title="Link a questa intestazione">¶</a></h2>
 <p>I parametri necessari per l&#8217;autenticazione ai server di posta <a class="reference external" href="https://ewake.it">EWake</a> tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -160,9 +160,8 @@ non sono disponibili sulle webmail secondarie.</p>
 <p class="first admonition-title">Nota</p>
 <p class="last">A prescindere dal dominio utilizzato, l&#8217;autenticazione ai server di posta <a class="reference external" href="https://ewake.it">EWake</a> avviene sempre tramite hostname del tipo <code class="xref py py-obj docutils literal"><span class="pre">*.ewake.it</span></code>.</p>
 </div>
-</div>
 <div class="section" id="istruzioni-per-la-configurazione-sui-principali-dispositivi">
-<span id="user-email-ewake-conf-ref1"></span><h2>Istruzioni per la configurazione sui principali dispositivi<a class="headerlink" href="#istruzioni-per-la-configurazione-sui-principali-dispositivi" title="Link a questa intestazione">¶</a></h2>
+<span id="user-email-ewake-conf-ref1"></span><h3>Istruzioni per la configurazione sui principali dispositivi<a class="headerlink" href="#istruzioni-per-la-configurazione-sui-principali-dispositivi" title="Link a questa intestazione">¶</a></h3>
 <p>Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:</p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -186,19 +185,81 @@ non sono disponibili sulle webmail secondarie.</p>
 <li class="toctree-l1"><a class="reference internal" href="ewake/conf/windows_phone.html">Windows Phone</a></li>
 </ul>
 </div>
+</div>
+</div>
+<div class="section" id="utilizzo-delle-rubriche-ldap">
+<h2>Utilizzo delle rubriche LDAP<a class="headerlink" href="#utilizzo-delle-rubriche-ldap" title="Link a questa intestazione">¶</a></h2>
+<p>Gli utenti che utilizzano il servizio LDAP fornito da <a class="reference external" href="https://ewake.it">EWake</a> possono configurare sui loro dispositivi la connessione ai server LDAP per la condivisione delle loro rubriche tramite i seguenti parametri:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="26%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">Rubrica pubblica</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Server</td>
+<td>ldap.ewake.it</td>
+</tr>
+<tr class="row-odd"><td>Porta</td>
+<td>389</td>
+</tr>
+<tr class="row-even"><td>Base DN</td>
+<td><code class="xref py py-obj docutils literal"><span class="pre">ou=public,ou=addressbook,dc=username,dc=it,dc=base</span></code></td>
+</tr>
+<tr class="row-odd"><td>DN associato</td>
+<td><code class="xref py py-obj docutils literal"><span class="pre">cn=Public,ou=users,ou=addressbook,dc=username,dc=it,dc=base</span></code></td>
+</tr>
+<tr class="row-even"><td>Connessione protetta</td>
+<td>no</td>
+</tr>
+<tr class="row-odd"><td>Autenticazione</td>
+<td>password normale</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="22%" />
+<col width="78%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">Rubrica privata</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Server</td>
+<td>ldap.ewake.it</td>
+</tr>
+<tr class="row-odd"><td>Porta</td>
+<td>389</td>
+</tr>
+<tr class="row-even"><td>Base DN</td>
+<td><code class="xref py py-obj docutils literal"><span class="pre">ou=hello&#64;domain.tld,ou=private,ou=addressbook,dc=username,dc=it,dc=base</span></code></td>
+</tr>
+<tr class="row-odd"><td>DN associato</td>
+<td><code class="xref py py-obj docutils literal"><span class="pre">cn=hello&#64;domain.tld,ou=users,ou=addressbook,dc=username,dc=it,dc=base</span></code></td>
+</tr>
+<tr class="row-even"><td>Connessione protetta</td>
+<td>no</td>
+</tr>
+<tr class="row-odd"><td>Autenticazione</td>
+<td>password normale</td>
+</tr>
+</tbody>
+</table>
+<p>Dove <code class="xref py py-obj docutils literal"><span class="pre">username</span></code> è il nome utente associato al servizio LDAP e <code class="xref py py-obj docutils literal"><span class="pre">hello&#64;domain.tld</span></code> corrisponde all&#8217;email ospitata presso <a class="reference external" href="https://ewake.it">EWake</a>.</p>
+<div class="section" id="id8">
+<h3>Istruzioni per la configurazione sui principali dispositivi<a class="headerlink" href="#id8" title="Link a questa intestazione">¶</a></h3>
+<p>Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="ewake/webmail.html">Acceso alla webmail</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ewake/conf.html">Configurazione dei client di posta</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="ewake/conf.html#istruzioni-per-la-configurazione-sui-principali-dispositivi">Istruzioni per la configurazione sui principali dispositivi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ewake/ldap/outlook_2007_addressbook.html">Microsoft Outlook 2007 LDAP Addressbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ewake/ldap/thunderbird_addressbook.html">Thunderbird LDAP Addressbook</a></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="ewake/ldap.html">Utilizzo delle rubriche LDAP</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="ewake/ldap/outlook_2007_addressbook.html">Microsoft Outlook 2007 LDAP Addressbook</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ewake/ldap/thunderbird_addressbook.html">Thunderbird LDAP Addressbook</a></li>
-</ul>
-</li>
-</ul>
+</div>
 </div>
 </div>
 </div>
@@ -213,8 +274,12 @@ non sono disponibili sulle webmail secondarie.</p>
   <ul>
 <li><a class="reference internal" href="#">EWake</a><ul>
 <li><a class="reference internal" href="#acceso-alla-webmail">Acceso alla webmail</a></li>
-<li><a class="reference internal" href="#configurazione-dei-client-di-posta">Configurazione dei client di posta</a></li>
-<li><a class="reference internal" href="#istruzioni-per-la-configurazione-sui-principali-dispositivi">Istruzioni per la configurazione sui principali dispositivi</a><ul>
+<li><a class="reference internal" href="#parametri-di-configurazione-dei-client-di-posta">Parametri di configurazione dei client di posta</a><ul>
+<li><a class="reference internal" href="#istruzioni-per-la-configurazione-sui-principali-dispositivi">Istruzioni per la configurazione sui principali dispositivi</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#utilizzo-delle-rubriche-ldap">Utilizzo delle rubriche LDAP</a><ul>
+<li><a class="reference internal" href="#id8">Istruzioni per la configurazione sui principali dispositivi</a></li>
 </ul>
 </li>
 </ul>
