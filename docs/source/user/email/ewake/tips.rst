@@ -42,3 +42,4 @@ Temporanemente è possibile risolvere il problema utilizzando i seguenti paramet
 | Autenticazione       | password normale |
 +----------------------+------------------+
 
+dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
