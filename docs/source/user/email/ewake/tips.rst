@@ -26,6 +26,8 @@ Nel caso in cui si utilizzi il servizio di Gmail che permette l'aggiunta di ulte
 
 Come indicato `qui <https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion>`_, l'errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.
 
+.. image:: /assets/img/email/ewake/tips/gmail.png
+
 Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:
 
 +-----------------------------------------+
@@ -33,9 +35,9 @@ Temporanemente è possibile risolvere il problema utilizzando i seguenti paramet
 +======================+==================+
 | Server               | pop.domain.tld   |
 +----------------------+------------------+
-| Porte                | 110        	  |
+| Porte                | 110              |
 +----------------------+------------------+
-| Connessione protetta | no				  |
+| Connessione protetta | no               |
 +----------------------+------------------+
 | Autenticazione       | password normale |
 +----------------------+------------------+
