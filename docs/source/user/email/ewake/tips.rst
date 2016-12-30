@@ -22,7 +22,7 @@ Lato utente è quindi di fondamentale importanza:
 Recupero della posta esterna da Gmail 
 -------------------------------------
 
-Nel caso in cui si utilizzi il servizio di Gmail che permette l'aggiunta di ulteriori account di posta eterni a Gmail (fetchmailing), è possibile riscontrare l'errore ``Connection refused`` utilizzando il parametro `pop.ewake.it` in abbinamento alla connessione SSL sulla porta 995.
+Nel caso in cui si utilizzi il servizio di Gmail che permette l'aggiunta di ulteriori account di posta eterni a Gmail (_fetchmailing_), è possibile riscontrare l'errore ``Connection refused`` utilizzando il parametro `pop.ewake.it` in abbinamento alla connessione SSL sulla porta 995.
 
 Come indicato `qui <https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion>`_, l'errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.
 
