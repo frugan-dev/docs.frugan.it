@@ -4,11 +4,13 @@ Configurazione di Apache
 I web server di hosting `EWake <https://ewake.it>`_ utilizzano le configurazioni Apache del progetto `H5BP <https://h5bp.github.io>`_.
 La versione del modulo H5BP attualmente utilizzata è scaricabile all'indirizzo https://public.ewake.it.
 
+Inoltre è abilitato di default il modulo PageSpeed di Google, di cui si rimanda alla `documentazione ufficiale <https://developers.google.com/speed/pagespeed/module/>`_.
+
 
 .htaccess di default
 ====================
 
-Di seguito il codice del file *.htaccess* utilizzato in fase di creazione di ogni dominio::
+Di seguito il codice del file *.htaccess* utilizzato in fase di creazione di ogni dominio ospitato presso `EWake <https://ewake.it>`_::
 
 	# ##########################################################
 	# PHP Values                                               #
@@ -288,13 +290,13 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+.. attention:: Il filtro `insert_ga`, che è abilitato di default, sembra non funzionare con PHP in modalità PHP-FPM.
 
 
 .user.ini di default
 ====================
 
-Di seguito il codice del file *.user.ini* utilizzato in fase di creazione di ogni dominio::
+Di seguito il codice del file *.user.ini* utilizzato in fase di creazione di ogni dominio ospitato presso `EWake <https://ewake.it>`_::
 
 	;date.timezone = 'Europe/Rome'
 
@@ -335,13 +337,13 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+.. attention:: Il file `.user.ini` viene utilizzato solo con PHP in modalità CGI o FastCGI; ed ha un tempo di cache di **300 secondi**.
 
 
 robots.txt di default
 =====================
 
-Di seguito il codice del file *robots.txt* utilizzato in fase di creazione di ogni dominio::
+Di seguito il codice del file *robots.txt* utilizzato in fase di creazione di ogni dominio ospitato presso `EWake <https://ewake.it>`_::
 
 	# www.robotstxt.org/
 	
