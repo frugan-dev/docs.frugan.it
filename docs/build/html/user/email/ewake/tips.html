@@ -72,6 +72,38 @@
 <li>non archiviare mai le email indesiderate, altrimenti il filtro antispam classifica come <em>desiderata</em> anche la posta che dovrebbe essere <em>indesiderata</em></li>
 </ul>
 </div>
+<div class="section" id="recupero-della-posta-esterna-da-gmail">
+<h2>Recupero della posta esterna da Gmail<a class="headerlink" href="#recupero-della-posta-esterna-da-gmail" title="Link a questa intestazione">¶</a></h2>
+<p>Nel caso in cui si utilizzi il servizio di Gmail che permette l&#8217;aggiunta di ulteriori account di posta eterni a Gmail (<em>fetchmailing</em>), è possibile riscontrare l&#8217;errore <code class="docutils literal"><span class="pre">Connection</span> <span class="pre">refused</span></code> utilizzando il parametro <code class="xref py py-obj docutils literal"><span class="pre">pop.ewake.it</span></code> in abbinamento alla connessione SSL sulla porta 995.</p>
+<p>Come indicato <a class="reference external" href="https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion">qui</a>, l&#8217;errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.</p>
+<img alt="../../../_images/gmail.png" src="../../../_images/gmail.png" />
+<p>Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="55%" />
+<col width="45%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="2">Posta in arrivo - POP3</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Server</td>
+<td>pop.domain.tld</td>
+</tr>
+<tr class="row-odd"><td>Porte</td>
+<td>110</td>
+</tr>
+<tr class="row-even"><td>Connessione protetta</td>
+<td>no</td>
+</tr>
+<tr class="row-odd"><td>Autenticazione</td>
+<td>password normale</td>
+</tr>
+</tbody>
+</table>
+<p>dove <code class="xref py py-obj docutils literal"><span class="pre">domain.tld</span></code> corrisponde al dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>.</p>
+</div>
 </div>
 
 
@@ -84,6 +116,7 @@
   <ul>
 <li><a class="reference internal" href="#">Suggerimenti</a><ul>
 <li><a class="reference internal" href="#gestione-dello-spam">Gestione dello SPAM</a></li>
+<li><a class="reference internal" href="#recupero-della-posta-esterna-da-gmail">Recupero della posta esterna da Gmail</a></li>
 </ul>
 </li>
 </ul>

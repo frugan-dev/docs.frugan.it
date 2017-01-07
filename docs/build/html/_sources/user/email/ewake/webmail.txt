@@ -28,15 +28,16 @@ Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hell
 
 Sono inoltre disponibili altre webmail secondarie ai seguenti indirizzi:
 
-- `http://domain.tld/webmail2` (AfterLogic WebMail Lite)
-- `http://domain.tld/webmail3` (RainLoop Webmail Community ed.)
-- `http://domain.tld/webmail4` (SquirrelMail)
+- `http://webmail2.domain.tld` (AfterLogic WebMail Lite)
+- `http://webmail3.domain.tld` (RainLoop Webmail Community ed.)
+- `http://webmail4.domain.tld` (SquirrelMail)
 
 .. 
-	- `http://domain.tld/webmail` (MailPile) https://www.mailpile.is Python opensource
-	- `http://domain.tld/webmail` (Tutanota) https://tutanota.com NodeJs encryped mail opensource
-	- `http://domain.tld/webmail` (Cypht) https://cypht.org PHP multiple accounts opensource
-	- `http://domain.tld/webmail` (Horde) https://www.horde.org suite
+	- `http://webmailN.domain.tld` (MailPile) https://www.mailpile.is Python opensource
+	- `http://webmailN.domain.tld` (Tutanota) https://tutanota.com NodeJs encryped mail opensource
+	- `http://webmailN.domain.tld` (Cypht) https://cypht.org PHP multiple accounts opensource
+	- `http://webmailN.domain.tld` (Horde) https://www.horde.org suite
+	- `http://webmailN.domain.tld` (phlyMail) https://phlymail.com
 	
 .. 
 	attention (Attenzione)
