@@ -5,7 +5,7 @@ Per abilitare un certificato SSL `Let’s Encrypt <https://letsencrypt.org>`_ su
 
 - seguire le istruzioni per l':ref:`user-domain-admin-ref1`
 - andare alla sezione **Sites** e cliccare sul dominio interessato
-- spuntare l'opzione **Let's Encrypt SSL**
+- spuntare l'opzione **Let's Encrypt**
 
 .. image:: /assets/img/domain/ssl/letsencrypt.png
 
