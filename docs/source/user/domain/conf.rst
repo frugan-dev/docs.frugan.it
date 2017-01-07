@@ -290,7 +290,7 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. attention:: Il filtro `insert_ga`, che è abilitato di default, sembra non funzionare con PHP in modalità PHP-FPM.
+.. attention:: Il filtro `insert_ga`, che è abilitato di default, per ora sembra non funzionare con PHP in modalità PHP-FPM.
 
 
 .user.ini di default
@@ -337,7 +337,7 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. attention:: Il file *.user.ini* viene utilizzato solo con PHP in modalità CGI o FastCGI; ed ha un tempo di cache di **300 secondi**.
+.. attention:: Il file *.user.ini* viene utilizzato solo con PHP in modalità CGI, FastCGI o PHP-FPM, ed ha un tempo di cache di **300 secondi**. In alcuni casi è necessario anche il riavvio del server PHP-FPM via jailshell.
 
 
 robots.txt di default
