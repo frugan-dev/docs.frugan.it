@@ -18,4 +18,4 @@ Quando clicco su *Salva* il sistema toglie la spunta da *Let’s Encrypt SSL* e 
 
 Per attivare i certificati `Let’s Encrypt <https://letsencrypt.org>`_ è necessario che i record DNS siano correttamente propagati; inoltre è possibile che siano state superate `alcune limitazioni temporanee <https://letsencrypt.org/docs/rate-limits/>`_.
 
-In ogni caso vedi :ref:`user-faq-ref1`.
+In ogni caso ti consigliamo di attendere qualche ora oppure vedi :ref:`user-faq-ref1`.
