@@ -1,9 +1,9 @@
 .. _user-domain-admin-ref1:
 
-Acceso alla pannello di gestione hosting
-========================================
+Acceso alla pannello di gestione dei servizi 
+============================================
 
-Il pannello di controllo per la gestione dei propri servizi in hosting presso `EWake <https://ewake.it>`_ è raggiungibile al seguente indirizzo:
+Il pannello di controllo per la gestione dei propri servizi presso `EWake <https://ewake.it>`_ è raggiungibile al seguente indirizzo:
 
 - `http://admin.domain.tld`
 
