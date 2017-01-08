@@ -337,7 +337,7 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. attention:: Il file *.user.ini* viene utilizzato solo con PHP in modalità CGI, FastCGI o PHP-FPM, ed ha un tempo di cache di **300 secondi**. In alcuni casi è necessario anche il riavvio del server PHP-FPM via jailshell.
+.. note:: Il file *.user.ini* viene utilizzato solo con PHP in modalità CGI, FastCGI o PHP-FPM, ed ha un tempo di cache di **300 secondi**. In alcuni casi è necessario anche il riavvio del server PHP-FPM via jailshell.
 
 
 robots.txt di default
