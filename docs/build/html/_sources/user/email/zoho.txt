@@ -36,7 +36,7 @@ I parametri necessari per l'autenticazione ai server di posta `Zoho <https://www
 +-------------------------------------------------------------------------+
 | Posta in arrivo - IMAP                                                  |
 +======================+==================================================+
-| Server               | imappro.zoho.com *(consigliata)* o imap.zoho.com |
+| Server               | imap.zoho.com *(consigliata)* o imappro.zoho.com |
 +----------------------+--------------------------------------------------+
 | Porta                | 993                                              |
 +----------------------+--------------------------------------------------+
@@ -48,7 +48,7 @@ I parametri necessari per l'autenticazione ai server di posta `Zoho <https://www
 +-----------------------------------------------------------------------+
 | Posta in arrivo - POP3                                                |
 +======================+================================================+
-| Server               | poppro.zoho.com *(consigliata)* o pop.zoho.com |
+| Server               | pop.zoho.com *(consigliata)* o poppro.zoho.com |
 +----------------------+------------------------------------------------+
 | Porta                | 995                                            |
 +----------------------+------------------------------------------------+
