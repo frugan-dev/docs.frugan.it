@@ -37,7 +37,7 @@ Temporanemente è possibile risolvere il problema utilizzando i seguenti paramet
 +-----------------------------------------+
 | Posta in arrivo - POP3                  |
 +======================+==================+
-| Server               | mail.domain.tld   |
+| Server               | mail.domain.tld  |
 +----------------------+------------------+
 | Porte                | 110              |
 +----------------------+------------------+
