@@ -19,25 +19,41 @@ Lato utente è quindi di fondamentale importanza:
 - non archiviare mai le email indesiderate, altrimenti il filtro antispam classifica come *desiderata* anche la posta che dovrebbe essere *indesiderata*
 
 
-Recupero della posta esterna da Gmail 
--------------------------------------
+Recupero e invio della posta esterna tramite Gmail 
+--------------------------------------------------
 
 Nel caso in cui si utilizzi il servizio di Gmail che permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchmailing*), è possibile riscontrare l'errore ``Connection refused`` utilizzando il parametro `pop.ewake.it` in abbinamento alla connessione SSL sulla porta 995.
 
+Il problema su Gmail si presenta analogamente anche con la configurazione della posta in uscita per gli stessi account esterni. 
+
 Come indicato `qui <https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion>`_, l'errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.
 
-.. image:: /assets/img/email/ewake/tips/gmail.png
+.. image:: /assets/img/email/ewake/tips/gmail_incoming.png
+
+.. image:: /assets/img/email/ewake/tips/gmail_outgoing.png
 
 Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:
 
 +-----------------------------------------+
 | Posta in arrivo - POP3                  |
 +======================+==================+
-| Server               | pop.domain.tld   |
+| Server               | mail.domain.tld   |
 +----------------------+------------------+
 | Porte                | 110              |
 +----------------------+------------------+
 | Connessione protetta | no               |
++----------------------+------------------+
+| Autenticazione       | password normale |
++----------------------+------------------+
+
++-----------------------------------------+
+| Posta in uscita - SMTP                  |
++======================+==================+
+| Server               | mail.domain.tld  |
++----------------------+------------------+
+| Porte                | 587              |
++----------------------+------------------+
+| Connessione protetta | TLS              |
 +----------------------+------------------+
 | Autenticazione       | password normale |
 +----------------------+------------------+
