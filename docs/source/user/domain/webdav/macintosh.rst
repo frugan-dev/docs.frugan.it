@@ -1,5 +1,5 @@
-Mac
-===
+Macintosh
+=========
 
 On a Mac, open *Finder*. On the menu bar, find *Go* and select the option *Connect to Server*.
 

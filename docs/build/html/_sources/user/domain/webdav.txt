@@ -22,6 +22,6 @@ Di seguito sono elencate anche le istruzioni dettagliate per la configurazione s
 .. toctree:: 
    :maxdepth: 1
 
-   webdav/mac
+   webdav/macintosh
    webdav/windows
    webdav/linux
