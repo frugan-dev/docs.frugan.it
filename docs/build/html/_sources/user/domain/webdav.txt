@@ -8,7 +8,7 @@ Se si dispone di un account WebDAV `EWake <https://ewake.it>`_ è possibile aute
 +======================+=====================================================================+
 | Server               | davs://`domain.tld`/webdav/`directory` - *(Mac, Linux)*             |
 |                      |                                                                     |
-|                      | davs://`username`\@`domain.tld`/webdav/`directory` - *(Mac, Linux)* |
+|                      | davs://`username`@\`domain.tld`/webdav/`directory` - *(Mac, Linux)* |
 |                      |                                                                     |
 |                      | \https://`domain.tld`/webdav/`directory` - *(Windows, browser)*     |
 +----------------------+---------------------------------------------------------------------+
