@@ -1,0 +1,14 @@
+# https://www.gitignore.io
+
+# Custom
+/VAR/
+/.settings/
+/.buildpath
+/.project
+
+**/stats/
+
+
+# Various
+Thumbs.db
+*.log
