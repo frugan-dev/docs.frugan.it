@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Supporto EWake'
-copyright = u'2016, EWake'
+copyright = u'2018, EWake'
 author = u'EWake'
 
 # The version info for the project you're documenting, acts as replacement for
