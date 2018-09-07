@@ -24,7 +24,7 @@ Recupero e invio della posta esterna tramite Gmail
 
 Gmail permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchmailing*) sia in arrivo che in uscita. 
 
-È possibile quindi utilizzare Gmail per collegarsi ai server di posta `EWake <https://ewake.it>`_, impostando gli stessi parametri riportati in :ref:`email-conf-ref1`.
+È possibile quindi utilizzare Gmail per collegarsi ai server di posta `EWake <https://ewake.it>`_, impostando gli stessi parametri riportati in :ref:`user-email-ewake-conf-ref1`.
 
 Di seguito alcune schermate indicative:
 
