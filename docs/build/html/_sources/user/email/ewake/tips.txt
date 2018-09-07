@@ -28,7 +28,7 @@ Gmail permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchm
 
 .. image:: /assets/img/email/ewake/tips/gmail_account.png
 
-e impostando gli stessi parametri riportati in :ref:`user-email-ewake-conf-ref1` sia per la posta in arrivo:
+e impostando gli stessi parametri riportati in :ref:`user-email-ewake-conf-ref1`, sia per la posta in arrivo:
 
 .. image:: /assets/img/email/ewake/tips/gmail_incoming_1.png
 
