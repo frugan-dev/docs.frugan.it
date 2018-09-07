@@ -26,11 +26,13 @@ Gmail permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchm
 
 È possibile quindi utilizzare Gmail per collegarsi ai server di posta `EWake <https://ewake.it>`_, impostando gli stessi parametri riportati in :ref:`user-email-ewake-conf-ref1`.
 
-Di seguito alcune schermate indicative:
+Di seguito le schermate realtive alla posta in arrivo:
 
 .. image:: /assets/img/email/ewake/tips/gmail_incoming_1.png
 
 .. image:: /assets/img/email/ewake/tips/gmail_incoming_2.png
+
+E quelle relative alla posta in uscita:
 
 .. image:: /assets/img/email/ewake/tips/gmail_outgoing_1.png
 
