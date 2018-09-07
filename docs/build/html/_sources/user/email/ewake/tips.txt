@@ -37,7 +37,7 @@ Di seguito alcune schermate indicative:
 .. image:: /assets/img/email/ewake/tips/gmail_outgoing_2.png
 
 
-Errore ``Connection refused`` su Gmail 
+Errore *Connection refused* su Gmail 
 --------------------------------------------------
 
 Se si utilizza Gmail per collegarsi ai server di posta `EWake <https://ewake.it>`_, è possibile riscontrare l'errore ``Connection refused`` con il parametro `pop.ewake.it` in abbinamento alla connessione SSL sulla porta 995.
