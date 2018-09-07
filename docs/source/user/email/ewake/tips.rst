@@ -29,11 +29,8 @@ Gmail permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchm
 Di seguito alcune schermate indicative:
 
 .. image:: /assets/img/email/ewake/tips/gmail_incoming_1.png
-
 .. image:: /assets/img/email/ewake/tips/gmail_incoming_2.png
-
 .. image:: /assets/img/email/ewake/tips/gmail_outgoing_1.png
-
 .. image:: /assets/img/email/ewake/tips/gmail_outgoing_2.png
 
 
@@ -47,7 +44,6 @@ Il problema su Gmail si presenta analogamente anche con la configurazione della 
 Come indicato `qui <https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion>`_, l'errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.
 
 .. image:: /assets/img/email/ewake/tips/gmail_incoming_fix.png
-
 .. image:: /assets/img/email/ewake/tips/gmail_outgoing_fix.png
 
 Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:
