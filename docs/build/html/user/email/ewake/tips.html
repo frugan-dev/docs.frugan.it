@@ -74,11 +74,21 @@
 </div>
 <div class="section" id="recupero-e-invio-della-posta-esterna-tramite-gmail">
 <h2>Recupero e invio della posta esterna tramite Gmail<a class="headerlink" href="#recupero-e-invio-della-posta-esterna-tramite-gmail" title="Link a questa intestazione">¶</a></h2>
-<p>Nel caso in cui si utilizzi il servizio di Gmail che permette l&#8217;aggiunta di ulteriori account di posta esterni a Gmail (<em>fetchmailing</em>), è possibile riscontrare l&#8217;errore <code class="docutils literal"><span class="pre">Connection</span> <span class="pre">refused</span></code> utilizzando il parametro <code class="xref py py-obj docutils literal"><span class="pre">pop.ewake.it</span></code> in abbinamento alla connessione SSL sulla porta 995.</p>
+<p>Gmail permette l&#8217;aggiunta di ulteriori account di posta esterni a Gmail (<em>fetchmailing</em>) sia in arrivo che in uscita.</p>
+<p>È possibile quindi utilizzare Gmail per collegarsi ai server di posta <a class="reference external" href="https://ewake.it">EWake</a>, impostando gli stessi parametri riportati in <span class="xref std std-ref">email-conf-ref1</span>.</p>
+<p>Di seguito alcune schermate indicative:</p>
+<img alt="../../../_images/gmail_incoming_1.png" src="../../../_images/gmail_incoming_1.png" />
+<img alt="../../../_images/gmail_incoming_2.png" src="../../../_images/gmail_incoming_2.png" />
+<img alt="../../../_images/gmail_outgoing_1.png" src="../../../_images/gmail_outgoing_1.png" />
+<img alt="../../../_images/gmail_outgoing_2.png" src="../../../_images/gmail_outgoing_2.png" />
+</div>
+<div class="section" id="errore-connection-refused-su-gmail">
+<h2>Errore <code class="docutils literal"><span class="pre">Connection</span> <span class="pre">refused</span></code> su Gmail<a class="headerlink" href="#errore-connection-refused-su-gmail" title="Link a questa intestazione">¶</a></h2>
+<p>Se si utilizza Gmail per collegarsi ai server di posta <a class="reference external" href="https://ewake.it">EWake</a>, è possibile riscontrare l&#8217;errore <code class="docutils literal"><span class="pre">Connection</span> <span class="pre">refused</span></code> con il parametro <code class="xref py py-obj docutils literal"><span class="pre">pop.ewake.it</span></code> in abbinamento alla connessione SSL sulla porta 995.</p>
 <p>Il problema su Gmail si presenta analogamente anche con la configurazione della posta in uscita per gli stessi account esterni.</p>
 <p>Come indicato <a class="reference external" href="https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion">qui</a>, l&#8217;errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.</p>
-<img alt="../../../_images/gmail_incoming.png" src="../../../_images/gmail_incoming.png" />
-<img alt="../../../_images/gmail_outgoing.png" src="../../../_images/gmail_outgoing.png" />
+<img alt="../../../_images/gmail_incoming_fix.png" src="../../../_images/gmail_incoming_fix.png" />
+<img alt="../../../_images/gmail_outgoing_fix.png" src="../../../_images/gmail_outgoing_fix.png" />
 <p>Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:</p>
 <table border="1" class="docutils">
 <colgroup>
@@ -143,6 +153,7 @@
 <li><a class="reference internal" href="#">Suggerimenti</a><ul>
 <li><a class="reference internal" href="#gestione-dello-spam">Gestione dello SPAM</a></li>
 <li><a class="reference internal" href="#recupero-e-invio-della-posta-esterna-tramite-gmail">Recupero e invio della posta esterna tramite Gmail</a></li>
+<li><a class="reference internal" href="#errore-connection-refused-su-gmail">Errore <code class="docutils literal"><span class="pre">Connection</span> <span class="pre">refused</span></code> su Gmail</a></li>
 </ul>
 </li>
 </ul>

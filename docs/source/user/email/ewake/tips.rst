@@ -22,15 +22,33 @@ Lato utente è quindi di fondamentale importanza:
 Recupero e invio della posta esterna tramite Gmail 
 --------------------------------------------------
 
-Nel caso in cui si utilizzi il servizio di Gmail che permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchmailing*), è possibile riscontrare l'errore ``Connection refused`` utilizzando il parametro `pop.ewake.it` in abbinamento alla connessione SSL sulla porta 995.
+Gmail permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchmailing*) sia in arrivo che in uscita. 
+
+È possibile quindi utilizzare Gmail per collegarsi ai server di posta `EWake <https://ewake.it>`_, impostando gli stessi parametri riportati in :ref:`email-conf-ref1`.
+
+Di seguito alcune schermate indicative:
+
+.. image:: /assets/img/email/ewake/tips/gmail_incoming_1.png
+
+.. image:: /assets/img/email/ewake/tips/gmail_incoming_2.png
+
+.. image:: /assets/img/email/ewake/tips/gmail_outgoing_1.png
+
+.. image:: /assets/img/email/ewake/tips/gmail_outgoing_2.png
+
+
+Errore ``Connection refused`` su Gmail 
+--------------------------------------------------
+
+Se si utilizza Gmail per collegarsi ai server di posta `EWake <https://ewake.it>`_, è possibile riscontrare l'errore ``Connection refused`` con il parametro `pop.ewake.it` in abbinamento alla connessione SSL sulla porta 995.
 
 Il problema su Gmail si presenta analogamente anche con la configurazione della posta in uscita per gli stessi account esterni. 
 
 Come indicato `qui <https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion>`_, l'errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.
 
-.. image:: /assets/img/email/ewake/tips/gmail_incoming.png
+.. image:: /assets/img/email/ewake/tips/gmail_incoming_fix.png
 
-.. image:: /assets/img/email/ewake/tips/gmail_outgoing.png
+.. image:: /assets/img/email/ewake/tips/gmail_outgoing_fix.png
 
 Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:
 
