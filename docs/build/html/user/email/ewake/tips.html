@@ -1,36 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="it">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Suggerimenti &mdash; Supporto EWake 0.1.0 documentazione</title>
-    
-    <link rel="stylesheet" href="../../../_static/classic.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suggerimenti &#8212; Supporto EWake 0.1.0 documentazione</title>
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/style.css" type="text/css" />
     
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../../',
-        VERSION:     '0.1.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
-    <script type="text/javascript" src="../../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../../_static/translations.js"></script>
-    <link rel="top" title="Supporto EWake 0.1.0 documentazione" href="../../../index.html" />
-    <link rel="up" title="EWake" href="../ewake.html" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/translations.js"></script>
+    
+    <link rel="index" title="Indice" href="../../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../../search.html" />
     <link rel="next" title="EWake Zimbra" href="../zimbra.html" />
     <link rel="prev" title="Thunderbird LDAP Addressbook" href="ldap/thunderbird_addressbook.html" /> 
-  </head>
-  <body role="document">
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigazione</h3>
       <ul>
@@ -43,9 +33,10 @@
         <li class="right" >
           <a href="ldap/thunderbird_addressbook.html" title="Thunderbird LDAP Addressbook"
              accesskey="P">precedente</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../../index.html">Supporto EWake 0.1.0 documentazione</a> &raquo;</li>
-          <li class="nav-item nav-item-1"><a href="../../email.html" >Email</a> &raquo;</li>
-          <li class="nav-item nav-item-2"><a href="../ewake.html" accesskey="U">EWake</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../../../index.html">Supporto EWake 0.1.0 documentazione</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../email.html" >Email</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../ewake.html" accesskey="U">EWake</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Suggerimenti</a></li> 
       </ul>
     </div>  
 
@@ -61,23 +52,23 @@
 <p>La lotta allo SPAM può avere successo solo se si opera su più fronti: lato server e lato utente.</p>
 <p>Sui server di posta avvengono dei processi automatici, generalmente notturni, che:</p>
 <ul class="simple">
-<li>classificano come indesiderate tutte le email presenti nelle cartelle SPAM degli utenti</li>
-<li>classificano come desiderate tutte le email presenti nelle cartelle ARCHIVIO degli utenti</li>
-<li>cancellano le email più vecchie di 90 giorni presenti nelle cartelle SPAM degli utenti</li>
+<li><p>classificano come indesiderate tutte le email presenti nelle cartelle SPAM degli utenti</p></li>
+<li><p>classificano come desiderate tutte le email presenti nelle cartelle ARCHIVIO degli utenti</p></li>
+<li><p>cancellano le email più vecchie di 90 giorni presenti nelle cartelle SPAM degli utenti</p></li>
 </ul>
 <p>Lato utente è quindi di fondamentale importanza:</p>
 <ul class="simple">
-<li>non cancellare o spostare nel cestino le email indesiderate, ma spostarle nella cartella SPAM, altrimenti il filtro antispam non impara a classificare la posta indesiderata</li>
-<li>utilizzare la funzione “Archivio” presente sia nelle più comuni webmail che nei client di posta (Outlook, Thunderbird, etc.) per tutte le email desiderate, in modo da evitare i falsi positivi del filtro antispam</li>
-<li>non archiviare mai le email indesiderate, altrimenti il filtro antispam classifica come <em>desiderata</em> anche la posta che dovrebbe essere <em>indesiderata</em></li>
+<li><p>non cancellare o spostare nel cestino le email indesiderate, ma spostarle nella cartella SPAM, altrimenti il filtro antispam non impara a classificare la posta indesiderata</p></li>
+<li><p>utilizzare la funzione “Archivio” presente sia nelle più comuni webmail che nei client di posta (Outlook, Thunderbird, etc.) per tutte le email desiderate, in modo da evitare i falsi positivi del filtro antispam</p></li>
+<li><p>non archiviare mai le email indesiderate, altrimenti il filtro antispam classifica come <em>desiderata</em> anche la posta che dovrebbe essere <em>indesiderata</em></p></li>
 </ul>
 </div>
 <div class="section" id="recupero-e-invio-della-posta-esterna-tramite-gmail">
 <h2>Recupero e invio della posta esterna tramite Gmail<a class="headerlink" href="#recupero-e-invio-della-posta-esterna-tramite-gmail" title="Link a questa intestazione">¶</a></h2>
-<p>Gmail permette l&#8217;aggiunta di ulteriori account di posta esterni a Gmail (<em>fetchmailing</em>) sia in arrivo che in uscita.</p>
+<p>Gmail permette l’aggiunta di ulteriori account di posta esterni a Gmail (<em>fetchmailing</em>) sia in arrivo che in uscita.</p>
 <p>È possibile quindi utilizzare Gmail per collegarsi ai server di posta <a class="reference external" href="https://ewake.it">EWake</a>, andando nelle impostazioni di Gmail:</p>
 <img alt="../../../_images/gmail_account.png" src="../../../_images/gmail_account.png" />
-<p>e impostando gli stessi parametri riportati in <a class="reference internal" href="conf.html#user-email-ewake-conf-ref1"><span>Configurazione dei client di posta</span></a>, sia per la posta in arrivo:</p>
+<p>e impostando gli stessi parametri riportati in <a class="reference internal" href="conf.html#user-email-ewake-conf-ref1"><span class="std std-ref">Configurazione dei client di posta</span></a>, sia per la posta in arrivo:</p>
 <img alt="../../../_images/gmail_incoming_1.png" src="../../../_images/gmail_incoming_1.png" />
 <img alt="../../../_images/gmail_incoming_2.png" src="../../../_images/gmail_incoming_2.png" />
 <p>che per la posta in uscita:</p>
@@ -86,71 +77,72 @@
 </div>
 <div class="section" id="errore-connection-refused-su-gmail">
 <h2>Errore <em>Connection refused</em> su Gmail<a class="headerlink" href="#errore-connection-refused-su-gmail" title="Link a questa intestazione">¶</a></h2>
-<p>Se si utilizza Gmail per collegarsi ai server di posta <a class="reference external" href="https://ewake.it">EWake</a>, è possibile riscontrare l&#8217;errore <code class="docutils literal"><span class="pre">Connection</span> <span class="pre">refused</span></code> con il parametro <code class="xref py py-obj docutils literal"><span class="pre">pop.ewake.it</span></code> in abbinamento alla connessione SSL sulla porta 995.</p>
+<p>Se si utilizza Gmail per collegarsi ai server di posta <a class="reference external" href="https://ewake.it">EWake</a>, è possibile riscontrare l’errore <code class="docutils literal notranslate"><span class="pre">Connection</span> <span class="pre">refused</span></code> con il parametro <code class="xref py py-obj docutils literal notranslate"><span class="pre">pop.ewake.it</span></code> in abbinamento alla connessione SSL sulla porta 995.</p>
 <p>Il problema su Gmail si presenta analogamente anche con la configurazione della posta in uscita per gli stessi account esterni.</p>
-<p>Come indicato <a class="reference external" href="https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion">qui</a>, l&#8217;errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.</p>
+<p>Come indicato <a class="reference external" href="https://productforums.google.com/forum/#!topic/gmail-it/HYLhxAMltXY/discussion">qui</a>, l’errore sembra dipendere da problemi di risoluzione dei DNS da parte di Google.</p>
 <img alt="../../../_images/gmail_incoming_fix.png" src="../../../_images/gmail_incoming_fix.png" />
 <img alt="../../../_images/gmail_outgoing_fix.png" src="../../../_images/gmail_outgoing_fix.png" />
 <p>Temporanemente è possibile risolvere il problema utilizzando i seguenti parametri alternativi:</p>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="55%" />
-<col width="45%" />
+<col style="width: 55%" />
+<col style="width: 45%" />
 </colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head" colspan="2">Posta in arrivo - POP3</th>
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Posta in arrivo - POP3</p></th>
 </tr>
 </thead>
-<tbody valign="top">
-<tr class="row-even"><td>Server</td>
-<td>mail.domain.tld</td>
+<tbody>
+<tr class="row-even"><td><p>Server</p></td>
+<td><p>mail.domain.tld</p></td>
 </tr>
-<tr class="row-odd"><td>Porte</td>
-<td>110</td>
+<tr class="row-odd"><td><p>Porte</p></td>
+<td><p>110</p></td>
 </tr>
-<tr class="row-even"><td>Connessione protetta</td>
-<td>no</td>
+<tr class="row-even"><td><p>Connessione protetta</p></td>
+<td><p>no</p></td>
 </tr>
-<tr class="row-odd"><td>Autenticazione</td>
-<td>password normale</td>
+<tr class="row-odd"><td><p>Autenticazione</p></td>
+<td><p>password normale</p></td>
 </tr>
 </tbody>
 </table>
-<table border="1" class="docutils">
+<table class="docutils align-default">
 <colgroup>
-<col width="55%" />
-<col width="45%" />
+<col style="width: 55%" />
+<col style="width: 45%" />
 </colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head" colspan="2">Posta in uscita - SMTP</th>
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Posta in uscita - SMTP</p></th>
 </tr>
 </thead>
-<tbody valign="top">
-<tr class="row-even"><td>Server</td>
-<td>mail.domain.tld</td>
+<tbody>
+<tr class="row-even"><td><p>Server</p></td>
+<td><p>mail.domain.tld</p></td>
 </tr>
-<tr class="row-odd"><td>Porte</td>
-<td>587</td>
+<tr class="row-odd"><td><p>Porte</p></td>
+<td><p>587</p></td>
 </tr>
-<tr class="row-even"><td>Connessione protetta</td>
-<td>TLS</td>
+<tr class="row-even"><td><p>Connessione protetta</p></td>
+<td><p>TLS</p></td>
 </tr>
-<tr class="row-odd"><td>Autenticazione</td>
-<td>password normale</td>
+<tr class="row-odd"><td><p>Autenticazione</p></td>
+<td><p>password normale</p></td>
 </tr>
 </tbody>
 </table>
-<p>dove <code class="xref py py-obj docutils literal"><span class="pre">domain.tld</span></code> corrisponde al dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>.</p>
+<p>dove <code class="xref py py-obj docutils literal notranslate"><span class="pre">domain.tld</span></code> corrisponde al dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>.</p>
 </div>
 </div>
 
 
+            <div class="clearer"></div>
           </div>
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="../../../index.html">Tabella dei contenuti</a></h3>
+  <h3><a href="../../../index.html">Table of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Suggerimenti</a><ul>
 <li><a class="reference internal" href="#gestione-dello-spam">Gestione dello SPAM</a></li>
@@ -169,23 +161,20 @@
   <div role="note" aria-label="source link">
     <h3>Questa pagina</h3>
     <ul class="this-page-menu">
-      <li><a href="../../../_sources/user/email/ewake/tips.txt"
+      <li><a href="../../../_sources/user/email/ewake/tips.rst.txt"
             rel="nofollow">Mostra sorgente</a></li>
     </ul>
    </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Ricerca veloce</h3>
+  <h3 id="searchlabel">Ricerca veloce</h3>
+    <div class="searchformwrapper">
     <form class="search" action="../../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Vai" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Inserisci un termine di ricerca un modulo, classe o nome di funzione
-    </p>
+    </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -202,14 +191,15 @@
         <li class="right" >
           <a href="ldap/thunderbird_addressbook.html" title="Thunderbird LDAP Addressbook"
              >precedente</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../../index.html">Supporto EWake 0.1.0 documentazione</a> &raquo;</li>
-          <li class="nav-item nav-item-1"><a href="../../email.html" >Email</a> &raquo;</li>
-          <li class="nav-item nav-item-2"><a href="../ewake.html" >EWake</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../../../index.html">Supporto EWake 0.1.0 documentazione</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../email.html" >Email</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../ewake.html" >EWake</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Suggerimenti</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &copy; Copyright 2018, EWake.
-      Creato con <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+        &#169; Copyright 2018, EWake.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.3.
     </div>
   </body>
 </html>

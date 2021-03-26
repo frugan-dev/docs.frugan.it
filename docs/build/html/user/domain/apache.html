@@ -1,36 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="it">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Configurazione di Apache &mdash; Supporto EWake 0.1.0 documentazione</title>
-    
-    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configurazione di Apache &#8212; Supporto EWake 0.1.0 documentazione</title>
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
     
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    '../../',
-        VERSION:     '0.1.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/translations.js"></script>
-    <link rel="top" title="Supporto EWake 0.1.0 documentazione" href="../../index.html" />
-    <link rel="up" title="Domini" href="../domain.html" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    
+    <link rel="index" title="Indice" href="../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../search.html" />
     <link rel="next" title="Server" href="../server.html" />
     <link rel="prev" title="Linux" href="webdav/linux.html" /> 
-  </head>
-  <body role="document">
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigazione</h3>
       <ul>
@@ -43,8 +33,9 @@
         <li class="right" >
           <a href="webdav/linux.html" title="Linux"
              accesskey="P">precedente</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../index.html">Supporto EWake 0.1.0 documentazione</a> &raquo;</li>
-          <li class="nav-item nav-item-1"><a href="../domain.html" accesskey="U">Domini</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../../index.html">Supporto EWake 0.1.0 documentazione</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../domain.html" accesskey="U">Domini</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Configurazione di Apache</a></li> 
       </ul>
     </div>  
 
@@ -56,338 +47,339 @@
   <div class="section" id="configurazione-di-apache">
 <h1>Configurazione di Apache<a class="headerlink" href="#configurazione-di-apache" title="Link a questa intestazione">¶</a></h1>
 <p>I web server di hosting <a class="reference external" href="https://ewake.it">EWake</a> utilizzano le configurazioni Apache del progetto <a class="reference external" href="https://h5bp.github.io">H5BP</a>.
-La versione del modulo H5BP attualmente utilizzata è scaricabile all&#8217;indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
 <p>Inoltre è abilitato di default il modulo PageSpeed di Google, di cui si rimanda alla <a class="reference external" href="https://developers.google.com/speed/pagespeed/module/">documentazione ufficiale</a>.</p>
 </div>
 <div class="section" id="htaccess-di-default">
 <h1>.htaccess di default<a class="headerlink" href="#htaccess-di-default" title="Link a questa intestazione">¶</a></h1>
 <p>Di seguito il codice del file <em>.htaccess</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
-<div class="highlight-python"><div class="highlight"><pre># ##########################################################
-# PHP Values                                               #
-# ##########################################################
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># ##########################################################</span>
+<span class="c1"># PHP Values                                               #</span>
+<span class="c1"># ##########################################################</span>
 
-php_value date.timezone Europe/Rome
+<span class="n">php_value</span> <span class="n">date</span><span class="o">.</span><span class="n">timezone</span> <span class="n">Europe</span><span class="o">/</span><span class="n">Rome</span>
 
 
-# ##########################################################
-# ModPagespeed                                             #
-# ##########################################################
+<span class="c1"># ##########################################################</span>
+<span class="c1"># ModPagespeed                                             #</span>
+<span class="c1"># ##########################################################</span>
 
-&lt;IfModule pagespeed_module&gt;
+<span class="o">&lt;</span><span class="n">IfModule</span> <span class="n">pagespeed_module</span><span class="o">&gt;</span>
 
 
-# ----------------------------------------------------------
-# Configuration                                            |
-# ----------------------------------------------------------
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># Configuration                                            |</span>
+<span class="c1"># ----------------------------------------------------------</span>
 
-# ModPagespeed off
+<span class="c1"># ModPagespeed off</span>
 
-# ModPagespeedAnalyticsID &lt;Analytics ID&gt;
+<span class="c1"># ModPagespeedAnalyticsID &lt;Analytics ID&gt;</span>
 
 
-# ----------------------------------------------------------
-# Core Filters                                             |
-# ----------------------------------------------------------
-# https://developers.google.com/speed/pagespeed/module/config_filters
-# Default: enabled.
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># Core Filters                                             |</span>
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># https://developers.google.com/speed/pagespeed/module/config_filters</span>
+<span class="c1"># Default: enabled.</span>
 
-# Adds a &lt;head&gt; element to the document if not already present.
-# ModPagespeedDisableFilters add_head
+<span class="c1"># Adds a &lt;head&gt; element to the document if not already present.</span>
+<span class="c1"># ModPagespeedDisableFilters add_head</span>
 
-# Combines multiple CSS elements into one.
-# ModPagespeedDisableFilters combine_css
+<span class="c1"># Combines multiple CSS elements into one.</span>
+<span class="c1"># ModPagespeedDisableFilters combine_css</span>
 
-# Combines multiple script elements into one.
-# ModPagespeedDisableFilters combine_javascript
+<span class="c1"># Combines multiple script elements into one.</span>
+<span class="c1"># ModPagespeedDisableFilters combine_javascript</span>
 
-# Implied by recompress_images. Optimizes gifs to pngs.
-# ModPagespeedDisableFilters convert_gif_to_png
+<span class="c1"># Implied by recompress_images. Optimizes gifs to pngs.</span>
+<span class="c1"># ModPagespeedDisableFilters convert_gif_to_png</span>
 
-# Adds a response header for each meta tag with an http-equiv attribute.
-# ModPagespeedDisableFilters convert_meta_tags
+<span class="c1"># Adds a response header for each meta tag with an http-equiv attribute.</span>
+<span class="c1"># ModPagespeedDisableFilters convert_meta_tags</span>
 
-# Converts larger jpegs to progressive format. Implied by recompress images.
-# ModPagespeedDisableFilters convert_jpeg_to_progressive
+<span class="c1"># Converts larger jpegs to progressive format. Implied by recompress images.</span>
+<span class="c1"># ModPagespeedDisableFilters convert_jpeg_to_progressive</span>
 
-# Producess lossy webp rather than jpeg images for browsers that support webp. Implied by recompress images.
-# ModPagespeedDisableFilters convert_jpeg_to_webp
+<span class="c1"># Producess lossy webp rather than jpeg images for browsers that support webp. Implied by recompress images.</span>
+<span class="c1"># ModPagespeedDisableFilters convert_jpeg_to_webp</span>
 
-# Converts gif and png images into jpegs if they appear to be less sensitive to compression artifacts and lack alpha transparency.
-# Implied by recompress images.
-# ModPagespeedDisableFilters convert_png_to_jpeg
+<span class="c1"># Converts gif and png images into jpegs if they appear to be less sensitive to compression artifacts and lack alpha transparency.</span>
+<span class="c1"># Implied by recompress images.</span>
+<span class="c1"># ModPagespeedDisableFilters convert_png_to_jpeg</span>
 
-# Implied by rewrite_images. Replaces png and non-animated gif images with webp images on browsers that support the format.
-# ModPagespeedDisableFilters convert_to_webp_lossless
+<span class="c1"># Implied by rewrite_images. Replaces png and non-animated gif images with webp images on browsers that support the format.</span>
+<span class="c1"># ModPagespeedDisableFilters convert_to_webp_lossless</span>
 
-# Extends cache lifetime of CSS, JS, and image resources that have not otherwise been optimized, by signing URLs with a content hash.
-# ModPagespeedDisableFilters extend_cache
+<span class="c1"># Extends cache lifetime of CSS, JS, and image resources that have not otherwise been optimized, by signing URLs with a content hash.</span>
+<span class="c1"># ModPagespeedDisableFilters extend_cache</span>
 
-# Implied by extend_cache. Extends cache lifetime of otherwise unoptimized CSS resources by signing URLs with a content hash.
-# ModPagespeedDisableFilters extend_cache_css
+<span class="c1"># Implied by extend_cache. Extends cache lifetime of otherwise unoptimized CSS resources by signing URLs with a content hash.</span>
+<span class="c1"># ModPagespeedDisableFilters extend_cache_css</span>
 
-# Implied by extend_cache. Extends cache lifetime of otherwise unoptimized images by signing URLs with a content hash.
-# ModPagespeedDisableFilters extend_cache_images
+<span class="c1"># Implied by extend_cache. Extends cache lifetime of otherwise unoptimized images by signing URLs with a content hash.</span>
+<span class="c1"># ModPagespeedDisableFilters extend_cache_images</span>
 
-# Implied by extend_cache. Extends cache lifetime of otherwise unoptimized scripts by signing URLs with a content hash.
-# ModPagespeedDisableFilters extend_cache_scripts
+<span class="c1"># Implied by extend_cache. Extends cache lifetime of otherwise unoptimized scripts by signing URLs with a content hash.</span>
+<span class="c1"># ModPagespeedDisableFilters extend_cache_scripts</span>
 
-# Rewrites resources referenced in any CSS file that cannot otherwise be parsed and minified.
-# ModPagespeedDisableFilters fallback_rewrite_css_urls
+<span class="c1"># Rewrites resources referenced in any CSS file that cannot otherwise be parsed and minified.</span>
+<span class="c1"># ModPagespeedDisableFilters fallback_rewrite_css_urls</span>
 
-# Inline CSS by flattening all @import rules.
-# ModPagespeedDisableFilters flatten_css_imports
+<span class="c1"># Inline CSS by flattening all @import rules.</span>
+<span class="c1"># ModPagespeedDisableFilters flatten_css_imports</span>
 
-# Implied by recompress_images. Reduces the color sampling of jpeg images to 4:2:0.
-# ModPagespeedDisableFilters jpeg_sampling
+<span class="c1"># Implied by recompress_images. Reduces the color sampling of jpeg images to 4:2:0.</span>
+<span class="c1"># ModPagespeedDisableFilters jpeg_sampling</span>
 
-# Inlines small CSS files into the HTML document.
-# ModPagespeedDisableFilters inline_css
+<span class="c1"># Inlines small CSS files into the HTML document.</span>
+<span class="c1"># ModPagespeedDisableFilters inline_css</span>
 
-# Implied by rewrite_images. Replaces small images by data: urls.
-# ModPagespeedDisableFilters inline_images
+<span class="c1"># Implied by rewrite_images. Replaces small images by data: urls.</span>
+<span class="c1"># ModPagespeedDisableFilters inline_images</span>
 
-# Inlines &lt;style&gt; tags comprising only CSS @imports by converting them to equivalent &lt;link&gt; tags.
-# ModPagespeedDisableFilters inline_import_to_link
+<span class="c1"># Inlines &lt;style&gt; tags comprising only CSS @imports by converting them to equivalent &lt;link&gt; tags.</span>
+<span class="c1"># ModPagespeedDisableFilters inline_import_to_link</span>
 
-# Inlines small JS files into the HTML document.
-# ModPagespeedDisableFilters inline_javascript
+<span class="c1"># Inlines small JS files into the HTML document.</span>
+<span class="c1"># ModPagespeedDisableFilters inline_javascript</span>
 
-# Implied by rewrite_images. Recompresses images, removing excess metadata and transforming gifs into pngs.
-# ModPagespeedDisableFilters recompress_images
+<span class="c1"># Implied by rewrite_images. Recompresses images, removing excess metadata and transforming gifs into pngs.</span>
+<span class="c1"># ModPagespeedDisableFilters recompress_images</span>
 
-# Implied by recompress_images. Recompresses jpegs, removing excess metadata.
-# ModPagespeedDisableFilters recompress_jpeg
+<span class="c1"># Implied by recompress_images. Recompresses jpegs, removing excess metadata.</span>
+<span class="c1"># ModPagespeedDisableFilters recompress_jpeg</span>
 
-# Implied by recompress_images. Recompresses pngs, removing excess metadata.
-# ModPagespeedDisableFilters recompress_png
+<span class="c1"># Implied by recompress_images. Recompresses pngs, removing excess metadata.</span>
+<span class="c1"># ModPagespeedDisableFilters recompress_png</span>
 
-# Implied by recompress_images. Recompresses webps, removing excess metadata.
-# ModPagespeedDisableFilters recompress_webp
+<span class="c1"># Implied by recompress_images. Recompresses webps, removing excess metadata.</span>
+<span class="c1"># ModPagespeedDisableFilters recompress_webp</span>
 
-# Implied by rewrite_images. Resizes images when the corresponding &lt;img&gt; tag specifies a smaller width and height.
-# ModPagespeedDisableFilters resize_images
+<span class="c1"># Implied by rewrite_images. Resizes images when the corresponding &lt;img&gt; tag specifies a smaller width and height.</span>
+<span class="c1"># ModPagespeedDisableFilters resize_images</span>
 
-# Implied by rewrite_images. Resizes an image when the rendered dimensions of the image are smaller than the actual image.
-# ModPagespeedDisableFilters resize_rendered_image_dimensions
+<span class="c1"># Implied by rewrite_images. Resizes an image when the rendered dimensions of the image are smaller than the actual image.</span>
+<span class="c1"># ModPagespeedDisableFilters resize_rendered_image_dimensions</span>
 
-# Rewrites CSS files to remove excess whitespace and comments, and, if enabled, rewrite or cache-extend images referenced in CSS files.
-# In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.
-# ModPagespeedDisableFilters rewrite_css
+<span class="c1"># Rewrites CSS files to remove excess whitespace and comments, and, if enabled, rewrite or cache-extend images referenced in CSS files.</span>
+<span class="c1"># In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.</span>
+<span class="c1"># ModPagespeedDisableFilters rewrite_css</span>
 
-# Optimizes images, re-encoding them, removing excess pixels, and inlining small images.
-# In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.
-# ModPagespeedDisableFilters rewrite_images
+<span class="c1"># Optimizes images, re-encoding them, removing excess pixels, and inlining small images.</span>
+<span class="c1"># In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.</span>
+<span class="c1"># ModPagespeedDisableFilters rewrite_images</span>
 
-# Rewrites JavaScript files to remove excess whitespace and comments.
-# In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.
-# ModPagespeedDisableFilters rewrite_javascript
+<span class="c1"># Rewrites JavaScript files to remove excess whitespace and comments.</span>
+<span class="c1"># In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.</span>
+<span class="c1"># ModPagespeedDisableFilters rewrite_javascript</span>
 
-# Implied by rewrite_javascript. Rewrites JavaScript external files to remove excess whitespace and comments.
-# In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.
-# ModPagespeedDisableFilters rewrite_javascript_external
+<span class="c1"># Implied by rewrite_javascript. Rewrites JavaScript external files to remove excess whitespace and comments.</span>
+<span class="c1"># In OptimizeForBandwidth mode, the minification occurs in-place without changing URLs.</span>
+<span class="c1"># ModPagespeedDisableFilters rewrite_javascript_external</span>
 
-# Implied by rewrite_javascript. Rewrites inline JavaScript blocks to remove excess whitespace and comments.
-# ModPagespeedDisableFilters rewrite_javascript_inline
+<span class="c1"># Implied by rewrite_javascript. Rewrites inline JavaScript blocks to remove excess whitespace and comments.</span>
+<span class="c1"># ModPagespeedDisableFilters rewrite_javascript_inline</span>
 
-# Rewrite the CSS in style attributes if it contains the text &#39;url(&#39; by applying the configured rewrite_css filter to it.
-# ModPagespeedDisableFilters rewrite_style_attributes_with_url
+<span class="c1"># Rewrite the CSS in style attributes if it contains the text &#39;url(&#39; by applying the configured rewrite_css filter to it.</span>
+<span class="c1"># ModPagespeedDisableFilters rewrite_style_attributes_with_url</span>
 
-# Implied by recompress_images. Strips color profile info from images.
-# ModPagespeedDisableFilters strip_image_color_profile
+<span class="c1"># Implied by recompress_images. Strips color profile info from images.</span>
+<span class="c1"># ModPagespeedDisableFilters strip_image_color_profile</span>
 
-# Implied by recompress_images. Strips EXIF meta data from images.
-# ModPagespeedDisableFilters strip_image_meta_data
+<span class="c1"># Implied by recompress_images. Strips EXIF meta data from images.</span>
+<span class="c1"># ModPagespeedDisableFilters strip_image_meta_data</span>
 
 
-# ----------------------------------------------------------
-# OptimizeForBandwidth Filters                             |
-# ----------------------------------------------------------
-# https://developers.google.com/speed/pagespeed/module/optimize-for-bandwidth
-# Default: disabled.
-# CoreFilters: rewrite_css, rewrite_javascript, rewrite_javascript_external, rewrite_javascript_inline, convert_jpeg_to_progressive, convert_png_to_jpeg, convert_jpeg_to_webp, recompress_images, recompress_jpeg, recompress_png, recompress_webp, convert_gif_to_png, strip_image_color_profile, strip_image_meta_data, jpeg_sampling
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># OptimizeForBandwidth Filters                             |</span>
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># https://developers.google.com/speed/pagespeed/module/optimize-for-bandwidth</span>
+<span class="c1"># Default: disabled.</span>
+<span class="c1"># CoreFilters: rewrite_css, rewrite_javascript, rewrite_javascript_external, rewrite_javascript_inline, convert_jpeg_to_progressive, convert_png_to_jpeg, convert_jpeg_to_webp, recompress_images, recompress_jpeg, recompress_png, recompress_webp, convert_gif_to_png, strip_image_color_profile, strip_image_meta_data, jpeg_sampling</span>
 
-# Perform browser-dependent in-place resource optimizations. https://developers.google.com/speed/pagespeed/module/system#ipro
-# ModPagespeedEnableFilters in_place_optimize_for_browser
+<span class="c1"># Perform browser-dependent in-place resource optimizations. https://developers.google.com/speed/pagespeed/module/system#ipro</span>
+<span class="c1"># ModPagespeedEnableFilters in_place_optimize_for_browser</span>
 
 
-# ----------------------------------------------------------
-# Experimental Filters                                     |
-# ----------------------------------------------------------
-# Default: disabled.
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># Experimental Filters                                     |</span>
+<span class="c1"># ----------------------------------------------------------</span>
+<span class="c1"># Default: disabled.</span>
 
-# Adds JavaScript to page to measure latency and send back to the server.
-# ModPagespeedEnableFilters add_instrumentation
+<span class="c1"># Adds JavaScript to page to measure latency and send back to the server.</span>
+<span class="c1"># ModPagespeedEnableFilters add_instrumentation</span>
 
-# Redirects JavaScript libraries to a JavaScript hosting service.
-# ModPagespeedEnableFilters canonicalize_javascript_libraries
+<span class="c1"># Redirects JavaScript libraries to a JavaScript hosting service.</span>
+<span class="c1"># ModPagespeedEnableFilters canonicalize_javascript_libraries</span>
 
-# Removes excess whitespace in HTML files (avoiding &lt;pre&gt;, &lt;script&gt;, &lt;style&gt;, and &lt;textarea&gt;).
-# Default: enabled.
-# ModPagespeedDisableFilters collapse_whitespace
+<span class="c1"># Removes excess whitespace in HTML files (avoiding &lt;pre&gt;, &lt;script&gt;, &lt;style&gt;, and &lt;textarea&gt;).</span>
+<span class="c1"># Default: enabled.</span>
+<span class="c1"># ModPagespeedDisableFilters collapse_whitespace</span>
 
-# Combines multiple &lt;head&gt; elements found in document into one.
-# ModPagespeedEnableFilters combine_heads
+<span class="c1"># Combines multiple &lt;head&gt; elements found in document into one.</span>
+<span class="c1"># ModPagespeedEnableFilters combine_heads</span>
 
-# Replaces animated gif images with webp images on browsers that support the format.
-# ModPagespeedEnableFilters convert_to_webp_animated
+<span class="c1"># Replaces animated gif images with webp images on browsers that support the format.</span>
+<span class="c1"># ModPagespeedEnableFilters convert_to_webp_animated</span>
 
-# Replaces repeated inlined images with JavaScript that loads the image from the first occurence of the image.
-# ModPagespeedEnableFilters dedup_inlined_images
+<span class="c1"># Replaces repeated inlined images with JavaScript that loads the image from the first occurence of the image.</span>
+<span class="c1"># ModPagespeedEnableFilters dedup_inlined_images</span>
 
-# Defers the execution of JavaScript in HTML until page load complete.
-# ModPagespeedEnableFilters defer_javascript
+<span class="c1"># Defers the execution of JavaScript in HTML until page load complete.</span>
+<span class="c1"># ModPagespeedEnableFilters defer_javascript</span>
 
-# Removes attributes which are not significant according to the HTML spec.
-# ModPagespeedEnableFilters elide_attributes
+<span class="c1"># Removes attributes which are not significant according to the HTML spec.</span>
+<span class="c1"># ModPagespeedEnableFilters elide_attributes</span>
 
-# Implied by extend_cache. Extends cache lifetime of PDFs by signing URLs with a content hash.
-# ModPagespeedEnableFilters extend_cache_pdfs
+<span class="c1"># Implied by extend_cache. Extends cache lifetime of PDFs by signing URLs with a content hash.</span>
+<span class="c1"># ModPagespeedEnableFilters extend_cache_pdfs</span>
 
-# Inserts Link:&lt;/example.css&gt;; rel=preload headers to permit earlier fetching of important resources.
-# ModPagespeedEnableFilters hint_preload_subresources
+<span class="c1"># Inserts Link:&lt;/example.css&gt;; rel=preload headers to permit earlier fetching of important resources.</span>
+<span class="c1"># ModPagespeedEnableFilters hint_preload_subresources</span>
 
-# Adds source maps to rewritten JavaScript files.
-# ModPagespeedEnableFilters include_js_source_maps
+<span class="c1"># Adds source maps to rewritten JavaScript files.</span>
+<span class="c1"># ModPagespeedEnableFilters include_js_source_maps</span>
 
-# Inlines small CSS files used by fonts.googleapis.com into the HTML document.
-# Default: enabled.
-# ModPagespeedDisableFilters inline_google_font_css
+<span class="c1"># Inlines small CSS files used by fonts.googleapis.com into the HTML document.</span>
+<span class="c1"># Default: enabled.</span>
+<span class="c1"># ModPagespeedDisableFilters inline_google_font_css</span>
 
-# Uses inlined low-quality images as placeholders which will be replaced with original images once the web page is loaded.
-# ModPagespeedEnableFilters inline_preview_images
+<span class="c1"># Uses inlined low-quality images as placeholders which will be replaced with original images once the web page is loaded.</span>
+<span class="c1"># ModPagespeedEnableFilters inline_preview_images</span>
 
-# Inserts &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//www.example.com&quot;&gt; tags to reduce DNS resolution time.
-# Default: enabled.
-# ModPagespeedDisableFilters insert_dns_prefetch
+<span class="c1"># Inserts &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//www.example.com&quot;&gt; tags to reduce DNS resolution time.</span>
+<span class="c1"># Default: enabled.</span>
+<span class="c1"># ModPagespeedDisableFilters insert_dns_prefetch</span>
 
-# Adds the Google Analytics snippet to each HTML page.
-# Default: enabled.
-# ModPagespeedDisableFilters insert_ga
+<span class="c1"># Adds the Google Analytics snippet to each HTML page.</span>
+<span class="c1"># Default: enabled.</span>
+<span class="c1"># ModPagespeedDisableFilters insert_ga</span>
 
-# Adds width and height attributes to &lt;img&gt; tags that lack them.
-# ModPagespeedEnableFilters insert_image_dimensions
+<span class="c1"># Adds width and height attributes to &lt;img&gt; tags that lack them.</span>
+<span class="c1"># ModPagespeedEnableFilters insert_image_dimensions</span>
 
-# Loads images when they become visible in the client viewport.
-# ModPagespeedEnableFilters lazyload_images
+<span class="c1"># Loads images when they become visible in the client viewport.</span>
+<span class="c1"># ModPagespeedEnableFilters lazyload_images</span>
 
-# Cache inlined resources in HTML5 local storage.
-# ModPagespeedEnableFilters local_storage_cache
+<span class="c1"># Cache inlined resources in HTML5 local storage.</span>
+<span class="c1"># ModPagespeedEnableFilters local_storage_cache</span>
 
-# Convert synchronous use of Google Analytics API to asynchronous
-# ModPagespeedEnableFilters make_google_analytics_async
+<span class="c1"># Convert synchronous use of Google Analytics API to asynchronous</span>
+<span class="c1"># ModPagespeedEnableFilters make_google_analytics_async</span>
 
-# Convert synchronous use of Google AdSense API to asynchronous.
-# ModPagespeedEnableFilters make_show_ads_async
+<span class="c1"># Convert synchronous use of Google AdSense API to asynchronous.</span>
+<span class="c1"># ModPagespeedEnableFilters make_show_ads_async</span>
 
-# Moves CSS elements above &lt;script&gt; tags.
-# ModPagespeedEnableFilters move_css_above_scripts
+<span class="c1"># Moves CSS elements above &lt;script&gt; tags.</span>
+<span class="c1"># ModPagespeedEnableFilters move_css_above_scripts</span>
 
-# Moves CSS elements into the &lt;head&gt;.
-# Default: enabled.
-# ModPagespeedDisableFilters move_css_to_head
+<span class="c1"># Moves CSS elements into the &lt;head&gt;.</span>
+<span class="c1"># Default: enabled.</span>
+<span class="c1"># ModPagespeedDisableFilters move_css_to_head</span>
 
-# Externalize large blocks of CSS into a cacheable file.
-# ModPagespeedEnableFilters outline_css
+<span class="c1"># Externalize large blocks of CSS into a cacheable file.</span>
+<span class="c1"># ModPagespeedEnableFilters outline_css</span>
 
-# Externalize large blocks of JS into a cacheable file.
-# ModPagespeedEnableFilters outline_javascript
+<span class="c1"># Externalize large blocks of JS into a cacheable file.</span>
+<span class="c1"># ModPagespeedEnableFilters outline_javascript</span>
 
-# Add default types for &lt;script&gt; and &lt;style&gt; tags if the type attribute is not present and the page is not HTML5.
-# The purpose of this filter is to help ensure that PageSpeed does not break HTML4 validation.
-# ModPagespeedEnableFilters pedantic
+<span class="c1"># Add default types for &lt;script&gt; and &lt;style&gt; tags if the type attribute is not present and the page is not HTML5.</span>
+<span class="c1"># The purpose of this filter is to help ensure that PageSpeed does not break HTML4 validation.</span>
+<span class="c1"># ModPagespeedEnableFilters pedantic</span>
 
-# Replace CSS tags with inline versions that include only the CSS used by the page.
-# ModPagespeedEnableFilters prioritize_critical_css
+<span class="c1"># Replace CSS tags with inline versions that include only the CSS used by the page.</span>
+<span class="c1"># ModPagespeedEnableFilters prioritize_critical_css</span>
 
-# Removes comments in HTML files (but not in inline JavaScript or CSS).
-# Default: enabled.
-# ModPagespeedDisableFilters remove_comments
+<span class="c1"># Removes comments in HTML files (but not in inline JavaScript or CSS).</span>
+<span class="c1"># Default: enabled.</span>
+<span class="c1"># ModPagespeedDisableFilters remove_comments</span>
 
-# Removes quotes around HTML attributes that are not lexically required.
-# ModPagespeedEnableFilters remove_quotes
+<span class="c1"># Removes quotes around HTML attributes that are not lexically required.</span>
+<span class="c1"># ModPagespeedEnableFilters remove_quotes</span>
 
-# Works just like inline_preview_images, but uses smaller placeholder images and only serves them to mobile browsers.
-# ModPagespeedEnableFilters resize_mobile_images
+<span class="c1"># Works just like inline_preview_images, but uses smaller placeholder images and only serves them to mobile browsers.</span>
+<span class="c1"># ModPagespeedEnableFilters resize_mobile_images</span>
 
-# Makes images responsive by adding srcset with images optimized for various resolutions.
-# ModPagespeedEnableFilters responsive_images
+<span class="c1"># Makes images responsive by adding srcset with images optimized for various resolutions.</span>
+<span class="c1"># ModPagespeedEnableFilters responsive_images</span>
 
-# Rewrites the domains of resources not otherwise touched by PageSpeed, based on MapRewriteDomain and ShardDomain settings in the config file.
-# ModPagespeedEnableFilters rewrite_domains
+<span class="c1"># Rewrites the domains of resources not otherwise touched by PageSpeed, based on MapRewriteDomain and ShardDomain settings in the config file.</span>
+<span class="c1"># ModPagespeedEnableFilters rewrite_domains</span>
 
-# Rewrite the CSS in style attributes by applying the configured rewrite_css filter to it.
-# ModPagespeedEnableFilters rewrite_style_attributes
+<span class="c1"># Rewrite the CSS in style attributes by applying the configured rewrite_css filter to it.</span>
+<span class="c1"># ModPagespeedEnableFilters rewrite_style_attributes</span>
 
-# Combine background images in CSS files into one sprite.
-# ModPagespeedEnableFilters sprite_images
+<span class="c1"># Combine background images in CSS files into one sprite.</span>
+<span class="c1"># ModPagespeedEnableFilters sprite_images</span>
 
-# Shortens URLs by making them relative to the base URL.
-# ModPagespeedEnableFilters trim_urls
+<span class="c1"># Shortens URLs by making them relative to the base URL.</span>
+<span class="c1"># ModPagespeedEnableFilters trim_urls</span>
 
-&lt;/IfModule&gt;
+<span class="o">&lt;/</span><span class="n">IfModule</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>La file è scaricabile anche all&#8217;indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
 <div class="admonition attention">
-<p class="first admonition-title">Attenzione</p>
-<p class="last">Il filtro <code class="xref py py-obj docutils literal"><span class="pre">insert_ga</span></code>, che è abilitato di default, per ora sembra non funzionare con PHP in modalità PHP-FPM.</p>
+<p class="admonition-title">Attenzione</p>
+<p>Il filtro <code class="xref py py-obj docutils literal notranslate"><span class="pre">insert_ga</span></code>, che è abilitato di default, per ora sembra non funzionare con PHP in modalità PHP-FPM.</p>
 </div>
 </div>
 <div class="section" id="user-ini-di-default">
 <h1>.user.ini di default<a class="headerlink" href="#user-ini-di-default" title="Link a questa intestazione">¶</a></h1>
 <p>Di seguito il codice del file <em>.user.ini</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
-<div class="highlight-python"><div class="highlight"><pre>;date.timezone = &#39;Europe/Rome&#39;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">;</span><span class="n">date</span><span class="o">.</span><span class="n">timezone</span> <span class="o">=</span> <span class="s1">&#39;Europe/Rome&#39;</span>
 
-;display_errors = On
+<span class="p">;</span><span class="n">display_errors</span> <span class="o">=</span> <span class="n">On</span>
 
-; All
-;error_reporting = -1
+<span class="p">;</span> <span class="n">All</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
 
-; Complete error reporting
-;error_reporting = 8191
+<span class="p">;</span> <span class="n">Complete</span> <span class="n">error</span> <span class="n">reporting</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">8191</span>
 
-; E_ALL ^ E_DEPRECATED ^ E_STRICT (alias of E_ALL &amp; ~E_DEPRECATED &amp; ~E_STRICT)
-;error_reporting = 22527
+<span class="p">;</span> <span class="n">E_ALL</span> <span class="o">^</span> <span class="n">E_DEPRECATED</span> <span class="o">^</span> <span class="n">E_STRICT</span> <span class="p">(</span><span class="n">alias</span> <span class="n">of</span> <span class="n">E_ALL</span> <span class="o">&amp;</span> <span class="o">~</span><span class="n">E_DEPRECATED</span> <span class="o">&amp;</span> <span class="o">~</span><span class="n">E_STRICT</span><span class="p">)</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">22527</span>
 
-; E_ALL ^ E_DEPRECATED ^ E_NOTICE (alias of E_ALL &amp; ~E_DEPRECATED &amp; ~E_NOTICE)
-;error_reporting = 22519
+<span class="p">;</span> <span class="n">E_ALL</span> <span class="o">^</span> <span class="n">E_DEPRECATED</span> <span class="o">^</span> <span class="n">E_NOTICE</span> <span class="p">(</span><span class="n">alias</span> <span class="n">of</span> <span class="n">E_ALL</span> <span class="o">&amp;</span> <span class="o">~</span><span class="n">E_DEPRECATED</span> <span class="o">&amp;</span> <span class="o">~</span><span class="n">E_NOTICE</span><span class="p">)</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">22519</span>
 
-; Zend error reporting
-;error_reporting = 128
+<span class="p">;</span> <span class="n">Zend</span> <span class="n">error</span> <span class="n">reporting</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">128</span>
 
-; Basic error reporting
-;error_reporting = 8
+<span class="p">;</span> <span class="n">Basic</span> <span class="n">error</span> <span class="n">reporting</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">8</span>
 
-; Minimal error reporting
-;error_reporting = 1
+<span class="p">;</span> <span class="n">Minimal</span> <span class="n">error</span> <span class="n">reporting</span>
+<span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">1</span>
 </pre></div>
 </div>
-<p>La file è scaricabile anche all&#8217;indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
 <div class="admonition note">
-<p class="first admonition-title">Nota</p>
-<p class="last">Il file <em>.user.ini</em> viene utilizzato solo con PHP in modalità CGI, FastCGI o PHP-FPM, ed ha un tempo di cache di <strong>300 secondi</strong>. In alcuni casi è necessario anche il riavvio del server PHP-FPM via jailshell.</p>
+<p class="admonition-title">Nota</p>
+<p>Il file <em>.user.ini</em> viene utilizzato solo con PHP in modalità CGI, FastCGI o PHP-FPM, ed ha un tempo di cache di <strong>300 secondi</strong>. In alcuni casi è necessario anche il riavvio del server PHP-FPM via jailshell.</p>
 </div>
 </div>
 <div class="section" id="robots-txt-di-default">
 <h1>robots.txt di default<a class="headerlink" href="#robots-txt-di-default" title="Link a questa intestazione">¶</a></h1>
 <p>Di seguito il codice del file <em>robots.txt</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
-<div class="highlight-python"><div class="highlight"><pre># www.robotstxt.org/
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># www.robotstxt.org/</span>
 
-# Allow crawling of all content
-User-agent: *
-Disallow:
+<span class="c1"># Allow crawling of all content</span>
+<span class="n">User</span><span class="o">-</span><span class="n">agent</span><span class="p">:</span> <span class="o">*</span>
+<span class="n">Disallow</span><span class="p">:</span>
 </pre></div>
 </div>
-<p>La file è scaricabile anche all&#8217;indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
 </div>
 
 
+            <div class="clearer"></div>
           </div>
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="../../index.html">Tabella dei contenuti</a></h3>
+  <h3><a href="../../index.html">Table of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Configurazione di Apache</a></li>
 <li><a class="reference internal" href="#htaccess-di-default">.htaccess di default</a></li>
@@ -404,23 +396,20 @@ Disallow:
   <div role="note" aria-label="source link">
     <h3>Questa pagina</h3>
     <ul class="this-page-menu">
-      <li><a href="../../_sources/user/domain/apache.txt"
+      <li><a href="../../_sources/user/domain/apache.rst.txt"
             rel="nofollow">Mostra sorgente</a></li>
     </ul>
    </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Ricerca veloce</h3>
+  <h3 id="searchlabel">Ricerca veloce</h3>
+    <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Vai" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Inserisci un termine di ricerca un modulo, classe o nome di funzione
-    </p>
+    </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -437,13 +426,14 @@ Disallow:
         <li class="right" >
           <a href="webdav/linux.html" title="Linux"
              >precedente</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../index.html">Supporto EWake 0.1.0 documentazione</a> &raquo;</li>
-          <li class="nav-item nav-item-1"><a href="../domain.html" >Domini</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../../index.html">Supporto EWake 0.1.0 documentazione</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../domain.html" >Domini</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Configurazione di Apache</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &copy; Copyright 2018, EWake.
-      Creato con <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+        &#169; Copyright 2018, EWake.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.3.
     </div>
   </body>
 </html>
