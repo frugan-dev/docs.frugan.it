@@ -6,11 +6,11 @@ Se si dispone di un account WebDAV `EWake <https://ewake.it>`_ è possibile aute
 +---------------------------------------------------------------------------------------------+
 | WebDAV                                                                                      |
 +======================+======================================================================+
-| Server               | davs://webdav\.`domain.tld` - *(Mac, Linux)*                         |
+| Server               | davs://webdav. `domain.tld` - *(Mac, Linux)*                         |
 |                      |                                                                      |
-|                      | davs://`username`\@webdav\.`domain.tld` - *(Mac, Linux)*             |
+|                      | davs://`username`\@webdav. `domain.tld` - *(Mac, Linux)*             |
 |                      |                                                                      |
-|                      | \https://webdav\.`domain.tld` - *(Windows, browser)*                 |
+|                      | \https://webdav. `domain.tld` - *(Windows, browser)*                 |
 +----------------------+----------------------------------------------------------------------+
 | Autenticazione       | password normale                                                     |
 +----------------------+----------------------------------------------------------------------+
