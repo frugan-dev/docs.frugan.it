@@ -10,9 +10,9 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 +======================+====================================+
 | Server               | imap.ewake.it                      |
 +----------------------+------------------------------------+
-| Porte                | 993 *(consigliata)* o 143          |
+| Porte                | 993                                |
 +----------------------+------------------------------------+
-| Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
+| Connessione protetta | SSL/TLS                            |
 +----------------------+------------------------------------+
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
@@ -22,9 +22,9 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 +======================+====================================+
 | Server               | pop.ewake.it                       |
 +----------------------+------------------------------------+
-| Porte                | 995 *(consigliata)* o 110          |
+| Porte                | 995                                |
 +----------------------+------------------------------------+
-| Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
+| Connessione protetta | SSL/TLS                            |
 +----------------------+------------------------------------+
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
@@ -34,9 +34,9 @@ I parametri necessari per l'autenticazione ai server di posta `EWake <https://ew
 +======================+====================================+
 | Server               | smtp.ewake.it                      |
 +----------------------+------------------------------------+
-| Porte                | 465 *(consigliata)* o 587          |
+| Porte                | 465                                |
 +----------------------+------------------------------------+
-| Connessione protetta | SSL/TLS *(consigliata)* o STARTTLS |
+| Connessione protetta | SSL/TLS                            |
 +----------------------+------------------------------------+
 | Autenticazione       | password normale                   |
 +----------------------+------------------------------------+
