@@ -185,7 +185,7 @@ Quali sono i livelli di sicurezza garantiti per il servizio di posta certificata
 La normativa di riferimento fissa i livelli minimi di sicurezza che devono essere garantiti dal Gestore **PEC** ai propri utenti. In particolare, il Gestore **PEC** è tenuto a informare il mittente, bloccandone la trasmissione, della eventuale presenza di virus nelle email inviate o ricevute. 
 
 
-Come evitare che il mio client di posta (*Outlook, Mozilla Thunderbird, Eudora, ecc.*) mi avverta di non riconoscere il certificato con cui vengono firmate le mail di posta certificata PEC?
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Si veda a tal proposito :ref:`user-email-pec-conf-ref1`.
+.. Come evitare che il mio client di posta (*Outlook, Mozilla Thunderbird, Eudora, ecc.*) mi avverta di non riconoscere il certificato con cui vengono .. firmate le mail di posta certificata PEC?
+.. -------------------------------------------------------------------------------------------------------------------------------------------------------.. --------------------------------------
+.. 
+.. Si veda a tal proposito :ref:`user-email-rem-conf-ref1`.

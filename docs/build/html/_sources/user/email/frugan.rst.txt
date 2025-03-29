@@ -1,5 +1,5 @@
 Frugan
-=====
+======
 
 .. toctree:: 
    :maxdepth: 2

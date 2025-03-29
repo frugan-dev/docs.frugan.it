@@ -53,7 +53,7 @@ I parametri necessari per l'autenticazione ai server di posta certificata `Fruga
 	title (diventa il titolo della pagina)
 .. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta certificata `Frugan <https://frugan.it>`_ avviene sempre tramite hostname del tipo `*.pec.aruba.it`.
 
-.. .. _user-email-pec-conf-ref1:
+.. .. _user-email-rem-conf-ref1:
 .. 
 .. Certificato Agenzia per l'Italia digitale (ex DigitPA)
 .. ------------------------------------------------------
