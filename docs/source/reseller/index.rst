@@ -1,4 +1,4 @@
 Documentazione
 ==============
 
-La documentazione relativa a questa sezione è ancora in via di sviluppo, nel frattempo puoi avere maggiori informazioni ai `seguenti recapiti <https://ewake.it>`_.
+La documentazione relativa a questa sezione è ancora in via di sviluppo, nel frattempo puoi avere maggiori informazioni ai `seguenti recapiti <https://frugan.it>`_.

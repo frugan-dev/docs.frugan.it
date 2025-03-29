@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="it" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Google Workspace &#8212; Documentazione Supporto Frugan 0.2.0 </title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=2bf1fcf8" />
+    <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+    
+    <script src="../../_static/documentation_options.js?v=f572429c"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/translations.js?v=45930005"></script>
+    
+    <link rel="index" title="Indice" href="../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../search.html" />
+    <link rel="next" title="Microsoft Office 365" href="microsoft.html" />
+    <link rel="prev" title="Maggiori informazioni" href="zimbra/more.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigazione</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Indice generale"
+             accesskey="I">indice</a></li>
+        <li class="right" >
+          <a href="microsoft.html" title="Microsoft Office 365"
+             accesskey="N">successivo</a> |</li>
+        <li class="right" >
+          <a href="zimbra/more.html" title="Maggiori informazioni"
+             accesskey="P">precedente</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Documentazione Supporto Frugan 0.2.0 </a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../email.html" accesskey="U">Email</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Google Workspace</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="google-workspace">
+<h1>Google Workspace<a class="headerlink" href="#google-workspace" title="Link to this heading">¶</a></h1>
+<section id="accesso-alla-webmail">
+<h2>Accesso alla webmail<a class="headerlink" href="#accesso-alla-webmail" title="Link to this heading">¶</a></h2>
+<p>La webmail per accedere alle caselle email <a class="reference external" href="https://workspace.google.com">Google Workspace</a> è raggiungibile al seguente indirizzo:</p>
+<ul class="simple">
+<li><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">https://mail.domain.tld</span></code> (GMail)</p></li>
+</ul>
+<p>dove <code class="xref py py-obj docutils literal notranslate"><span class="pre">domain.tld</span></code> corrisponde al dominio ospitato presso <a class="reference external" href="https://frugan.it">Frugan</a>.</p>
+<p>Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. <code class="xref py py-obj docutils literal notranslate"><span class="pre">hello&#64;domain.tld</span></code>) e successivamente la password.</p>
+<div class="admonition hint">
+<p class="admonition-title">Suggerimento</p>
+<p>Si consiglia fortemente l’utilizzo, tramite l’app <a class="reference external" href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=it">Google Authenticator</a>, del sistema di <a class="reference external" href="https://support.google.com/accounts/answer/185839?hl=it">autenticazione a due fattori</a> (Two-Factor authentication) attivabile nelle impostazioni dell’account Google.</p>
+</div>
+</section>
+<section id="configurazione-dei-client-di-posta">
+<h2>Configurazione dei client di posta<a class="headerlink" href="#configurazione-dei-client-di-posta" title="Link to this heading">¶</a></h2>
+<p>I parametri necessari per l’autenticazione ai server di posta <a class="reference external" href="https://workspace.google.com">Google Workspace</a> tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso <a class="reference external" href="https://frugan.it">Frugan</a>:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Posta in arrivo - POP3</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Server</p></td>
+<td><p>pop.gmail.com</p></td>
+</tr>
+<tr class="row-odd"><td><p>Porta</p></td>
+<td><p>995</p></td>
+</tr>
+<tr class="row-even"><td><p>Connessione protetta</p></td>
+<td><p>SSL/TLS</p></td>
+</tr>
+<tr class="row-odd"><td><p>Autenticazione</p></td>
+<td><p>password normale</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Posta in arrivo - IMAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Server</p></td>
+<td><p>imap.gmail.com</p></td>
+</tr>
+<tr class="row-odd"><td><p>Porta</p></td>
+<td><p>993</p></td>
+</tr>
+<tr class="row-even"><td><p>Connessione protetta</p></td>
+<td><p>SSL/TLS</p></td>
+</tr>
+<tr class="row-odd"><td><p>Autenticazione</p></td>
+<td><p>password normale</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Posta in uscita - SMTP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Server</p></td>
+<td><p>smtp.gmail.com</p></td>
+</tr>
+<tr class="row-odd"><td><p>Porte</p></td>
+<td><p>465</p></td>
+</tr>
+<tr class="row-even"><td><p>Connessione protetta</p></td>
+<td><p>SSL/TLS</p></td>
+</tr>
+<tr class="row-odd"><td><p>Autenticazione</p></td>
+<td><p>password normale</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>A prescindere dal dominio utilizzato, l’autenticazione ai server di posta <a class="reference external" href="https://workspace.google.com">Google Workspace</a> avviene sempre tramite hostname del tipo <code class="xref py py-obj docutils literal notranslate"><span class="pre">*.gmail.com</span></code> o <code class="xref py py-obj docutils literal notranslate"><span class="pre">*.googlemail.com</span></code>.</p>
+</div>
+</section>
+<section id="suggerimenti">
+<h2>Suggerimenti<a class="headerlink" href="#suggerimenti" title="Link to this heading">¶</a></h2>
+<section id="password-per-le-app">
+<h3>Password per le app<a class="headerlink" href="#password-per-le-app" title="Link to this heading">¶</a></h3>
+<p>Le password per le app consentono agli utenti che utilizzano la verifica in due passaggi di accedere ai loro account GSuite attraverso il proprio client email (Outlook, Thunderbird, Mail, etc.).</p>
+<p>Per maggiori informazioni vedi <a class="reference external" href="https://security.google.com/settings/security/apppasswords">https://security.google.com/settings/security/apppasswords</a>.</p>
+</section>
+<section id="app-meno-sicure">
+<h3>App meno sicure<a class="headerlink" href="#app-meno-sicure" title="Link to this heading">¶</a></h3>
+<p>Alcuni dispositivi e app utilizzano una tecnologia di accesso meno sicura, che rende più vulnerabile il tuo account. Puoi disattivare l’accesso per queste app (soluzione consigliata) oppure attivare l’accesso se desideri utilizzarli nonostante i rischi.</p>
+<p>Per maggiori informazioni vedi <a class="reference external" href="https://www.google.com/settings/security/lesssecureapps">https://www.google.com/settings/security/lesssecureapps</a>.</p>
+</section>
+<section id="condivisione-account-pop3">
+<h3>Condivisione account POP3<a class="headerlink" href="#condivisione-account-pop3" title="Link to this heading">¶</a></h3>
+<p>Se un account POP3 viene condiviso fra più utenti, si possono simulare alcune funzionalità del protocollo IMAP utilizzando l’impostazione <code class="xref py py-obj docutils literal notranslate"><span class="pre">recent:hello&#64;domain.tld</span></code> per autenticarsi ai server di Google tramite il proprio client di posta.</p>
+</section>
+<section id="filtro-posta-inviata">
+<h3>Filtro posta inviata<a class="headerlink" href="#filtro-posta-inviata" title="Link to this heading">¶</a></h3>
+<p>Workspace ha un unico contenitore in cui finiscono tutti i messaggi, compresa la posta inviata che viene salvata in automatico.
+Per evitare che il proprio client email (Outlook, Thunderbird, Mail, etc.) scarichi la posta inviata “credendola” posta ricevuta è possibile creare un filtro apposito andando in <strong>Strumenti</strong> → <strong>Filtri</strong>, inserendo la proprio email nel campo <strong>Mittente</strong> e selezionando <strong>Posta inviata</strong> nel campo <strong>Sposta il messaggio in</strong>.</p>
+</section>
+</section>
+<section id="maggiori-informazioni">
+<h2>Maggiori informazioni<a class="headerlink" href="#maggiori-informazioni" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://support.google.com/mail">https://support.google.com/mail</a></p></li>
+<li><p><a class="reference external" href="https://workspace.google.com/intl/it/support/">https://workspace.google.com/intl/it/support/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Google Workspace</a><ul>
+<li><a class="reference internal" href="#accesso-alla-webmail">Accesso alla webmail</a></li>
+<li><a class="reference internal" href="#configurazione-dei-client-di-posta">Configurazione dei client di posta</a></li>
+<li><a class="reference internal" href="#suggerimenti">Suggerimenti</a><ul>
+<li><a class="reference internal" href="#password-per-le-app">Password per le app</a></li>
+<li><a class="reference internal" href="#app-meno-sicure">App meno sicure</a></li>
+<li><a class="reference internal" href="#condivisione-account-pop3">Condivisione account POP3</a></li>
+<li><a class="reference internal" href="#filtro-posta-inviata">Filtro posta inviata</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#maggiori-informazioni">Maggiori informazioni</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Argomento precedente</h4>
+    <p class="topless"><a href="zimbra/more.html"
+                          title="capitolo precedente">Maggiori informazioni</a></p>
+  </div>
+  <div>
+    <h4>Argomento successivo</h4>
+    <p class="topless"><a href="microsoft.html"
+                          title="capitolo successivo">Microsoft Office 365</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>Questa pagina</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/user/email/google.rst.txt"
+            rel="nofollow">Mostra sorgente</a></li>
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Ricerca veloce</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Vai" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigazione</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Indice generale"
+             >indice</a></li>
+        <li class="right" >
+          <a href="microsoft.html" title="Microsoft Office 365"
+             >successivo</a> |</li>
+        <li class="right" >
+          <a href="zimbra/more.html" title="Maggiori informazioni"
+             >precedente</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Documentazione Supporto Frugan 0.2.0 </a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../email.html" >Email</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Google Workspace</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, Frugan.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-EWake Zimbra
+Frugan Zimbra
 ============
 
 .. toctree:: 

@@ -6,9 +6,9 @@ Accesso alla webmail
 
 La webmail per accedere alle caselle email di `Microsoft Office 365 <https://www.zoho.com>`_ è raggiungibile al seguente indirizzo:
 
-- `http://mail.domain.tld`
+- `https://mail.domain.tld`
 
-dove `domain.tld` corrisponde al dominio ospitato presso `EWake <https://ewake.it>`_.
+dove `domain.tld` corrisponde al dominio ospitato presso `Frugan <https://frugan.it>`_.
 
 Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hello@domain.tld`) nel campo **Email** e la password nel campo **Password**.
 
@@ -31,19 +31,7 @@ Per autenticarsi è necessario digitare il proprio indirizzo email (ad es. `hell
 Configurazione dei client di posta
 ----------------------------------
 
-I parametri necessari per l'autenticazione ai server di posta `Microsoft <https://www.zoho.com>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso `EWake <https://ewake.it>`_:
-
-+----------------------------------------------+
-| Posta in arrivo - IMAP                       |
-+======================+=======================+
-| Server               | outlook.office365.com |
-+----------------------+-----------------------+
-| Porta                | 993                   |
-+----------------------+-----------------------+
-| Connessione protetta | SSL/TLS               |
-+----------------------+-----------------------+
-| Autenticazione       | password normale      |
-+----------------------+-----------------------+
+I parametri necessari per l'autenticazione ai server di posta `Microsoft <https://www.zoho.com>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso `Frugan <https://frugan.it>`_:
 
 +----------------------------------------------+
 | Posta in arrivo - POP3                       |
@@ -51,6 +39,18 @@ I parametri necessari per l'autenticazione ai server di posta `Microsoft <https:
 | Server               | outlook.office365.com |
 +----------------------+-----------------------+
 | Porta                | 995                   |
++----------------------+-----------------------+
+| Connessione protetta | SSL/TLS               |
++----------------------+-----------------------+
+| Autenticazione       | password normale      |
++----------------------+-----------------------+
+
++----------------------------------------------+
+| Posta in arrivo - IMAP                       |
++======================+=======================+
+| Server               | outlook.office365.com |
++----------------------+-----------------------+
+| Porta                | 993                   |
 +----------------------+-----------------------+
 | Connessione protetta | SSL/TLS               |
 +----------------------+-----------------------+

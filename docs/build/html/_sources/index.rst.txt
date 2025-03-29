@@ -1,7 +1,7 @@
 Documentazione di supporto
 ==========================
 
-La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa nelle seguenti macro-categorie:
+La seguente documentazione di supporto `Frugan <https://frugan.it>`_ è suddivisa nelle seguenti macro-categorie:
 
 * :ref:`user-docs`
 * :ref:`reseller-docs`
@@ -14,10 +14,10 @@ La seguente documentazione di supporto `EWake <https://ewake.it>`_ è suddivisa 
    :caption: Documentazione Utente
 
    user/email
-   user/domain
-   user/server
    user/security
    user/faq
+..   user/domain
+..   user/server
 
 
 .. _reseller-docs:

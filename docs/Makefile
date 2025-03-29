@@ -94,9 +94,9 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/EWakedocs.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/Frugandocs.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/EWakedocs.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/Frugandocs.qhc"
 
 .PHONY: applehelp
 applehelp:
@@ -113,8 +113,8 @@ devhelp:
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/EWakedocs"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/EWakedocs"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/Frugandocs"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/Frugandocs"
 	@echo "# devhelp"
 
 .PHONY: epub

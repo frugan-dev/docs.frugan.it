@@ -1,12 +1,12 @@
 Configurazione dei client di posta
 ==================================
 
-I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da `EWake <https://ewake.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle Zimbra ospitate presso `EWake <https://ewake.it>`_:
+I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da `Frugan <https://frugan.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle Zimbra ospitate presso `Frugan <https://frugan.it>`_:
 
 +-----------------------------------------------------------+
 | Posta in arrivo - IMAP                                    |
 +======================+====================================+
-| Server               | imap.ewake.it                      |
+| Server               | imap.frugan.it                      |
 +----------------------+------------------------------------+
 | Porte                | 993 *(consigliata)* o 143          |
 +----------------------+------------------------------------+
@@ -18,7 +18,7 @@ I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da 
 +-----------------------------------------------------------+
 | Posta in arrivo - POP3                                    |
 +======================+====================================+
-| Server               | pop.ewake.it                       |
+| Server               | pop.frugan.it                       |
 +----------------------+------------------------------------+
 | Porte                | 995 *(consigliata)* o 110          |
 +----------------------+------------------------------------+
@@ -30,7 +30,7 @@ I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da 
 +-----------------------------------------------------------+
 | Posta in uscita - SMTP                                    |
 +======================+====================================+
-| Server               | smtp.ewake.it                      |
+| Server               | smtp.frugan.it                      |
 +----------------------+------------------------------------+
 | Porte                | 465 *(consigliata)* o 587          |
 +----------------------+------------------------------------+
@@ -51,10 +51,10 @@ I parametri necessari per l'autenticazione ai server di posta Zimbra gestiti da 
 	warning (Avvertimento)
 	admonition (non visibile)
 	title (diventa il titolo della pagina)
-.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta Zimbra gestiti da `EWake <https://ewake.it>`_ avviene sempre tramite hostname del tipo `*.ewake.it`.
+.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta Zimbra gestiti da `Frugan <https://frugan.it>`_ avviene sempre tramite hostname del tipo `*.frugan.it`.
 
 
-Le istruzioni dettagliate per la configurazione sui principali dispositivi sono disponibili qui :ref:`user-email-ewake-conf-ref1`.
+Le istruzioni dettagliate per la configurazione sui principali dispositivi sono disponibili qui :ref:`user-email-frugan-conf-ref1`.
 
 
 Maggiori informazioni

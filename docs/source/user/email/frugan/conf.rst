@@ -1,0 +1,81 @@
+.. _user-email-frugan-conf-ref1:
+
+Configurazione dei client di posta
+==================================
+
+I parametri necessari per l'autenticazione ai server di posta `Frugan <https://frugan.it>`_ tramite i comuni client di posta elettronica (ad es. Outlook, Thunderbird, ecc.) sono uguali per tutte le caselle ospitate presso `Frugan <https://frugan.it>`_:
+
++-----------------------------------------------------------+
+| Posta in arrivo - POP3                                    |
++======================+====================================+
+| Server               | pop.frugan.it                      |
++----------------------+------------------------------------+
+| Porte                | 995                                |
++----------------------+------------------------------------+
+| Connessione protetta | SSL/TLS                            |
++----------------------+------------------------------------+
+| Autenticazione       | password normale                   |
++----------------------+------------------------------------+
+
++-----------------------------------------------------------+
+| Posta in arrivo - IMAP                                    |
++======================+====================================+
+| Server               | imap.frugan.it                     |
++----------------------+------------------------------------+
+| Porte                | 993                                |
++----------------------+------------------------------------+
+| Connessione protetta | SSL/TLS                            |
++----------------------+------------------------------------+
+| Autenticazione       | password normale                   |
++----------------------+------------------------------------+
+
++-----------------------------------------------------------+
+| Posta in uscita - SMTP                                    |
++======================+====================================+
+| Server               | smtp.frugan.it                     |
++----------------------+------------------------------------+
+| Porte                | 465                                |
++----------------------+------------------------------------+
+| Connessione protetta | SSL/TLS                            |
++----------------------+------------------------------------+
+| Autenticazione       | password normale                   |
++----------------------+------------------------------------+
+
+.. 
+	attention (Attenzione)
+	caution (Attenzione)
+	danger (Pericolo)
+	error (Errore)
+	hint (Consiglio)
+	important (Importante)
+	note (Nota)
+	tip (Suggerimento)
+	warning (Avvertimento)
+	admonition (non visibile)
+	title (diventa il titolo della pagina)
+.. note:: A prescindere dal dominio utilizzato, l'autenticazione ai server di posta `Frugan <https://frugan.it>`_ avviene sempre tramite hostname del tipo `*.frugan.it`.
+
+
+Di seguito sono elencate anche le istruzioni dettagliate per la configurazione sui principali dispositivi:
+
+.. toctree:: 
+   :maxdepth: 1
+
+   conf/mobile
+   conf/mobile_nokia_symbian
+   conf/android
+   conf/iphone_ipad_ios6
+   conf/iphone_ipad_ios7
+   conf/mail_osx
+   conf/opera_mail
+   conf/outlook_2003
+   conf/outlook_2007
+   conf/outlook_2010
+   conf/outlook_2011_mac
+   conf/outlook_2013
+   conf/outlook_express
+   conf/thunderbird
+   conf/windows_live_mail
+   conf/windows_live_mail_2011
+   conf/windows_mail
+   conf/windows_phone

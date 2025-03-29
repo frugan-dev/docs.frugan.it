@@ -1,7 +1,6 @@
 # https://www.gitignore.io
 
 # Custom
-/VAR/
 /.settings/
 /.buildpath
 /.project

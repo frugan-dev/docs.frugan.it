@@ -1,8 +1,8 @@
 Configurazione di Apache
 ========================
 
-I web server di hosting `EWake <https://ewake.it>`_ utilizzano le configurazioni Apache del progetto `H5BP <https://h5bp.github.io>`_.
-La versione del modulo H5BP attualmente utilizzata è scaricabile all'indirizzo https://public.ewake.it.
+I web server di hosting `Frugan <https://frugan.it>`_ utilizzano le configurazioni Apache del progetto `H5BP <https://h5bp.github.io>`_.
+La versione del modulo H5BP attualmente utilizzata è scaricabile all'indirizzo https://public.frugan.it.
 
 Inoltre è abilitato di default il modulo PageSpeed di Google, di cui si rimanda alla `documentazione ufficiale <https://developers.google.com/speed/pagespeed/module/>`_.
 
@@ -10,7 +10,7 @@ Inoltre è abilitato di default il modulo PageSpeed di Google, di cui si rimanda
 .htaccess di default
 ====================
 
-Di seguito il codice del file *.htaccess* utilizzato in fase di creazione di ogni dominio ospitato presso `EWake <https://ewake.it>`_::
+Di seguito il codice del file *.htaccess* utilizzato in fase di creazione di ogni dominio ospitato presso `Frugan <https://frugan.it>`_::
 
 	# ##########################################################
 	# PHP Values                                               #
@@ -276,7 +276,7 @@ Di seguito il codice del file *.htaccess* utilizzato in fase di creazione di ogn
 	
 	</IfModule>
 
-La file è scaricabile anche all'indirizzo https://public.ewake.it.
+La file è scaricabile anche all'indirizzo https://public.frugan.it.
 
 .. 
 	attention (Attenzione)
@@ -296,7 +296,7 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 .user.ini di default
 ====================
 
-Di seguito il codice del file *.user.ini* utilizzato in fase di creazione di ogni dominio ospitato presso `EWake <https://ewake.it>`_::
+Di seguito il codice del file *.user.ini* utilizzato in fase di creazione di ogni dominio ospitato presso `Frugan <https://frugan.it>`_::
 
 	;date.timezone = 'Europe/Rome'
 
@@ -323,7 +323,7 @@ Di seguito il codice del file *.user.ini* utilizzato in fase di creazione di ogn
 	; Minimal error reporting
 	;error_reporting = 1
 
-La file è scaricabile anche all'indirizzo https://public.ewake.it.
+La file è scaricabile anche all'indirizzo https://public.frugan.it.
 
 .. 
 	attention (Attenzione)
@@ -343,7 +343,7 @@ La file è scaricabile anche all'indirizzo https://public.ewake.it.
 robots.txt di default
 =====================
 
-Di seguito il codice del file *robots.txt* utilizzato in fase di creazione di ogni dominio ospitato presso `EWake <https://ewake.it>`_::
+Di seguito il codice del file *robots.txt* utilizzato in fase di creazione di ogni dominio ospitato presso `Frugan <https://frugan.it>`_::
 
 	# www.robotstxt.org/
 	
@@ -351,4 +351,4 @@ Di seguito il codice del file *robots.txt* utilizzato in fase di creazione di og
 	User-agent: *
 	Disallow:
 
-La file è scaricabile anche all'indirizzo https://public.ewake.it.
+La file è scaricabile anche all'indirizzo https://public.frugan.it.

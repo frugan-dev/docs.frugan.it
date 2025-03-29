@@ -1,14 +1,14 @@
 Email
 =====
 
-In questa sezione è riportata tutta la documentazione relativa alle caselle email ospitate presso `EWake <https://ewake.it>`_ o gestite da `EWake <https://ewake.it>`_ tramite servizi di terze parti.
+In questa sezione è riportata tutta la documentazione relativa alle caselle email ospitate presso `Frugan <https://frugan.it>`_ o gestite da `Frugan <https://frugan.it>`_ tramite servizi di terze parti.
 
 .. toctree:: 
    :maxdepth: 2
 
-   email/ewake
+   email/frugan
    email/zimbra
-   email/gsuite
+   email/google
    email/microsoft
    email/zoho
-   email/pec
+   email/rem

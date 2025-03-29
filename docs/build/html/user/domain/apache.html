@@ -1,27 +1,26 @@
-
 <!DOCTYPE html>
 
-<html lang="it">
+<html lang="it" data-content_root="../../">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Configurazione di Apache &#8212; Supporto EWake 0.1.0 documentazione</title>
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Configurazione di Apache &#8212; Documentazione Supporto Frugan 0.2.0 </title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=2bf1fcf8" />
     <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script src="../../_static/jquery.js"></script>
-    <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/documentation_options.js?v=f572429c"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/translations.js?v=45930005"></script>
     
     <link rel="index" title="Indice" href="../../genindex.html" />
     <link rel="search" title="Cerca" href="../../search.html" />
     <link rel="next" title="Server" href="../server.html" />
     <link rel="prev" title="Linux" href="webdav/linux.html" /> 
   </head><body>
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigazione</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -33,7 +32,7 @@
         <li class="right" >
           <a href="webdav/linux.html" title="Linux"
              accesskey="P">precedente</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../index.html">Supporto EWake 0.1.0 documentazione</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Documentazione Supporto Frugan 0.2.0 </a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="../domain.html" accesskey="U">Domini</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Configurazione di Apache</a></li> 
       </ul>
@@ -44,15 +43,15 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="configurazione-di-apache">
-<h1>Configurazione di Apache<a class="headerlink" href="#configurazione-di-apache" title="Link a questa intestazione">¶</a></h1>
-<p>I web server di hosting <a class="reference external" href="https://ewake.it">EWake</a> utilizzano le configurazioni Apache del progetto <a class="reference external" href="https://h5bp.github.io">H5BP</a>.
-La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+  <section id="configurazione-di-apache">
+<h1>Configurazione di Apache<a class="headerlink" href="#configurazione-di-apache" title="Link to this heading">¶</a></h1>
+<p>I web server di hosting <a class="reference external" href="https://frugan.it">Frugan</a> utilizzano le configurazioni Apache del progetto <a class="reference external" href="https://h5bp.github.io">H5BP</a>.
+La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizzo <a class="reference external" href="https://public.frugan.it">https://public.frugan.it</a>.</p>
 <p>Inoltre è abilitato di default il modulo PageSpeed di Google, di cui si rimanda alla <a class="reference external" href="https://developers.google.com/speed/pagespeed/module/">documentazione ufficiale</a>.</p>
-</div>
-<div class="section" id="htaccess-di-default">
-<h1>.htaccess di default<a class="headerlink" href="#htaccess-di-default" title="Link a questa intestazione">¶</a></h1>
-<p>Di seguito il codice del file <em>.htaccess</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
+</section>
+<section id="htaccess-di-default">
+<h1>.htaccess di default<a class="headerlink" href="#htaccess-di-default" title="Link to this heading">¶</a></h1>
+<p>Di seguito il codice del file <em>.htaccess</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://frugan.it">Frugan</a>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># ##########################################################</span>
 <span class="c1"># PHP Values                                               #</span>
 <span class="c1"># ##########################################################</span>
@@ -318,15 +317,15 @@ La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizz
 <span class="o">&lt;/</span><span class="n">IfModule</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.frugan.it">https://public.frugan.it</a>.</p>
 <div class="admonition attention">
 <p class="admonition-title">Attenzione</p>
 <p>Il filtro <code class="xref py py-obj docutils literal notranslate"><span class="pre">insert_ga</span></code>, che è abilitato di default, per ora sembra non funzionare con PHP in modalità PHP-FPM.</p>
 </div>
-</div>
-<div class="section" id="user-ini-di-default">
-<h1>.user.ini di default<a class="headerlink" href="#user-ini-di-default" title="Link a questa intestazione">¶</a></h1>
-<p>Di seguito il codice del file <em>.user.ini</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
+</section>
+<section id="user-ini-di-default">
+<h1>.user.ini di default<a class="headerlink" href="#user-ini-di-default" title="Link to this heading">¶</a></h1>
+<p>Di seguito il codice del file <em>.user.ini</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://frugan.it">Frugan</a>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">;</span><span class="n">date</span><span class="o">.</span><span class="n">timezone</span> <span class="o">=</span> <span class="s1">&#39;Europe/Rome&#39;</span>
 
 <span class="p">;</span><span class="n">display_errors</span> <span class="o">=</span> <span class="n">On</span>
@@ -353,15 +352,15 @@ La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizz
 <span class="p">;</span><span class="n">error_reporting</span> <span class="o">=</span> <span class="mi">1</span>
 </pre></div>
 </div>
-<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
+<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.frugan.it">https://public.frugan.it</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p>Il file <em>.user.ini</em> viene utilizzato solo con PHP in modalità CGI, FastCGI o PHP-FPM, ed ha un tempo di cache di <strong>300 secondi</strong>. In alcuni casi è necessario anche il riavvio del server PHP-FPM via jailshell.</p>
 </div>
-</div>
-<div class="section" id="robots-txt-di-default">
-<h1>robots.txt di default<a class="headerlink" href="#robots-txt-di-default" title="Link a questa intestazione">¶</a></h1>
-<p>Di seguito il codice del file <em>robots.txt</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://ewake.it">EWake</a>:</p>
+</section>
+<section id="robots-txt-di-default">
+<h1>robots.txt di default<a class="headerlink" href="#robots-txt-di-default" title="Link to this heading">¶</a></h1>
+<p>Di seguito il codice del file <em>robots.txt</em> utilizzato in fase di creazione di ogni dominio ospitato presso <a class="reference external" href="https://frugan.it">Frugan</a>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># www.robotstxt.org/</span>
 
 <span class="c1"># Allow crawling of all content</span>
@@ -369,30 +368,36 @@ La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizz
 <span class="n">Disallow</span><span class="p">:</span>
 </pre></div>
 </div>
-<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.ewake.it">https://public.ewake.it</a>.</p>
-</div>
+<p>La file è scaricabile anche all’indirizzo <a class="reference external" href="https://public.frugan.it">https://public.frugan.it</a>.</p>
+</section>
 
 
             <div class="clearer"></div>
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="../../index.html">Table of Contents</a></h3>
-  <ul>
+  <div>
+    <h3><a href="../../index.html">Table of Contents</a></h3>
+    <ul>
 <li><a class="reference internal" href="#">Configurazione di Apache</a></li>
 <li><a class="reference internal" href="#htaccess-di-default">.htaccess di default</a></li>
 <li><a class="reference internal" href="#user-ini-di-default">.user.ini di default</a></li>
 <li><a class="reference internal" href="#robots-txt-di-default">robots.txt di default</a></li>
 </ul>
 
-  <h4>Argomento precedente</h4>
-  <p class="topless"><a href="webdav/linux.html"
-                        title="capitolo precedente">Linux</a></p>
-  <h4>Argomento successivo</h4>
-  <p class="topless"><a href="../server.html"
-                        title="capitolo successivo">Server</a></p>
+  </div>
+  <div>
+    <h4>Argomento precedente</h4>
+    <p class="topless"><a href="webdav/linux.html"
+                          title="capitolo precedente">Linux</a></p>
+  </div>
+  <div>
+    <h4>Argomento successivo</h4>
+    <p class="topless"><a href="../server.html"
+                          title="capitolo successivo">Server</a></p>
+  </div>
   <div role="note" aria-label="source link">
     <h3>Questa pagina</h3>
     <ul class="this-page-menu">
@@ -400,21 +405,21 @@ La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizz
             rel="nofollow">Mostra sorgente</a></li>
     </ul>
    </div>
-<div id="searchbox" style="display: none" role="search">
+<search id="searchbox" style="display: none" role="search">
   <h3 id="searchlabel">Ricerca veloce</h3>
     <div class="searchformwrapper">
     <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Vai" />
     </form>
     </div>
-</div>
-<script>$('#searchbox').show(0);</script>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigazione</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -426,14 +431,14 @@ La versione del modulo H5BP attualmente utilizzata è scaricabile all’indirizz
         <li class="right" >
           <a href="webdav/linux.html" title="Linux"
              >precedente</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../index.html">Supporto EWake 0.1.0 documentazione</a> &#187;</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Documentazione Supporto Frugan 0.2.0 </a> &#187;</li>
           <li class="nav-item nav-item-1"><a href="../domain.html" >Domini</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Configurazione di Apache</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2018, EWake.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.3.
+    &#169; Copyright 2025, Frugan.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
     </div>
   </body>
 </html>

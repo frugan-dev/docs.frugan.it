@@ -1,7 +1,7 @@
 Frequently Asked Questions
 ==========================
 
-Come posso diventare rivenditore dei servizi EWake?
+Come posso diventare rivenditore dei servizi Frugan?
 -------------------------------------------------------------
 
-`EWake <https://ewake.it>`_ sta lavorando per automatizzare questo processo, nel frattempo puoi avere maggiori informazioni ai `seguenti recapiti <https://ewake.it>`_.
+`Frugan <https://frugan.it>`_ sta lavorando per automatizzare questo processo, nel frattempo puoi avere maggiori informazioni ai `seguenti recapiti <https://frugan.it>`_.
