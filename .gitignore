@@ -4,6 +4,7 @@
 /.settings/
 /.buildpath
 /.project
+/*.code-workspace
 
 **/stats/
 

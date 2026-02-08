@@ -19,8 +19,22 @@ Lato utente è quindi di fondamentale importanza:
 - non archiviare mai le email indesiderate, altrimenti il filtro antispam classifica come *desiderata* anche la posta che dovrebbe essere *indesiderata*
 
 
-Recupero e invio della posta esterna tramite Gmail 
+Recupero e invio della posta esterna tramite Gmail
 --------------------------------------------------
+
+.. 
+	attention (Attenzione)
+	caution (Attenzione)
+	danger (Pericolo)
+	error (Errore)
+	hint (Consiglio)
+	important (Importante)
+	note (Nota)
+	tip (Suggerimento)
+	warning (Avvertimento)
+	admonition (non visibile)
+	title (diventa il titolo della pagina)
+.. attention:: Gmail ha **dismesso il recupero della posta di terze parti tramite POP3**, leggi qui https://support.google.com/mail/answer/16604719.
 
 Gmail permette l'aggiunta di ulteriori account di posta esterni a Gmail (*fetchmailing*) sia in arrivo che in uscita. 
 
