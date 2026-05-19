@@ -1,0 +1,292 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="it" data-content_root="../../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backup locale della posta IMAP &mdash; Documentazione Supporto Frugan 0.2.0 </title>
+      <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" href="../../../_static/style.css" type="text/css" />
+
+  
+      <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../../_static/documentation_options.js?v=f572429c"></script>
+      <script src="../../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../../../_static/translations.js?v=45930005"></script>
+    <script src="../../../_static/js/theme.js"></script>
+    <link rel="index" title="Indice" href="../../../genindex.html" />
+    <link rel="search" title="Cerca" href="../../../search.html" />
+    <link rel="next" title="Suggerimenti" href="tips.html" />
+    <link rel="prev" title="Thunderbird LDAP Addressbook" href="ldap/thunderbird_addressbook.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../../index.html" class="icon icon-home">
+            Supporto Frugan
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Cerca documenti" aria-label="Cerca documenti" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Menu di navigazione">
+              <p class="caption" role="heading"><span class="caption-text">Documentazione Utente</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../email.html">Email</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../frugan.html">Frugan</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="webmail.html">Acceso alla webmail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="conf.html">Configurazione dei client di posta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ldap.html">Utilizzo delle rubriche LDAP</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Backup locale della posta IMAP</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mozilla-thunderbird-consigliato">Mozilla Thunderbird <em>(consigliato)</em></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#altri-client">Altri client</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="tips.html">Suggerimenti</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../zimbra.html">Frugan Zimbra</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../google.html">Google Workspace</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../microsoft.html">Microsoft Office 365</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../zoho.html">Zoho Mail</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../rem.html">REM/PEC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../security.html">Politiche sulla sicurezza informatica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq.html">Frequently Asked Questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Documentazione Rivenditore</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../reseller/index.html">Documentazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../reseller/faq.html">Frequently Asked Questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Documentazione Sviluppatore</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/index.html">Documentazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer/faq.html">Frequently Asked Questions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Menu navigazione dispositivi mobili" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">Supporto Frugan</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Naviga tra le pagine">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../../email.html">Email</a></li>
+          <li class="breadcrumb-item"><a href="../frugan.html">Frugan</a></li>
+      <li class="breadcrumb-item active">Backup locale della posta IMAP</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../../_sources/user/email/frugan/backup.rst.txt" rel="nofollow"> Visualizza sorgente pagina</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="backup-locale-della-posta-imap">
+<span id="user-email-frugan-backup-ref1"></span><h1>Backup locale della posta IMAP<a class="headerlink" href="#backup-locale-della-posta-imap" title="Link to this heading"></a></h1>
+<p>Quando si utilizza il protocollo IMAP, i messaggi rimangono sul server e lo stato (letto/non letto, cartelle, etichette) viene gestito centralmente. Questa modalità è molto comoda per consultare la posta da più dispositivi, ma <strong>non costituisce un backup</strong>: in caso di cancellazioni accidentali, esaurimento dello spazio della casella o problemi al server, i messaggi possono andare persi.</p>
+<p>Per questo motivo è consigliato configurare il proprio client di posta in modo da mantenere una <strong>copia locale</strong> dei messaggi ricevuti e inviati, indipendente dal server.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La configurazione descritta in questa pagina rappresenta un’alternativa più pulita all’uso combinato di IMAP e POP3 sullo stesso account, che è generalmente sconsigliato perché i due protocolli hanno modelli di gestione diversi e possono generare incoerenze sullo stato dei messaggi (ad es. messaggi non letti che appaiono come letti dopo lo scarico via POP3).</p>
+</div>
+<section id="mozilla-thunderbird-consigliato">
+<h2>Mozilla Thunderbird <em>(consigliato)</em><a class="headerlink" href="#mozilla-thunderbird-consigliato" title="Link to this heading"></a></h2>
+<p>In Thunderbird esistono due approcci complementari per mantenere una copia locale dei messaggi: la sincronizzazione offline e i filtri di backup nelle Cartelle locali.</p>
+<section id="sincronizzazione-offline">
+<h3>Sincronizzazione offline<a class="headerlink" href="#sincronizzazione-offline" title="Link to this heading"></a></h3>
+<p>L’opzione più semplice è abilitare la sincronizzazione offline, che mantiene una copia in cache di tutti i messaggi del server.</p>
+<ol class="arabic simple">
+<li><p>Selezionare l’account IMAP</p></li>
+<li><p>Andare in <strong>Impostazioni account</strong> → <strong>Sincronizzazione e spazio su disco</strong></p></li>
+<li><p>Spuntare <strong>Mantieni i messaggi per questo account su questo computer</strong></p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Questa modalità <strong>non protegge dalle cancellazioni</strong>: se un messaggio viene rimosso dal server, alla successiva sincronizzazione viene rimosso anche dalla cache locale. È quindi un backup parziale, utile per la consultazione offline ma non sufficiente come archivio storico indipendente.</p>
+</div>
+</section>
+<section id="filtri-di-backup-nelle-cartelle-locali">
+<h3>Filtri di backup nelle Cartelle locali<a class="headerlink" href="#filtri-di-backup-nelle-cartelle-locali" title="Link to this heading"></a></h3>
+<p>Per un backup vero e proprio, indipendente dal server, è possibile configurare due filtri che copiano automaticamente ogni messaggio ricevuto e ogni messaggio inviato all’interno delle <strong>Cartelle locali</strong> di Thunderbird.</p>
+<section id="struttura-delle-cartelle">
+<h4>Struttura delle cartelle<a class="headerlink" href="#struttura-delle-cartelle" title="Link to this heading"></a></h4>
+<p>Prima di creare i filtri, è utile predisporre la struttura delle cartelle locali, ad es.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Cartelle locali
+└── Backup
+    └── info@domain.tld
+        ├── Ricevuta
+        └── Inviata
+</pre></div>
+</div>
+<p>dove <code class="xref py py-obj docutils literal notranslate"><span class="pre">info&#64;domain.tld</span></code> corrisponde all’indirizzo email ospitato presso <a class="reference external" href="https://frugan.it">Frugan</a>.</p>
+<p>Le cartelle si creano tramite tasto destro su <strong>Cartelle locali</strong> → <strong>Nuova sottocartella</strong>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Suggerimento</p>
+<p>Suddividere il backup per anno (ad es. <code class="docutils literal notranslate"><span class="pre">Ricevuta/2026</span></code>, <code class="docutils literal notranslate"><span class="pre">Ricevuta/2027</span></code>, ecc.) è una buona pratica per mantenere i file mbox di Thunderbird di dimensioni gestibili ed evitare il rischio di corruzione su file di grandi dimensioni. Vedi <a class="reference internal" href="#suddivisione-per-anno">Suddivisione per anno</a>.</p>
+</div>
+</section>
+<section id="filtro-per-la-posta-ricevuta">
+<h4>Filtro per la posta ricevuta<a class="headerlink" href="#filtro-per-la-posta-ricevuta" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Aprire <strong>Strumenti</strong> → <strong>Filtri messaggi</strong></p></li>
+<li><p>Selezionare l’account IMAP nel menu a tendina <strong>Filtri per</strong></p></li>
+<li><p>Cliccare su <strong>Nuovo…</strong></p></li>
+<li><p>Configurare il filtro come segue:</p>
+<ul class="simple">
+<li><p><strong>Nome del filtro:</strong> <code class="docutils literal notranslate"><span class="pre">Backup</span> <span class="pre">posta</span> <span class="pre">ricevuta</span></code></p></li>
+<li><p><strong>Applica filtro quando:</strong></p>
+<ul>
+<li><p>✔ Durante il controllo della posta</p></li>
+<li><p>✔ Manualmente</p></li>
+</ul>
+</li>
+<li><p><strong>Applica il filtro se:</strong> <code class="docutils literal notranslate"><span class="pre">Tutte</span> <span class="pre">incondizionatamente</span></code></p></li>
+<li><p><strong>Esegui le seguenti azioni:</strong> <code class="docutils literal notranslate"><span class="pre">Copia</span> <span class="pre">il</span> <span class="pre">messaggio</span> <span class="pre">in</span></code> → <code class="docutils literal notranslate"><span class="pre">Cartelle</span> <span class="pre">locali</span> <span class="pre">/</span> <span class="pre">Backup</span> <span class="pre">/</span> <span class="pre">info&#64;domain.tld</span> <span class="pre">/</span> <span class="pre">Ricevuta</span></code></p></li>
+</ul>
+</li>
+</ol>
+<div class="admonition attention">
+<p class="admonition-title">Attenzione</p>
+<p>La voce <code class="docutils literal notranslate"><span class="pre">Tutte</span> <span class="pre">incondizionatamente</span></code> va selezionata dal menu a tendina in alto. Non lasciare una riga di condizione vuota (ad es. <code class="docutils literal notranslate"><span class="pre">Oggetto</span> <span class="pre">contiene</span> <span class="pre">&lt;vuoto&gt;</span></code>), perché Thunderbird la interpreta come «oggetto contiene una stringa vuota» e il filtro può non attivarsi correttamente.</p>
+</div>
+</section>
+<section id="filtro-per-la-posta-inviata">
+<h4>Filtro per la posta inviata<a class="headerlink" href="#filtro-per-la-posta-inviata" title="Link to this heading"></a></h4>
+<p>I messaggi inviati non transitano dalla casella di posta in arrivo, quindi il filtro precedente non li intercetta. È necessario creare un secondo filtro che si attiva sull’evento di invio:</p>
+<ol class="arabic simple">
+<li><p>Sempre nell’account IMAP, in <strong>Strumenti</strong> → <strong>Filtri messaggi</strong>, cliccare su <strong>Nuovo…</strong></p></li>
+<li><p>Configurare il filtro come segue:</p>
+<ul class="simple">
+<li><p><strong>Nome del filtro:</strong> <code class="docutils literal notranslate"><span class="pre">Backup</span> <span class="pre">posta</span> <span class="pre">inviata</span></code></p></li>
+<li><p><strong>Applica filtro quando:</strong></p>
+<ul>
+<li><p>✔ Dopo l’invio</p></li>
+<li><p>✔ Manualmente</p></li>
+</ul>
+</li>
+<li><p><strong>Applica il filtro se:</strong> <code class="docutils literal notranslate"><span class="pre">Tutte</span> <span class="pre">incondizionatamente</span></code></p></li>
+<li><p><strong>Esegui le seguenti azioni:</strong> <code class="docutils literal notranslate"><span class="pre">Copia</span> <span class="pre">il</span> <span class="pre">messaggio</span> <span class="pre">in</span></code> → <code class="docutils literal notranslate"><span class="pre">Cartelle</span> <span class="pre">locali</span> <span class="pre">/</span> <span class="pre">Backup</span> <span class="pre">/</span> <span class="pre">info&#64;domain.tld</span> <span class="pre">/</span> <span class="pre">Inviata</span></code></p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="verifica-del-funzionamento">
+<h4>Verifica del funzionamento<a class="headerlink" href="#verifica-del-funzionamento" title="Link to this heading"></a></h4>
+<p>Per verificare che i filtri funzionino correttamente:</p>
+<ol class="arabic simple">
+<li><p>Inviarsi una mail di prova</p></li>
+<li><p>Controllare che:</p>
+<ul class="simple">
+<li><p>il messaggio compaia normalmente nella <strong>Posta in arrivo</strong> del server IMAP</p></li>
+<li><p>una copia compaia in <code class="docutils literal notranslate"><span class="pre">Cartelle</span> <span class="pre">locali</span> <span class="pre">/</span> <span class="pre">Backup</span> <span class="pre">/</span> <span class="pre">info&#64;domain.tld</span> <span class="pre">/</span> <span class="pre">Ricevuta</span></code></p></li>
+<li><p>una copia del messaggio inviato compaia in <code class="docutils literal notranslate"><span class="pre">Cartelle</span> <span class="pre">locali</span> <span class="pre">/</span> <span class="pre">Backup</span> <span class="pre">/</span> <span class="pre">info&#64;domain.tld</span> <span class="pre">/</span> <span class="pre">Inviata</span></code></p></li>
+</ul>
+</li>
+</ol>
+<p>Se entrambe le copie sono presenti, la configurazione è corretta.</p>
+</section>
+<section id="backup-retroattivo-della-posta-esistente">
+<h4>Backup retroattivo della posta esistente<a class="headerlink" href="#backup-retroattivo-della-posta-esistente" title="Link to this heading"></a></h4>
+<p>I filtri appena creati operano solo sui nuovi messaggi. Per copiare nelle Cartelle locali anche la posta già presente sul server è possibile eseguire i filtri manualmente:</p>
+<ol class="arabic simple">
+<li><p>Selezionare la cartella di origine (ad es. <strong>Posta in arrivo</strong>)</p></li>
+<li><p><strong>Strumenti</strong> → <strong>Esegui filtri sulla cartella</strong></p></li>
+</ol>
+<div class="admonition caution">
+<p class="admonition-title">Attenzione</p>
+<p>Se la casella contiene molti GB di posta, l’esecuzione retroattiva del filtro può richiedere molto tempo e in alcuni casi bloccare temporaneamente Thunderbird. Per archivi grandi è preferibile procedere a blocchi (ad es. per anno o per cartella), oppure selezionare manualmente i messaggi e usare <strong>Copia in…</strong> → <strong>Cartelle locali / …</strong>.</p>
+</div>
+</section>
+<section id="suddivisione-per-anno">
+<h4>Suddivisione per anno<a class="headerlink" href="#suddivisione-per-anno" title="Link to this heading"></a></h4>
+<p>Thunderbird non supporta la creazione dinamica di cartelle in base alla data del messaggio: la cartella di destinazione di un filtro deve essere già esistente. Per organizzare il backup per anno ci sono due strategie possibili.</p>
+<p><strong>Strategia 1 - un filtro per ogni anno</strong></p>
+<p>Si creano filtri separati per ciascun anno, con condizioni sulla data:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Data</span></code> → <code class="docutils literal notranslate"><span class="pre">è</span> <span class="pre">dopo</span></code> → <code class="docutils literal notranslate"><span class="pre">31/12/2025</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Data</span></code> → <code class="docutils literal notranslate"><span class="pre">è</span> <span class="pre">prima</span></code> → <code class="docutils literal notranslate"><span class="pre">01/01/2027</span></code></p></li>
+</ul>
+<p>con destinazione <code class="docutils literal notranslate"><span class="pre">Backup</span> <span class="pre">/</span> <span class="pre">info&#64;domain.tld</span> <span class="pre">/</span> <span class="pre">Ricevuta</span> <span class="pre">/</span> <span class="pre">2026</span></code>.</p>
+<p>L’ordine dei filtri va dal più recente al più vecchio, eventualmente seguito da un filtro «fallback» senza condizioni di data per evitare che eventuali messaggi non rientranti negli intervalli rimangano senza backup.</p>
+<p><strong>Strategia 2 - cambio manuale annuale</strong> <em>(consigliata)</em></p>
+<p>Si mantiene un solo filtro per la posta ricevuta e uno per la posta inviata. Una volta all’anno (ad es. a gennaio) si crea la cartella del nuovo anno e si modifica la destinazione dei filtri.</p>
+<p>Questa strategia richiede una piccola manutenzione annuale ma è molto più semplice da gestire e meno soggetta a errori di configurazione.</p>
+</section>
+</section>
+<section id="posizione-del-backup-su-disco">
+<h3>Posizione del backup su disco<a class="headerlink" href="#posizione-del-backup-su-disco" title="Link to this heading"></a></h3>
+<p>Le Cartelle locali di Thunderbird sono salvate nel profilo utente, in file in formato <a class="reference external" href="https://it.wikipedia.org/wiki/Mbox">mbox</a> (un file per cartella, senza estensione). Il percorso del profilo varia in base al sistema operativo:</p>
+<ul class="simple">
+<li><p><strong>Windows:</strong> <code class="docutils literal notranslate"><span class="pre">%APPDATA%\Thunderbird\Profiles\&lt;profilo&gt;\Mail\Local</span> <span class="pre">Folders\</span></code></p></li>
+<li><p><strong>macOS:</strong> <code class="docutils literal notranslate"><span class="pre">~/Library/Thunderbird/Profiles/&lt;profilo&gt;/Mail/Local</span> <span class="pre">Folders/</span></code></p></li>
+<li><p><strong>Linux:</strong> <code class="docutils literal notranslate"><span class="pre">~/.thunderbird/&lt;profilo&gt;/Mail/Local</span> <span class="pre">Folders/</span></code></p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p>È fortemente consigliato includere questi file in un backup periodico del sistema (ad es. su disco esterno o storage cloud), perché in caso di guasto del PC o corruzione del profilo Thunderbird i messaggi archiviati localmente <strong>non sono recuperabili dal server</strong>.</p>
+</div>
+</section>
+</section>
+<section id="altri-client">
+<h2>Altri client<a class="headerlink" href="#altri-client" title="Link to this heading"></a></h2>
+<p>La configurazione di filtri di backup analoghi è possibile anche su altri client di posta (Microsoft Outlook, Apple Mail, ecc.), ma la procedura varia significativamente da un’applicazione all’altra. Per assistenza su client diversi da Thunderbird è possibile contattarci ai <a class="reference external" href="https://frugan.it">seguenti recapiti</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Piè di pagina">
+        <a href="ldap/thunderbird_addressbook.html" class="btn btn-neutral float-left" title="Thunderbird LDAP Addressbook" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Precedente</a>
+        <a href="tips.html" class="btn btn-neutral float-right" title="Suggerimenti" accesskey="n" rel="next">Prossimo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Frugan.</p>
+  </div>
+
+  Realizzato con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    fornito da <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

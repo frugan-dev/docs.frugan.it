@@ -7,4 +7,5 @@ Frugan
    frugan/webmail
    frugan/conf
    frugan/ldap
+   frugan/backup
    frugan/tips

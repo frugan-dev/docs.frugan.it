@@ -22,7 +22,7 @@
     <link rel="index" title="Indice" href="../../../genindex.html" />
     <link rel="search" title="Cerca" href="../../../search.html" />
     <link rel="next" title="Frugan Zimbra" href="../zimbra.html" />
-    <link rel="prev" title="Thunderbird LDAP Addressbook" href="ldap/thunderbird_addressbook.html" /> 
+    <link rel="prev" title="Backup locale della posta IMAP" href="backup.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -51,8 +51,10 @@
 <li class="toctree-l3"><a class="reference internal" href="webmail.html">Acceso alla webmail</a></li>
 <li class="toctree-l3"><a class="reference internal" href="conf.html">Configurazione dei client di posta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ldap.html">Utilizzo delle rubriche LDAP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="backup.html">Backup locale della posta IMAP</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Suggerimenti</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#gestione-dello-spam">Gestione dello SPAM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#disattivazione-delle-conferme-di-lettura">Disattivazione delle conferme di lettura</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#recupero-e-invio-della-posta-esterna-tramite-gmail">Recupero e invio della posta esterna tramite Gmail</a></li>
 </ul>
 </li>
@@ -123,6 +125,31 @@
 <li><p>non archiviare mai le email indesiderate, altrimenti il filtro antispam classifica come <em>desiderata</em> anche la posta che dovrebbe essere <em>indesiderata</em></p></li>
 </ul>
 </section>
+<section id="disattivazione-delle-conferme-di-lettura">
+<h2>Disattivazione delle conferme di lettura<a class="headerlink" href="#disattivazione-delle-conferme-di-lettura" title="Link to this heading"></a></h2>
+<p>Le conferme di lettura (in inglese <code class="xref py py-obj docutils literal notranslate"><span class="pre">Return</span> <span class="pre">Receipts</span></code> o <code class="xref py py-obj docutils literal notranslate"><span class="pre">Read</span> <span class="pre">Receipts</span></code>) sono notifiche automatiche che il client del destinatario invia al mittente quando un messaggio viene aperto.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attenzione</p>
+<p>Le caselle ospitate presso <a class="reference external" href="https://frugan.it">Frugan</a> sono soggette a limiti sul numero di messaggi inviabili. Anche le conferme di lettura rientrano nel conteggio dei messaggi inviati, quindi si consiglia di <strong>disattivarne l’invio automatico</strong> sul proprio client di posta per evitare di superare inutilmente tali limiti.</p>
+</div>
+<p>La disattivazione rilevante è quella lato destinatario, cioè evitare che il proprio client di posta risponda automaticamente alle richieste di conferma presenti nei messaggi in arrivo.</p>
+<section id="mozilla-thunderbird">
+<h3>Mozilla Thunderbird<a class="headerlink" href="#mozilla-thunderbird" title="Link to this heading"></a></h3>
+<p>Aprire <strong>Impostazioni</strong> e scorrere la sezione <strong>Generale</strong> fino a trovare le opzioni relative alle <strong>Conferme di lettura</strong> (in inglese <em>Return Receipts</em>).</p>
+<p>Alla voce <strong>Quando arriva un messaggio che richiede una conferma di lettura</strong> selezionare <strong>Non inviare mai una conferma di lettura</strong>.</p>
+<p>In alternativa è possibile configurare il comportamento per singolo account in <strong>Impostazioni account</strong> → <strong>&lt;account&gt;</strong> → <strong>Conferme di lettura</strong>, spuntando <strong>Personalizza le conferme di lettura per questo account</strong> e selezionando le opzioni desiderate.</p>
+</section>
+<section id="microsoft-outlook">
+<h3>Microsoft Outlook<a class="headerlink" href="#microsoft-outlook" title="Link to this heading"></a></h3>
+<p>Aprire <strong>File</strong> → <strong>Opzioni</strong> → <strong>Posta</strong> e cercare la sezione <strong>Verifica messaggi</strong>.</p>
+<p>Alla voce <strong>Per qualsiasi messaggio ricevuto che includa una richiesta di conferma di lettura</strong> selezionare <strong>Non inviare mai una conferma di lettura</strong>.</p>
+</section>
+<section id="webmail">
+<h3>Webmail<a class="headerlink" href="#webmail" title="Link to this heading"></a></h3>
+<p>Nella webmail principale <a class="reference external" href="https://frugan.it">Frugan</a> (Roundcube), aprire <strong>Impostazioni</strong> → <strong>Preferenze</strong> → <strong>Visualizzazione messaggi</strong>, e alla voce <strong>Su richiesta per la ricevuta di ritorno</strong> selezionare <strong>ignora la richiesta</strong>.</p>
+<p>Anche nelle webmail secondarie l’opzione di disattivazione delle conferme di lettura è generalmente disponibile in una sezione analoga delle preferenze utente.</p>
+</section>
+</section>
 <section id="recupero-e-invio-della-posta-esterna-tramite-gmail">
 <h2>Recupero e invio della posta esterna tramite Gmail<a class="headerlink" href="#recupero-e-invio-della-posta-esterna-tramite-gmail" title="Link to this heading"></a></h2>
 <div class="admonition attention">
@@ -145,7 +172,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Piè di pagina">
-        <a href="ldap/thunderbird_addressbook.html" class="btn btn-neutral float-left" title="Thunderbird LDAP Addressbook" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Precedente</a>
+        <a href="backup.html" class="btn btn-neutral float-left" title="Backup locale della posta IMAP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Precedente</a>
         <a href="../zimbra.html" class="btn btn-neutral float-right" title="Frugan Zimbra" accesskey="n" rel="next">Prossimo <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

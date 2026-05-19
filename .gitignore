@@ -6,9 +6,10 @@
 /.project
 /*.code-workspace
 
-**/stats/
-
+venv/
+.claude*
 
 # Various
 Thumbs.db
 *.log
+_*
